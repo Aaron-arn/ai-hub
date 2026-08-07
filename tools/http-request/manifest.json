@@ -1,0 +1,22 @@
+{
+  "name": "http-request",
+  "display_name": "HTTP Request",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Send GET and POST requests, return status, headers and body.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["http", "network", "api", "web"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": true,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

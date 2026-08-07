@@ -1,0 +1,17 @@
+{
+  "name": "refactoring",
+  "display_name": "Refactoring",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for refactoring safely: small steps, preserved behavior, verified changes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["refactoring", "code", "quality"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

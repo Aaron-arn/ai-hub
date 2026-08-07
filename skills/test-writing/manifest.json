@@ -1,0 +1,17 @@
+{
+  "name": "test-writing",
+  "display_name": "Test Writing",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for writing effective tests: what to test, how to structure them.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["tests", "quality", "code"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

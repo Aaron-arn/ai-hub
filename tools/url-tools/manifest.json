@@ -1,0 +1,22 @@
+{
+  "name": "url-tools",
+  "display_name": "URL Tools",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Parse URLs, encode and decode query strings and components.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["url", "query", "web", "utility"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "text-tools",
+  "display_name": "Text Tools",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Count, transform and manipulate text: case, slugify, replace.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["text", "utility", "strings"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

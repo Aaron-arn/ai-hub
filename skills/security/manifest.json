@@ -1,0 +1,17 @@
+{
+  "name": "security",
+  "display_name": "Security",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for handling secrets, permissions and risky operations safely.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["security", "safety", "permissions"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

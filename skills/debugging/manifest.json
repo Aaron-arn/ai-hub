@@ -1,0 +1,17 @@
+{
+  "name": "debugging",
+  "display_name": "Debugging",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for systematic debugging: reproduce, isolate, fix, verify.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["debugging", "errors", "troubleshooting"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

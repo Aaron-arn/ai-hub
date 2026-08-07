@@ -29,6 +29,69 @@
       "tags": ["files", "storage", "utility"]
     },
     {
+      "name": "http-request",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/http-request",
+      "display_name": "HTTP Request",
+      "description": "Send GET and POST requests, return status, headers and body.",
+      "tags": ["http", "network", "api", "web"]
+    },
+    {
+      "name": "json-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/json-tools",
+      "display_name": "JSON Tools",
+      "description": "Validate, format and extract values from JSON documents.",
+      "tags": ["json", "data", "utility"]
+    },
+    {
+      "name": "text-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/text-tools",
+      "display_name": "Text Tools",
+      "description": "Count, transform and manipulate text: case, slugify, replace.",
+      "tags": ["text", "utility", "strings"]
+    },
+    {
+      "name": "hash-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/hash-tools",
+      "display_name": "Hash Tools",
+      "description": "Compute MD5, SHA-1, SHA-256, SHA-512 digests and base64 encodings.",
+      "tags": ["hash", "base64", "crypto", "utility"]
+    },
+    {
+      "name": "csv-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/csv-tools",
+      "display_name": "CSV Tools",
+      "description": "Parse CSV data, convert to JSON, count rows and filter columns.",
+      "tags": ["csv", "data", "utility"]
+    },
+    {
+      "name": "date-time",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/date-time",
+      "display_name": "Date & Time",
+      "description": "Current time, ISO formatting and timezone conversions.",
+      "tags": ["date", "time", "timezone", "utility"]
+    },
+    {
+      "name": "url-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/url-tools",
+      "display_name": "URL Tools",
+      "description": "Parse URLs, encode and decode query strings and components.",
+      "tags": ["url", "query", "web", "utility"]
+    },
+    {
       "name": "code-management",
       "type": "skill",
       "version": "1.0.0",
@@ -54,6 +117,69 @@
       "display_name": "Organization",
       "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
       "tags": ["organization", "structure", "workflow"]
+    },
+    {
+      "name": "web-research",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/web-research",
+      "display_name": "Web Research",
+      "description": "Guidelines for researching effectively: queries, source evaluation and citations.",
+      "tags": ["web", "research", "search"]
+    },
+    {
+      "name": "security",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/security",
+      "display_name": "Security",
+      "description": "Guidelines for handling secrets, permissions and risky operations safely.",
+      "tags": ["security", "safety", "permissions"]
+    },
+    {
+      "name": "debugging",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/debugging",
+      "display_name": "Debugging",
+      "description": "Guidelines for systematic debugging: reproduce, isolate, fix, verify.",
+      "tags": ["debugging", "errors", "troubleshooting"]
+    },
+    {
+      "name": "documentation",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/documentation",
+      "display_name": "Documentation",
+      "description": "Guidelines for writing clear documentation: READMEs, comments, changelogs.",
+      "tags": ["documentation", "docs", "writing"]
+    },
+    {
+      "name": "refactoring",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/refactoring",
+      "display_name": "Refactoring",
+      "description": "Guidelines for refactoring safely: small steps, preserved behavior, verified changes.",
+      "tags": ["refactoring", "code", "quality"]
+    },
+    {
+      "name": "test-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/test-writing",
+      "display_name": "Test Writing",
+      "description": "Guidelines for writing effective tests: what to test, how to structure them.",
+      "tags": ["tests", "quality", "code"]
+    },
+    {
+      "name": "project-planning",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/project-planning",
+      "display_name": "Project Planning",
+      "description": "Guidelines for planning work: break down tasks, order dependencies, track progress.",
+      "tags": ["planning", "workflow", "organization"]
     }
   ]
 }

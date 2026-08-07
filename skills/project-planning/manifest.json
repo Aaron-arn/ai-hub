@@ -1,0 +1,17 @@
+{
+  "name": "project-planning",
+  "display_name": "Project Planning",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for planning work: break down tasks, order dependencies, track progress.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["planning", "workflow", "organization"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

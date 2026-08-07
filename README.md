@@ -1,5 +1,7 @@
 # AIHub
 
+![AIHub banner](assets/banner.png)
+
 Open ecosystem for discovering, installing and managing AI skills, tools, MCP servers and agents.
 
 ## Structure

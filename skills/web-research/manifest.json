@@ -1,0 +1,17 @@
+{
+  "name": "web-research",
+  "display_name": "Web Research",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for researching effectively: queries, source evaluation and citations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["web", "research", "search"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

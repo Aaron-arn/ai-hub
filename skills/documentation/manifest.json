@@ -1,0 +1,17 @@
+{
+  "name": "documentation",
+  "display_name": "Documentation",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for writing clear documentation: READMEs, comments, changelogs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["documentation", "docs", "writing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "date-time",
+  "display_name": "Date & Time",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Current time, ISO formatting and timezone conversions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["date", "time", "timezone", "utility"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
