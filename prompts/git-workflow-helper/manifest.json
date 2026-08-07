@@ -1,0 +1,14 @@
+{
+  "name": "git-workflow-helper",
+  "display_name": "Git Workflow Helper",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Turn git messes into safe command sequences with full explanations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-08-28",
+  "tags": ["devops", "automation", "productivity", "coding"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

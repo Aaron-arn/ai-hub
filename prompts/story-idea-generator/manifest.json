@@ -1,0 +1,14 @@
+{
+  "name": "story-idea-generator",
+  "display_name": "Story Idea Generator",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generates original story premises, characters and plot twists from a seed idea.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-10-21",
+  "tags": ["creative", "storytelling", "brainstorming"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

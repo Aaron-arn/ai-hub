@@ -1,0 +1,14 @@
+{
+  "name": "javascript-data-transformer",
+  "display_name": "JavaScript Data Transformer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Convert messy nested JSON into clean structures with pure functions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-04-20",
+  "tags": ["javascript", "data-analysis", "coding", "productivity"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

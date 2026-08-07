@@ -1,0 +1,14 @@
+{
+  "name": "decision-matrix-framework",
+  "display_name": "Decision Matrix Framework",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Scores options against weighted criteria to make complex decisions objectively.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-05-20",
+  "tags": ["decision", "thinking", "business"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

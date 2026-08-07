@@ -1,0 +1,19 @@
+{
+  "name": "security-focused-code-review",
+  "display_name": "Security Focused Code Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Review code for OWASP-class vulnerabilities with severity-ranked findings and fixes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-07-01",
+  "tags": ["code-review", "security", "testing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

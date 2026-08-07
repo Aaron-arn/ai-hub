@@ -1,6 +1,2276 @@
 {
   "version": 1,
+  "generated": "2026-08-07",
   "packages": [
+    {
+      "name": "agent-memory-and-context-manager",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/agent-memory-and-context-manager",
+      "display_name": "Agent Memory and Context Manager",
+      "description": "Design short and long-term memory strategies that fit an agent's context budget.",
+      "tags": [
+        "agent-job",
+        "planning",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-04-26",
+      "language": "English"
+    },
+    {
+      "name": "agent-safety-bounds-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/agent-safety-bounds-review",
+      "display_name": "Agent Safety Bounds Review",
+      "description": "Review agent designs for permission limits, injection surfaces and runaway risks.",
+      "tags": [
+        "agent-job",
+        "security",
+        "code-review"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-01-28",
+      "language": "English"
+    },
+    {
+      "name": "agent-tool-execution-debugger",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/agent-tool-execution-debugger",
+      "display_name": "Agent Tool Execution Debugger",
+      "description": "Diagnose failed agent tool calls from logs and fix the root cause.",
+      "tags": [
+        "agent-job",
+        "debugging",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-06-09",
+      "language": "English"
+    },
+    {
+      "name": "agent-tool-use-planner",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/agent-tool-use-planner",
+      "display_name": "Agent Tool Use Planner",
+      "description": "Plan how an AI agent should choose, call and verify tools for a task.",
+      "tags": [
+        "agent-job",
+        "planning",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-09-18",
+      "language": "English"
+    },
+    {
+      "name": "api-endpoint-tester",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/api-endpoint-tester",
+      "display_name": "API Endpoint Tester",
+      "description": "Generate a full test plan with curl commands for any API endpoint.",
+      "tags": [
+        "api",
+        "backend",
+        "automation",
+        "devops"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-10-10",
+      "language": "English"
+    },
+    {
+      "name": "api-rate-limit-handler",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/api-rate-limit-handler",
+      "display_name": "API Rate Limit Handler",
+      "description": "Generate robust Python code with retries and backoff for rate-limited APIs.",
+      "tags": [
+        "api",
+        "python",
+        "automation",
+        "backend"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-02-18",
+      "language": "English"
+    },
+    {
+      "name": "api-security-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/api-security-review",
+      "display_name": "API Security Review",
+      "description": "Audit APIs for authentication, authorization, injection and data exposure flaws.",
+      "tags": [
+        "cybersecurity",
+        "testing",
+        "security"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-05-31",
+      "language": "English"
+    },
+    {
+      "name": "audio-description-script",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/audio-description-script",
+      "display_name": "Audio Description Script",
+      "description": "Writes timecoded audio description narration for videos to make them accessible.",
+      "tags": [
+        "audio",
+        "storytelling",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-07-02",
+      "language": "English"
+    },
+    {
+      "name": "brand-voice-guide-creator",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/brand-voice-guide-creator",
+      "display_name": "Brand Voice Guide Creator",
+      "description": "Creates a practical brand voice guide with tone rules and examples.",
+      "tags": [
+        "marketing",
+        "writing",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-05-13",
+      "language": "English"
+    },
+    {
+      "name": "ci-cd-pipeline-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/ci-cd-pipeline-review",
+      "display_name": "CI/CD Pipeline Review",
+      "description": "Review CI/CD pipelines for secrets handling, test coverage and safe deployments.",
+      "tags": [
+        "devops",
+        "testing",
+        "code-review"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-06-22",
+      "language": "English"
+    },
+    {
+      "name": "cinematic-product-shot",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/cinematic-product-shot",
+      "display_name": "Cinematic Product Shot",
+      "description": "Generates a cinematic product photography prompt ready to paste into Midjourney, DALL-E, or Stable Diffusion.",
+      "tags": [
+        "image",
+        "design",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-01-15",
+      "language": "English"
+    },
+    {
+      "name": "cloud-architecture-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/cloud-architecture-review",
+      "display_name": "Cloud Architecture Review",
+      "description": "Review cloud architectures against reliability, security, cost and performance pillars.",
+      "tags": [
+        "cloud",
+        "planning",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-08-05",
+      "language": "English"
+    },
+    {
+      "name": "cloud-cost-optimizer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/cloud-cost-optimizer",
+      "display_name": "Cloud Cost Optimizer",
+      "description": "Find cloud cost leaks and build a prioritized savings plan with estimates.",
+      "tags": [
+        "cloud",
+        "decision",
+        "devops"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-03-13",
+      "language": "English"
+    },
+    {
+      "name": "code-reviewer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/code-reviewer",
+      "display_name": "Code Reviewer",
+      "description": "Review code snippets with severity-ranked findings and concrete fixes.",
+      "tags": [
+        "coding",
+        "productivity",
+        "python",
+        "javascript"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-05-15",
+      "language": "English"
+    },
+    {
+      "name": "cold-email-sequence",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/cold-email-sequence",
+      "display_name": "Cold Email Sequence Builder",
+      "description": "Builds a 4-email cold outreach sequence with subject lines and follow-ups.",
+      "tags": [
+        "email",
+        "sales",
+        "marketing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-02-18",
+      "language": "English"
+    },
+    {
+      "name": "container-image-hardening",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/container-image-hardening",
+      "display_name": "Container Image Hardening",
+      "description": "Harden container images against known vulnerabilities and misconfigurations.",
+      "tags": [
+        "docker",
+        "security",
+        "devops"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-04-17",
+      "language": "English"
+    },
+    {
+      "name": "container-security-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/container-security-review",
+      "display_name": "Container Security Review",
+      "description": "Audit container images and configs for vulnerabilities, privileges and misconfigurations.",
+      "tags": [
+        "docker",
+        "devops",
+        "security"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-11-23",
+      "language": "English"
+    },
+    {
+      "name": "contract-review-checklist",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/contract-review-checklist",
+      "display_name": "Contract Review Checklist",
+      "description": "Reviews contracts clause by clause with risk levels and suggested changes.",
+      "tags": [
+        "legal",
+        "research"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-01-12",
+      "language": "English"
+    },
+    {
+      "name": "csv-cleaner",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/csv-cleaner",
+      "display_name": "CSV Cleaner",
+      "description": "Generate a Python script that cleans, normalizes, and reports on CSV data.",
+      "tags": [
+        "data-analysis",
+        "python",
+        "automation",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-09-18",
+      "language": "English"
+    },
+    {
+      "name": "customer-interview-questionnaire",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/customer-interview-questionnaire",
+      "display_name": "Customer Interview Questionnaire",
+      "description": "Builds a customer interview guide with discovery questions and follow-up probes.",
+      "tags": [
+        "research",
+        "product",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-07-10",
+      "language": "English"
+    },
+    {
+      "name": "customer-support-response-scripts",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/customer-support-response-scripts",
+      "display_name": "Customer Support Response Scripts",
+      "description": "Drafts empathetic, on-brand replies to common customer support situations.",
+      "tags": [
+        "customer-support",
+        "communication",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-07-28",
+      "language": "English"
+    },
+    {
+      "name": "data-viz-generator",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/data-viz-generator",
+      "display_name": "Data Visualization Generator",
+      "description": "Generate Python chart scripts that turn raw data into clear visuals.",
+      "tags": [
+        "data-analysis",
+        "python",
+        "web",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-06-10",
+      "language": "English"
+    },
+    {
+      "name": "database-migration-writer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/database-migration-writer",
+      "display_name": "Database Migration Writer",
+      "description": "Write reversible SQL migration scripts with safety checks and rollback.",
+      "tags": [
+        "database",
+        "sql",
+        "devops",
+        "backend"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-01-05",
+      "language": "English"
+    },
+    {
+      "name": "database-schema-designer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/database-schema-designer",
+      "display_name": "Database Schema Designer",
+      "description": "Design a normalized SQL schema with DDL and constraints for any domain.",
+      "tags": [
+        "database",
+        "sql",
+        "backend",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-07-15",
+      "language": "English"
+    },
+    {
+      "name": "decision-matrix-framework",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/decision-matrix-framework",
+      "display_name": "Decision Matrix Framework",
+      "description": "Scores options against weighted criteria to make complex decisions objectively.",
+      "tags": [
+        "decision",
+        "thinking",
+        "business"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-05-20",
+      "language": "English"
+    },
+    {
+      "name": "dependency-vulnerability-audit",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/dependency-vulnerability-audit",
+      "display_name": "Dependency Vulnerability Audit",
+      "description": "Assess dependencies for known vulnerabilities, outdated versions and supply-chain risks.",
+      "tags": [
+        "cybersecurity",
+        "devops",
+        "security"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-03-26",
+      "language": "English"
+    },
+    {
+      "name": "devops-pipeline-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/devops-pipeline-builder",
+      "display_name": "DevOps Pipeline Builder",
+      "description": "Generate a GitHub Actions CI/CD pipeline with caching and security steps.",
+      "tags": [
+        "devops",
+        "automation",
+        "building",
+        "backend"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-04-25",
+      "language": "English"
+    },
+    {
+      "name": "dockerfile-optimizer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/dockerfile-optimizer",
+      "display_name": "Dockerfile Optimizer",
+      "description": "Rewrite Dockerfiles for smaller images, faster builds, and safer containers.",
+      "tags": [
+        "devops",
+        "building",
+        "backend",
+        "coding"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-05-12",
+      "language": "English"
+    },
+    {
+      "name": "editorial-illustration",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/editorial-illustration",
+      "display_name": "Editorial Illustration",
+      "description": "Designs a metaphorical editorial illustration prompt with palette and headline space for articles.",
+      "tags": [
+        "image",
+        "creative",
+        "storytelling"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-03-05",
+      "language": "English"
+    },
+    {
+      "name": "email-newsletter-campaign-planner",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/email-newsletter-campaign-planner",
+      "display_name": "Email Newsletter Campaign Planner",
+      "description": "Plans and writes a multi-email newsletter campaign with subject lines and cadence.",
+      "tags": [
+        "email",
+        "marketing",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-12-01",
+      "language": "English"
+    },
+    {
+      "name": "excel-data-analyzer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/excel-data-analyzer",
+      "display_name": "Excel Data Analyzer",
+      "description": "Turn spreadsheet questions into formulas, PivotTables, and Power Query steps.",
+      "tags": [
+        "excel",
+        "data-analysis",
+        "productivity",
+        "automation"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-03-10",
+      "language": "English"
+    },
+    {
+      "name": "excel-macro-generator",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/excel-macro-generator",
+      "display_name": "Excel Macro Generator",
+      "description": "Generate a ready-to-paste VBA macro for repetitive Excel tasks.",
+      "tags": [
+        "excel",
+        "automation",
+        "productivity",
+        "coding"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-06-01",
+      "language": "English"
+    },
+    {
+      "name": "executive-summary-writer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/executive-summary-writer",
+      "display_name": "Executive Summary Writer",
+      "description": "Condenses long reports or data into a one-page executive summary.",
+      "tags": [
+        "writing",
+        "business",
+        "data-analysis"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-09-09",
+      "language": "English"
+    },
+    {
+      "name": "french-language-learning-partner",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/french-language-learning-partner",
+      "display_name": "French Language Learning Partner",
+      "description": "Conversational French tutor that corrects errors and adapts to your level.",
+      "tags": [
+        "language-learning",
+        "education",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-11-04",
+      "language": "English"
+    },
+    {
+      "name": "frontend-component-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/frontend-component-builder",
+      "display_name": "Frontend Component Builder",
+      "description": "Build an accessible, reusable React component with props and keyboard support.",
+      "tags": [
+        "frontend",
+        "web",
+        "javascript",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-06-22",
+      "language": "English"
+    },
+    {
+      "name": "frontend-debugger",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/frontend-debugger",
+      "display_name": "Frontend Debugger",
+      "description": "Diagnose and fix buggy HTML, CSS, and JavaScript snippets with explanations.",
+      "tags": [
+        "frontend",
+        "web",
+        "javascript",
+        "coding"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-04-01",
+      "language": "English"
+    },
+    {
+      "name": "git-workflow-helper",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/git-workflow-helper",
+      "display_name": "Git Workflow Helper",
+      "description": "Turn git messes into safe command sequences with full explanations.",
+      "tags": [
+        "devops",
+        "automation",
+        "productivity",
+        "coding"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-08-28",
+      "language": "English"
+    },
+    {
+      "name": "ideation-brainstorming-session",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/ideation-brainstorming-session",
+      "display_name": "Ideation Brainstorming Session",
+      "description": "Facilitates a structured brainstorming session with quantity-first idea generation.",
+      "tags": [
+        "brainstorming",
+        "creative",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-06-26",
+      "language": "English"
+    },
+    {
+      "name": "incremental-refactoring-planner",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/incremental-refactoring-planner",
+      "display_name": "Incremental Refactoring Planner",
+      "description": "Plan safe, step-by-step refactoring that preserves behavior and verifies every change.",
+      "tags": [
+        "refactoring",
+        "planning",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-05-09",
+      "language": "English"
+    },
+    {
+      "name": "infrastructure-security-audit",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/infrastructure-security-audit",
+      "display_name": "Infrastructure Security Audit",
+      "description": "Audit infrastructure for exposure, weak access control and missing encryption.",
+      "tags": [
+        "cybersecurity",
+        "cloud",
+        "devops"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-12-15",
+      "language": "English"
+    },
+    {
+      "name": "investment-risk-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/investment-risk-review",
+      "display_name": "Investment Risk Review",
+      "description": "Reviews investment ideas for risk, diversification, and alignment with your goals.",
+      "tags": [
+        "finance",
+        "research"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-12-19",
+      "language": "English"
+    },
+    {
+      "name": "isometric-icon-set",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/isometric-icon-set",
+      "display_name": "Isometric Icon Set",
+      "description": "Builds a consistent isometric icon set prompt with a matching style for apps and documents.",
+      "tags": [
+        "image",
+        "design",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-03-28",
+      "language": "English"
+    },
+    {
+      "name": "jailbreak-red-team-evaluator",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jailbreak-red-team-evaluator",
+      "display_name": "Jailbreak Red Team Evaluator",
+      "description": "Run an authorized red-team evaluation of a model's resistance to jailbreak attacks.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "security"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-01-06",
+      "language": "English"
+    },
+    {
+      "name": "javascript-data-transformer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/javascript-data-transformer",
+      "display_name": "JavaScript Data Transformer",
+      "description": "Convert messy nested JSON into clean structures with pure functions.",
+      "tags": [
+        "javascript",
+        "data-analysis",
+        "coding",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-04-20",
+      "language": "English"
+    },
+    {
+      "name": "js-package-manager-helper",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/js-package-manager-helper",
+      "display_name": "JS Package Manager Helper",
+      "description": "Diagnose npm and package.json issues and produce safe fix commands.",
+      "tags": [
+        "javascript",
+        "devops",
+        "coding",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-11-25",
+      "language": "English"
+    },
+    {
+      "name": "kpi-reporting-dashboard",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/kpi-reporting-dashboard",
+      "display_name": "KPI Reporting Dashboard Builder",
+      "description": "Designs a KPI dashboard with metrics, targets and reporting cadence.",
+      "tags": [
+        "data-analysis",
+        "business",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-03-24",
+      "language": "English"
+    },
+    {
+      "name": "landing-page-design-brief",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/landing-page-design-brief",
+      "display_name": "Landing Page Design Brief",
+      "description": "Generates a conversion-focused landing page brief with sections, copy, and hierarchy.",
+      "tags": [
+        "ux",
+        "design",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-09-24",
+      "language": "English"
+    },
+    {
+      "name": "legacy-code-modernization",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/legacy-code-modernization",
+      "display_name": "Legacy Code Modernization",
+      "description": "Build a phased modernization plan for legacy code with managed risk.",
+      "tags": [
+        "refactoring",
+        "devops",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-02-19",
+      "language": "English"
+    },
+    {
+      "name": "lesson-plan-creator",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/lesson-plan-creator",
+      "display_name": "Lesson Plan Creator",
+      "description": "Designs a complete lesson plan with objectives, activities and assessment.",
+      "tags": [
+        "education",
+        "planning",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-07-22",
+      "language": "English"
+    },
+    {
+      "name": "literature-review-synthesis",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/literature-review-synthesis",
+      "display_name": "Literature Review Synthesis",
+      "description": "Synthesizes multiple sources into a themed literature review with gaps.",
+      "tags": [
+        "research",
+        "science",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-06-11",
+      "language": "English"
+    },
+    {
+      "name": "long-document-summarizer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/long-document-summarizer",
+      "display_name": "Long Document Summarizer",
+      "description": "Summarizes long documents in layers with key points and quotes preserved.",
+      "tags": [
+        "writing",
+        "productivity",
+        "research"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-06-12",
+      "language": "English"
+    },
+    {
+      "name": "market-research-workflow",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/market-research-workflow",
+      "display_name": "Market Research Workflow",
+      "description": "Structured research plan to analyze a market, customers and competitors.",
+      "tags": [
+        "research",
+        "business",
+        "data-analysis"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-01-08",
+      "language": "English"
+    },
+    {
+      "name": "meeting-agenda-and-notes-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/meeting-agenda-and-notes-builder",
+      "display_name": "Meeting Agenda and Notes Builder",
+      "description": "Turns meeting notes into a clean agenda, summary and action items.",
+      "tags": [
+        "meeting",
+        "productivity",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-08-16",
+      "language": "English"
+    },
+    {
+      "name": "minimalist-logo-design",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/minimalist-logo-design",
+      "display_name": "Minimalist Logo Design",
+      "description": "Creates a precise minimalist logo concept prompt with rationale and variations for any brand.",
+      "tags": [
+        "image",
+        "design",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-02-10",
+      "language": "English"
+    },
+    {
+      "name": "mobile-app-ux-brief",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/mobile-app-ux-brief",
+      "display_name": "Mobile App UX Brief",
+      "description": "Writes a mobile app UX brief with personas, flows, screens, and success metrics.",
+      "tags": [
+        "ux",
+        "design",
+        "research"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-09-02",
+      "language": "English"
+    },
+    {
+      "name": "motion-graphics-script",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/motion-graphics-script",
+      "display_name": "Motion Graphics Script",
+      "description": "Creates a frame-by-frame motion graphics script with timing, motion notes, and style direction.",
+      "tags": [
+        "video",
+        "design",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-06-03",
+      "language": "English"
+    },
+    {
+      "name": "music-theory-harmony-tutor",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/music-theory-harmony-tutor",
+      "display_name": "Music Theory and Harmony Tutor",
+      "description": "Teaches music theory and harmony with examples, exercises, and graded feedback.",
+      "tags": [
+        "music",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-04-08",
+      "language": "English"
+    },
+    {
+      "name": "performance-code-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/performance-code-review",
+      "display_name": "Performance Code Review",
+      "description": "Review code for performance issues: complexity, allocations, caching and I/O.",
+      "tags": [
+        "code-review",
+        "debugging",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-11-01",
+      "language": "English"
+    },
+    {
+      "name": "personal-budget-analyzer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/personal-budget-analyzer",
+      "display_name": "Personal Budget Analyzer",
+      "description": "Analyzes personal spending, flags risks, and proposes a realistic monthly budget.",
+      "tags": [
+        "finance",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-11-28",
+      "language": "English"
+    },
+    {
+      "name": "podcast-script-outline",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/podcast-script-outline",
+      "display_name": "Podcast Script Outline",
+      "description": "Builds a structured podcast episode outline with segments, questions, and outro lines.",
+      "tags": [
+        "audio",
+        "storytelling",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-06-25",
+      "language": "English"
+    },
+    {
+      "name": "press-release-writer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/press-release-writer",
+      "display_name": "Press Release Writer",
+      "description": "Writes a journalist-ready press release with headline, quotes and boilerplate.",
+      "tags": [
+        "writing",
+        "marketing",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-02-12",
+      "language": "English"
+    },
+    {
+      "name": "pricing-strategy-consultant",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/pricing-strategy-consultant",
+      "display_name": "Pricing Strategy Consultant",
+      "description": "Develops pricing models and packaging tiers for products and services.",
+      "tags": [
+        "business",
+        "product",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-03-05",
+      "language": "English"
+    },
+    {
+      "name": "product-requirements-document-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/product-requirements-document-builder",
+      "display_name": "Product Requirements Document Builder",
+      "description": "Writes a complete PRD with goals, user stories, specs and success metrics.",
+      "tags": [
+        "product",
+        "planning",
+        "business"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-05-30",
+      "language": "English"
+    },
+    {
+      "name": "product-roadmap-prioritization",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/product-roadmap-prioritization",
+      "display_name": "Product Roadmap Prioritization",
+      "description": "Scores and sequences product features into a quarterly roadmap by value and effort.",
+      "tags": [
+        "product",
+        "planning",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-06-14",
+      "language": "English"
+    },
+    {
+      "name": "prompt-engineering-tutor",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/prompt-engineering-tutor",
+      "display_name": "Prompt Engineering Tutor",
+      "description": "Turn vague requests into structured, high-performing LLM prompts.",
+      "tags": [
+        "llm",
+        "chat",
+        "productivity",
+        "coding"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-12-15",
+      "language": "English"
+    },
+    {
+      "name": "prompt-injection-defense-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/prompt-injection-defense-builder",
+      "display_name": "Prompt Injection Defense Builder",
+      "description": "Harden system prompts and agent designs against prompt injection attacks.",
+      "tags": [
+        "cybersecurity",
+        "security",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-04-04",
+      "language": "English"
+    },
+    {
+      "name": "prompt-injection-resilience-tester",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/prompt-injection-resilience-tester",
+      "display_name": "Prompt Injection Resilience Tester",
+      "description": "Test system prompts against injection attacks and report robustness and defenses.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "security"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-07-14",
+      "language": "English"
+    },
+    {
+      "name": "prompt-testing-battery",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/prompt-testing-battery",
+      "display_name": "Prompt Testing Battery",
+      "description": "Build a systematic test suite to validate prompt clarity, edges and robustness.",
+      "tags": [
+        "testing",
+        "planning",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-05-18",
+      "language": "English"
+    },
+    {
+      "name": "pros-and-cons-analyzer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/pros-and-cons-analyzer",
+      "display_name": "Pros and Cons Analyzer",
+      "description": "Weighted pros and cons analysis with bias checks for personal decisions.",
+      "tags": [
+        "decision",
+        "thinking",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-01-27",
+      "language": "English"
+    },
+    {
+      "name": "pull-request-reviewer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/pull-request-reviewer",
+      "display_name": "Pull Request Reviewer",
+      "description": "Review pull requests for correctness, security, performance, tests and readability.",
+      "tags": [
+        "code-review",
+        "testing",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-03-04",
+      "language": "English"
+    },
+    {
+      "name": "python-cli-scaffolder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/python-cli-scaffolder",
+      "display_name": "Python CLI Scaffolder",
+      "description": "Generate a complete, production-ready Python CLI tool skeleton with argparse.",
+      "tags": [
+        "python",
+        "coding",
+        "building",
+        "devops"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-01-15",
+      "language": "English"
+    },
+    {
+      "name": "python-web-app-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/python-web-app-builder",
+      "display_name": "Python Web App Builder",
+      "description": "Scaffold a complete FastAPI backend with validation and error handling.",
+      "tags": [
+        "python",
+        "web",
+        "building",
+        "backend"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-11-02",
+      "language": "English"
+    },
+    {
+      "name": "recipe-development-brief",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/recipe-development-brief",
+      "display_name": "Recipe Development Brief",
+      "description": "Develops a complete recipe with method, timings, substitutions, and failure points.",
+      "tags": [
+        "food",
+        "creative",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-03-18",
+      "language": "English"
+    },
+    {
+      "name": "regex-pattern-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/regex-pattern-builder",
+      "display_name": "Regex Pattern Builder",
+      "description": "Craft explained, tested regex patterns for extraction and validation.",
+      "tags": [
+        "coding",
+        "productivity",
+        "javascript",
+        "data-analysis"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-08-05",
+      "language": "English"
+    },
+    {
+      "name": "rest-api-client-generator",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/rest-api-client-generator",
+      "display_name": "REST API Client Generator",
+      "description": "Generate a typed JavaScript fetch client from an OpenAPI specification.",
+      "tags": [
+        "api",
+        "javascript",
+        "coding",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-03-05",
+      "language": "English"
+    },
+    {
+      "name": "saas-landing-page-copy",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/saas-landing-page-copy",
+      "display_name": "SaaS Landing Page Copy",
+      "description": "Generates a full SaaS landing page copy from a one-line product description.",
+      "tags": [
+        "writing",
+        "marketing",
+        "seo"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-01-15",
+      "language": "English"
+    },
+    {
+      "name": "sales-objection-handling-coach",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/sales-objection-handling-coach",
+      "display_name": "Sales Objection Handling Coach",
+      "description": "Practices objection handling with realistic sales role-play scenarios.",
+      "tags": [
+        "sales",
+        "communication",
+        "customer-support"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-04-28",
+      "language": "English"
+    },
+    {
+      "name": "scientific-paper-summary",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/scientific-paper-summary",
+      "display_name": "Scientific Paper Summary",
+      "description": "Summarizes scientific papers with question, method, results, limitations, and implications.",
+      "tags": [
+        "science",
+        "research",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-11-07",
+      "language": "English"
+    },
+    {
+      "name": "secrets-scanner-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/secrets-scanner-review",
+      "display_name": "Secrets Scanner Review",
+      "description": "Find hardcoded secrets, keys and tokens in code before they leak.",
+      "tags": [
+        "cybersecurity",
+        "code-review",
+        "privacy"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-08-27",
+      "language": "English"
+    },
+    {
+      "name": "security-audit-checklist",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/security-audit-checklist",
+      "display_name": "Security Audit Checklist",
+      "description": "Run a complete security audit of code and infrastructure with prioritized, actionable findings.",
+      "tags": [
+        "cybersecurity",
+        "security",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-01-20",
+      "language": "English"
+    },
+    {
+      "name": "security-focused-code-review",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/security-focused-code-review",
+      "display_name": "Security Focused Code Review",
+      "description": "Review code for OWASP-class vulnerabilities with severity-ranked findings and fixes.",
+      "tags": [
+        "code-review",
+        "security",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-07-01",
+      "language": "English"
+    },
+    {
+      "name": "seo-blog-outline-generator",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/seo-blog-outline-generator",
+      "display_name": "SEO Blog Outline Generator",
+      "description": "Creates a keyword-targeted blog outline with H2s, H3s and search intent.",
+      "tags": [
+        "seo",
+        "writing",
+        "research"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-03-25",
+      "language": "English"
+    },
+    {
+      "name": "short-story-writer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/short-story-writer",
+      "display_name": "Short Story Writer",
+      "description": "Develops a complete short story from premise to polished draft in five stages.",
+      "tags": [
+        "storytelling",
+        "creative",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-04-29",
+      "language": "English"
+    },
+    {
+      "name": "socratic-tutor-session",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/socratic-tutor-session",
+      "display_name": "Socratic Tutor Session",
+      "description": "Runs a guided tutoring session where questions lead you to the answer yourself.",
+      "tags": [
+        "education",
+        "math",
+        "science"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-05-20",
+      "language": "English"
+    },
+    {
+      "name": "song-production-brief",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/song-production-brief",
+      "display_name": "Song Production Brief",
+      "description": "Turns a musical idea into a production brief with structure, arrangement, and mix checklist.",
+      "tags": [
+        "music",
+        "audio",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-08-11",
+      "language": "English"
+    },
+    {
+      "name": "sora-storyboard-shot-list",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/sora-storyboard-shot-list",
+      "display_name": "Sora Storyboard and Shot List",
+      "description": "Turns a video idea into a shot-by-shot storyboard with ready-to-paste AI generation prompts.",
+      "tags": [
+        "video",
+        "storytelling",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-04-18",
+      "language": "English"
+    },
+    {
+      "name": "sql-query-optimizer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/sql-query-optimizer",
+      "display_name": "SQL Query Optimizer",
+      "description": "Rewrite slow SQL queries and recommend indexes for faster execution.",
+      "tags": [
+        "sql",
+        "database",
+        "backend",
+        "data-analysis"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-02-10",
+      "language": "English"
+    },
+    {
+      "name": "sql-report-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/sql-report-builder",
+      "display_name": "SQL Report Builder",
+      "description": "Translate business questions into correct, runnable SQL report queries.",
+      "tags": [
+        "sql",
+        "database",
+        "data-analysis",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-07-30",
+      "language": "English"
+    },
+    {
+      "name": "step-by-step-math-solver",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/step-by-step-math-solver",
+      "display_name": "Step-by-Step Math Solver",
+      "description": "Solves math problems with full step-by-step reasoning, checks, and practice questions.",
+      "tags": [
+        "math",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-10-16",
+      "language": "English"
+    },
+    {
+      "name": "story-idea-generator",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/story-idea-generator",
+      "display_name": "Story Idea Generator",
+      "description": "Generates original story premises, characters and plot twists from a seed idea.",
+      "tags": [
+        "creative",
+        "storytelling",
+        "brainstorming"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-10-21",
+      "language": "English"
+    },
+    {
+      "name": "swot-analysis-framework",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/swot-analysis-framework",
+      "display_name": "SWOT Analysis Framework",
+      "description": "Runs a structured SWOT analysis on a business, product or project.",
+      "tags": [
+        "business",
+        "thinking",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-04-12",
+      "language": "English"
+    },
+    {
+      "name": "system-prompt-extraction-tester",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/system-prompt-extraction-tester",
+      "display_name": "System Prompt Extraction Tester",
+      "description": "Evaluate how easily a system prompt can be extracted and how to defend it.",
+      "tags": [
+        "jailbreaking",
+        "security",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-10-10",
+      "language": "English"
+    },
+    {
+      "name": "systematic-debugger",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/systematic-debugger",
+      "display_name": "Systematic Debugger",
+      "description": "Debug code methodically: reproduce, isolate, hypothesize, fix and verify with confidence.",
+      "tags": [
+        "debugging",
+        "testing",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-02-11",
+      "language": "English"
+    },
+    {
+      "name": "translation-proofreader",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/translation-proofreader",
+      "display_name": "Translation Proofreader",
+      "description": "Reviews translated text for accuracy, natural tone and terminology consistency.",
+      "tags": [
+        "translation",
+        "writing",
+        "language-learning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-04-09",
+      "language": "English"
+    },
+    {
+      "name": "trip-itinerary-planner",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/trip-itinerary-planner",
+      "display_name": "Trip Itinerary Planner",
+      "description": "Creates a day-by-day travel itinerary with logistics, budgets, and backup options.",
+      "tags": [
+        "travel",
+        "research"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-02-24",
+      "language": "English"
+    },
+    {
+      "name": "unit-test-writer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/unit-test-writer",
+      "display_name": "Unit Test Writer",
+      "description": "Write thorough unit tests with edge cases for your functions and classes.",
+      "tags": [
+        "coding",
+        "python",
+        "javascript",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-01-28",
+      "language": "English"
+    },
+    {
+      "name": "voiceover-script",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/voiceover-script",
+      "display_name": "Voice-Over Script",
+      "description": "Writes a natural voice-over script with pacing, performance notes, and tone variants.",
+      "tags": [
+        "audio",
+        "creative",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-07-20",
+      "language": "English"
+    },
+    {
+      "name": "web-scraper-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/web-scraper-builder",
+      "display_name": "Web Scraper Builder",
+      "description": "Build a polite Python web scraper that exports clean data to CSV.",
+      "tags": [
+        "web",
+        "python",
+        "automation",
+        "data-analysis"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-03-28",
+      "language": "English"
+    },
+    {
+      "name": "weekly-meal-workout-plan",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/weekly-meal-workout-plan",
+      "display_name": "Weekly Meal and Workout Plan",
+      "description": "Builds a personalized weekly meal and workout plan from your goals and schedule.",
+      "tags": [
+        "health",
+        "food",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-02-03",
+      "language": "English"
+    },
+    {
+      "name": "youtube-script-outline",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/youtube-script-outline",
+      "display_name": "YouTube Script Outline",
+      "description": "Builds a complete YouTube video outline with hooks, sections, timestamps, and visual notes.",
+      "tags": [
+        "video",
+        "storytelling",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-05-12",
+      "language": "English"
+    },
+    {
+      "name": "accessibility",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/accessibility",
+      "display_name": "Accessibility",
+      "description": "Guidelines for making products usable by everyone: a11y best practices.",
+      "tags": [
+        "accessibility",
+        "a11y",
+        "inclusive"
+      ]
+    },
+    {
+      "name": "agent-development",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/agent-development",
+      "display_name": "Agent Development",
+      "description": "Guidelines for building reliable AI agents: tools, memory and safety.",
+      "tags": [
+        "agents",
+        "ai",
+        "tools"
+      ]
+    },
+    {
+      "name": "api-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/api-design",
+      "display_name": "API Design",
+      "description": "Guidelines for designing clean, consistent and versioned APIs.",
+      "tags": [
+        "api",
+        "design",
+        "rest"
+      ]
+    },
+    {
+      "name": "architecture-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/architecture-design",
+      "display_name": "Architecture Design",
+      "description": "Guidelines for designing scalable, maintainable system architecture.",
+      "tags": [
+        "architecture",
+        "design",
+        "systems"
+      ]
+    },
+    {
+      "name": "authentication-authorization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/authentication-authorization",
+      "display_name": "Authentication and Authorization",
+      "description": "Guidelines for implementing authentication and authorization safely.",
+      "tags": [
+        "auth",
+        "security",
+        "identity"
+      ]
+    },
+    {
+      "name": "backup-recovery",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/backup-recovery",
+      "display_name": "Backup and Recovery",
+      "description": "Guidelines for reliable backups and disaster recovery planning.",
+      "tags": [
+        "backup",
+        "recovery",
+        "reliability"
+      ]
+    },
+    {
+      "name": "cicd",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/cicd",
+      "display_name": "CI/CD",
+      "description": "Guidelines for continuous integration and deployment pipelines.",
+      "tags": [
+        "ci",
+        "cd",
+        "pipelines"
+      ]
+    },
+    {
+      "name": "cli-mastery",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/cli-mastery",
+      "display_name": "CLI Mastery",
+      "description": "Guidelines for using command-line tools efficiently: pipes, flags and scripting.",
+      "tags": [
+        "cli",
+        "terminal",
+        "shell"
+      ]
+    },
+    {
+      "name": "code-explaining",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-explaining",
+      "display_name": "Code Explaining",
+      "description": "Guidelines for explaining code clearly to humans.",
+      "tags": [
+        "code",
+        "explanation",
+        "teaching"
+      ]
+    },
+    {
+      "name": "code-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-management",
+      "display_name": "Code Management",
+      "description": "Guidelines for managing code: version control, commits, branches and project hygiene.",
+      "tags": [
+        "code",
+        "git",
+        "workflow"
+      ]
+    },
+    {
+      "name": "code-migration",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-migration",
+      "display_name": "Code Migration",
+      "description": "Guidelines for migrating and porting code between languages and frameworks.",
+      "tags": [
+        "migration",
+        "porting",
+        "upgrade"
+      ]
+    },
+    {
+      "name": "code-review",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-review",
+      "display_name": "Code Review",
+      "description": "Guidelines for reviewing code: correctness, security, performance and readability checklist.",
+      "tags": [
+        "code",
+        "review",
+        "quality"
+      ]
+    },
+    {
+      "name": "communication",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/communication",
+      "display_name": "Communication",
+      "description": "Guidelines for effective written communication in teams and with users.",
+      "tags": [
+        "communication",
+        "writing",
+        "collaboration"
+      ]
+    },
+    {
+      "name": "copywriting",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/copywriting",
+      "display_name": "Copywriting",
+      "description": "Guidelines for persuasive, clear and concise copywriting.",
+      "tags": [
+        "writing",
+        "copy",
+        "marketing"
+      ]
+    },
+    {
+      "name": "data-analysis",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/data-analysis",
+      "display_name": "Data Analysis",
+      "description": "Guidelines for analyzing data: cleaning, exploring and reporting findings.",
+      "tags": [
+        "data",
+        "analysis",
+        "statistics"
+      ]
+    },
+    {
+      "name": "data-visualization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/data-visualization",
+      "display_name": "Data Visualization",
+      "description": "Guidelines for choosing charts and building clear visualizations.",
+      "tags": [
+        "charts",
+        "visualization",
+        "data"
+      ]
+    },
+    {
+      "name": "database-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/database-design",
+      "display_name": "Database Design",
+      "description": "Guidelines for schema design: normalization, indexes and migrations.",
+      "tags": [
+        "database",
+        "sql",
+        "design"
+      ]
+    },
+    {
+      "name": "debugging",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/debugging",
+      "display_name": "Debugging",
+      "description": "Guidelines for systematic debugging: reproduce, isolate, fix, verify.",
+      "tags": [
+        "debugging",
+        "errors",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "dependency-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/dependency-management",
+      "display_name": "Dependency Management",
+      "description": "Guidelines for adding, updating and auditing dependencies.",
+      "tags": [
+        "dependencies",
+        "security",
+        "maintenance"
+      ]
+    },
+    {
+      "name": "docker",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/docker",
+      "display_name": "Docker",
+      "description": "Guidelines for building efficient Docker images and managing containers.",
+      "tags": [
+        "docker",
+        "containers",
+        "devops"
+      ]
+    },
+    {
+      "name": "documentation",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/documentation",
+      "display_name": "Documentation",
+      "description": "Guidelines for writing clear documentation: READMEs, comments, changelogs.",
+      "tags": [
+        "documentation",
+        "docs",
+        "writing"
+      ]
+    },
+    {
+      "name": "error-handling",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/error-handling",
+      "display_name": "Error Handling",
+      "description": "Guidelines for robust error handling and graceful failures.",
+      "tags": [
+        "errors",
+        "robustness",
+        "reliability"
+      ]
+    },
+    {
+      "name": "frontend-development",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/frontend-development",
+      "display_name": "Frontend Development",
+      "description": "Guidelines for building accessible, responsive web frontends.",
+      "tags": [
+        "frontend",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "name": "git-workflow",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/git-workflow",
+      "display_name": "Git Workflow",
+      "description": "Guidelines for git workflows: branching, commits, rebasing and pull requests.",
+      "tags": [
+        "git",
+        "workflow",
+        "version-control"
+      ]
+    },
+    {
+      "name": "go-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/go-style",
+      "display_name": "Go Style",
+      "description": "Guidelines for writing idiomatic Go: packages, errors and concurrency.",
+      "tags": [
+        "go",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "graphql",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/graphql",
+      "display_name": "GraphQL",
+      "description": "Guidelines for designing and consuming GraphQL APIs.",
+      "tags": [
+        "graphql",
+        "api",
+        "query-language"
+      ]
+    },
+    {
+      "name": "incident-response",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/incident-response",
+      "display_name": "Incident Response",
+      "description": "Guidelines for responding to incidents calmly and systematically.",
+      "tags": [
+        "incident",
+        "on-call",
+        "response"
+      ]
+    },
+    {
+      "name": "java-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/java-style",
+      "display_name": "Java Style",
+      "description": "Guidelines for writing clean Java: structure, naming and error handling.",
+      "tags": [
+        "java",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "javascript-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/javascript-style",
+      "display_name": "JavaScript Style",
+      "description": "Guidelines for writing clean, modern JavaScript.",
+      "tags": [
+        "javascript",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "kubernetes",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/kubernetes",
+      "display_name": "Kubernetes",
+      "description": "Guidelines for deploying and operating applications on Kubernetes.",
+      "tags": [
+        "kubernetes",
+        "orchestration",
+        "devops"
+      ]
+    },
+    {
+      "name": "linux-ops",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/linux-ops",
+      "display_name": "Linux Ops",
+      "description": "Guidelines for Linux system administration: processes, permissions and services.",
+      "tags": [
+        "linux",
+        "sysadmin",
+        "ops"
+      ]
+    },
+    {
+      "name": "llm-integration",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/llm-integration",
+      "display_name": "LLM Integration",
+      "description": "Guidelines for integrating LLMs into applications: calls, errors and costs.",
+      "tags": [
+        "llm",
+        "ai",
+        "integration"
+      ]
+    },
+    {
+      "name": "logging-observability",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/logging-observability",
+      "display_name": "Logging and Observability",
+      "description": "Guidelines for structured logging, traces and observability.",
+      "tags": [
+        "logging",
+        "observability",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "microservices",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/microservices",
+      "display_name": "Microservices",
+      "description": "Guidelines for designing and operating microservice architectures.",
+      "tags": [
+        "microservices",
+        "architecture",
+        "distributed"
+      ]
+    },
+    {
+      "name": "monitoring",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/monitoring",
+      "display_name": "Monitoring",
+      "description": "Guidelines for monitoring systems: metrics, alerts and dashboards.",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "alerts"
+      ]
+    },
+    {
+      "name": "organization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/organization",
+      "display_name": "Organization",
+      "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
+      "tags": [
+        "organization",
+        "structure",
+        "workflow"
+      ]
+    },
+    {
+      "name": "performance-optimization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/performance-optimization",
+      "display_name": "Performance Optimization",
+      "description": "Guidelines for profiling and optimizing application performance.",
+      "tags": [
+        "performance",
+        "profiling",
+        "optimization"
+      ]
+    },
+    {
+      "name": "project-planning",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/project-planning",
+      "display_name": "Project Planning",
+      "description": "Guidelines for planning work: break down tasks, order dependencies, track progress.",
+      "tags": [
+        "planning",
+        "workflow",
+        "organization"
+      ]
+    },
+    {
+      "name": "prompt-engineering",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/prompt-engineering",
+      "display_name": "Prompt Engineering",
+      "description": "Guidelines for writing effective prompts and structuring LLM interactions.",
+      "tags": [
+        "llm",
+        "prompts",
+        "ai"
+      ]
+    },
+    {
+      "name": "python-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/python-style",
+      "display_name": "Python Style",
+      "description": "Guidelines for writing idiomatic, maintainable Python.",
+      "tags": [
+        "python",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "refactoring",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/refactoring",
+      "display_name": "Refactoring",
+      "description": "Guidelines for refactoring safely: small steps, preserved behavior, verified changes.",
+      "tags": [
+        "refactoring",
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "release-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/release-management",
+      "display_name": "Release Management",
+      "description": "Guidelines for versioning, changelogs and smooth releases.",
+      "tags": [
+        "release",
+        "versioning",
+        "changelog"
+      ]
+    },
+    {
+      "name": "rust-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/rust-style",
+      "display_name": "Rust Style",
+      "description": "Guidelines for writing safe, idiomatic Rust.",
+      "tags": [
+        "rust",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "security",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/security",
+      "display_name": "Security",
+      "description": "Guidelines for handling secrets, permissions and risky operations safely.",
+      "tags": [
+        "security",
+        "safety",
+        "permissions"
+      ]
+    },
+    {
+      "name": "seo",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/seo",
+      "display_name": "SEO",
+      "description": "Guidelines for search engine optimization: content, structure and metadata.",
+      "tags": [
+        "seo",
+        "web",
+        "marketing"
+      ]
+    },
+    {
+      "name": "sql-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/sql-writing",
+      "display_name": "SQL Writing",
+      "description": "Guidelines for writing readable and efficient SQL queries.",
+      "tags": [
+        "sql",
+        "database",
+        "queries"
+      ]
+    },
+    {
+      "name": "technical-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/technical-writing",
+      "display_name": "Technical Writing",
+      "description": "Guidelines for writing precise technical documentation and tutorials.",
+      "tags": [
+        "writing",
+        "docs",
+        "technical"
+      ]
+    },
+    {
+      "name": "test-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/test-writing",
+      "display_name": "Test Writing",
+      "description": "Guidelines for writing effective tests: what to test, how to structure them.",
+      "tags": [
+        "tests",
+        "quality",
+        "code"
+      ]
+    },
+    {
+      "name": "typescript-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/typescript-style",
+      "display_name": "TypeScript Style",
+      "description": "Guidelines for using TypeScript effectively: types, strictness and structure.",
+      "tags": [
+        "typescript",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "web-research",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/web-research",
+      "display_name": "Web Research",
+      "description": "Guidelines for researching effectively: queries, source evaluation and citations.",
+      "tags": [
+        "web",
+        "research",
+        "search"
+      ]
+    },
     {
       "name": "ascii-table",
       "type": "tool",
@@ -653,656 +2923,6 @@
         "zip",
         "archive",
         "compression"
-      ]
-    },
-    {
-      "name": "accessibility",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/accessibility",
-      "display_name": "Accessibility",
-      "description": "Guidelines for making products usable by everyone: a11y best practices.",
-      "tags": [
-        "accessibility",
-        "a11y",
-        "inclusive"
-      ]
-    },
-    {
-      "name": "agent-development",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/agent-development",
-      "display_name": "Agent Development",
-      "description": "Guidelines for building reliable AI agents: tools, memory and safety.",
-      "tags": [
-        "agents",
-        "ai",
-        "tools"
-      ]
-    },
-    {
-      "name": "api-design",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/api-design",
-      "display_name": "API Design",
-      "description": "Guidelines for designing clean, consistent and versioned APIs.",
-      "tags": [
-        "api",
-        "design",
-        "rest"
-      ]
-    },
-    {
-      "name": "architecture-design",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/architecture-design",
-      "display_name": "Architecture Design",
-      "description": "Guidelines for designing scalable, maintainable system architecture.",
-      "tags": [
-        "architecture",
-        "design",
-        "systems"
-      ]
-    },
-    {
-      "name": "authentication-authorization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/authentication-authorization",
-      "display_name": "Authentication and Authorization",
-      "description": "Guidelines for implementing authentication and authorization safely.",
-      "tags": [
-        "auth",
-        "security",
-        "identity"
-      ]
-    },
-    {
-      "name": "backup-recovery",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/backup-recovery",
-      "display_name": "Backup and Recovery",
-      "description": "Guidelines for reliable backups and disaster recovery planning.",
-      "tags": [
-        "backup",
-        "recovery",
-        "reliability"
-      ]
-    },
-    {
-      "name": "cicd",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/cicd",
-      "display_name": "CI/CD",
-      "description": "Guidelines for continuous integration and deployment pipelines.",
-      "tags": [
-        "ci",
-        "cd",
-        "pipelines"
-      ]
-    },
-    {
-      "name": "cli-mastery",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/cli-mastery",
-      "display_name": "CLI Mastery",
-      "description": "Guidelines for using command-line tools efficiently: pipes, flags and scripting.",
-      "tags": [
-        "cli",
-        "terminal",
-        "shell"
-      ]
-    },
-    {
-      "name": "code-explaining",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-explaining",
-      "display_name": "Code Explaining",
-      "description": "Guidelines for explaining code clearly to humans.",
-      "tags": [
-        "code",
-        "explanation",
-        "teaching"
-      ]
-    },
-    {
-      "name": "code-management",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-management",
-      "display_name": "Code Management",
-      "description": "Guidelines for managing code: version control, commits, branches and project hygiene.",
-      "tags": [
-        "code",
-        "git",
-        "workflow"
-      ]
-    },
-    {
-      "name": "code-migration",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-migration",
-      "display_name": "Code Migration",
-      "description": "Guidelines for migrating and porting code between languages and frameworks.",
-      "tags": [
-        "migration",
-        "porting",
-        "upgrade"
-      ]
-    },
-    {
-      "name": "code-review",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-review",
-      "display_name": "Code Review",
-      "description": "Guidelines for reviewing code: correctness, security, performance and readability checklist.",
-      "tags": [
-        "code",
-        "review",
-        "quality"
-      ]
-    },
-    {
-      "name": "communication",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/communication",
-      "display_name": "Communication",
-      "description": "Guidelines for effective written communication in teams and with users.",
-      "tags": [
-        "communication",
-        "writing",
-        "collaboration"
-      ]
-    },
-    {
-      "name": "copywriting",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/copywriting",
-      "display_name": "Copywriting",
-      "description": "Guidelines for persuasive, clear and concise copywriting.",
-      "tags": [
-        "writing",
-        "copy",
-        "marketing"
-      ]
-    },
-    {
-      "name": "data-analysis",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/data-analysis",
-      "display_name": "Data Analysis",
-      "description": "Guidelines for analyzing data: cleaning, exploring and reporting findings.",
-      "tags": [
-        "data",
-        "analysis",
-        "statistics"
-      ]
-    },
-    {
-      "name": "data-visualization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/data-visualization",
-      "display_name": "Data Visualization",
-      "description": "Guidelines for choosing charts and building clear visualizations.",
-      "tags": [
-        "charts",
-        "visualization",
-        "data"
-      ]
-    },
-    {
-      "name": "database-design",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/database-design",
-      "display_name": "Database Design",
-      "description": "Guidelines for schema design: normalization, indexes and migrations.",
-      "tags": [
-        "database",
-        "sql",
-        "design"
-      ]
-    },
-    {
-      "name": "debugging",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/debugging",
-      "display_name": "Debugging",
-      "description": "Guidelines for systematic debugging: reproduce, isolate, fix, verify.",
-      "tags": [
-        "debugging",
-        "errors",
-        "troubleshooting"
-      ]
-    },
-    {
-      "name": "dependency-management",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/dependency-management",
-      "display_name": "Dependency Management",
-      "description": "Guidelines for adding, updating and auditing dependencies.",
-      "tags": [
-        "dependencies",
-        "security",
-        "maintenance"
-      ]
-    },
-    {
-      "name": "docker",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/docker",
-      "display_name": "Docker",
-      "description": "Guidelines for building efficient Docker images and managing containers.",
-      "tags": [
-        "docker",
-        "containers",
-        "devops"
-      ]
-    },
-    {
-      "name": "documentation",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/documentation",
-      "display_name": "Documentation",
-      "description": "Guidelines for writing clear documentation: READMEs, comments, changelogs.",
-      "tags": [
-        "documentation",
-        "docs",
-        "writing"
-      ]
-    },
-    {
-      "name": "error-handling",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/error-handling",
-      "display_name": "Error Handling",
-      "description": "Guidelines for robust error handling and graceful failures.",
-      "tags": [
-        "errors",
-        "robustness",
-        "reliability"
-      ]
-    },
-    {
-      "name": "frontend-development",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/frontend-development",
-      "display_name": "Frontend Development",
-      "description": "Guidelines for building accessible, responsive web frontends.",
-      "tags": [
-        "frontend",
-        "html",
-        "css"
-      ]
-    },
-    {
-      "name": "git-workflow",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/git-workflow",
-      "display_name": "Git Workflow",
-      "description": "Guidelines for git workflows: branching, commits, rebasing and pull requests.",
-      "tags": [
-        "git",
-        "workflow",
-        "version-control"
-      ]
-    },
-    {
-      "name": "go-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/go-style",
-      "display_name": "Go Style",
-      "description": "Guidelines for writing idiomatic Go: packages, errors and concurrency.",
-      "tags": [
-        "go",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "graphql",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/graphql",
-      "display_name": "GraphQL",
-      "description": "Guidelines for designing and consuming GraphQL APIs.",
-      "tags": [
-        "graphql",
-        "api",
-        "query-language"
-      ]
-    },
-    {
-      "name": "incident-response",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/incident-response",
-      "display_name": "Incident Response",
-      "description": "Guidelines for responding to incidents calmly and systematically.",
-      "tags": [
-        "incident",
-        "on-call",
-        "response"
-      ]
-    },
-    {
-      "name": "java-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/java-style",
-      "display_name": "Java Style",
-      "description": "Guidelines for writing clean Java: structure, naming and error handling.",
-      "tags": [
-        "java",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "javascript-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/javascript-style",
-      "display_name": "JavaScript Style",
-      "description": "Guidelines for writing clean, modern JavaScript.",
-      "tags": [
-        "javascript",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "kubernetes",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/kubernetes",
-      "display_name": "Kubernetes",
-      "description": "Guidelines for deploying and operating applications on Kubernetes.",
-      "tags": [
-        "kubernetes",
-        "orchestration",
-        "devops"
-      ]
-    },
-    {
-      "name": "linux-ops",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/linux-ops",
-      "display_name": "Linux Ops",
-      "description": "Guidelines for Linux system administration: processes, permissions and services.",
-      "tags": [
-        "linux",
-        "sysadmin",
-        "ops"
-      ]
-    },
-    {
-      "name": "llm-integration",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/llm-integration",
-      "display_name": "LLM Integration",
-      "description": "Guidelines for integrating LLMs into applications: calls, errors and costs.",
-      "tags": [
-        "llm",
-        "ai",
-        "integration"
-      ]
-    },
-    {
-      "name": "logging-observability",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/logging-observability",
-      "display_name": "Logging and Observability",
-      "description": "Guidelines for structured logging, traces and observability.",
-      "tags": [
-        "logging",
-        "observability",
-        "monitoring"
-      ]
-    },
-    {
-      "name": "microservices",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/microservices",
-      "display_name": "Microservices",
-      "description": "Guidelines for designing and operating microservice architectures.",
-      "tags": [
-        "microservices",
-        "architecture",
-        "distributed"
-      ]
-    },
-    {
-      "name": "monitoring",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/monitoring",
-      "display_name": "Monitoring",
-      "description": "Guidelines for monitoring systems: metrics, alerts and dashboards.",
-      "tags": [
-        "monitoring",
-        "metrics",
-        "alerts"
-      ]
-    },
-    {
-      "name": "organization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/organization",
-      "display_name": "Organization",
-      "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
-      "tags": [
-        "organization",
-        "structure",
-        "workflow"
-      ]
-    },
-    {
-      "name": "performance-optimization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/performance-optimization",
-      "display_name": "Performance Optimization",
-      "description": "Guidelines for profiling and optimizing application performance.",
-      "tags": [
-        "performance",
-        "profiling",
-        "optimization"
-      ]
-    },
-    {
-      "name": "project-planning",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/project-planning",
-      "display_name": "Project Planning",
-      "description": "Guidelines for planning work: break down tasks, order dependencies, track progress.",
-      "tags": [
-        "planning",
-        "workflow",
-        "organization"
-      ]
-    },
-    {
-      "name": "prompt-engineering",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/prompt-engineering",
-      "display_name": "Prompt Engineering",
-      "description": "Guidelines for writing effective prompts and structuring LLM interactions.",
-      "tags": [
-        "llm",
-        "prompts",
-        "ai"
-      ]
-    },
-    {
-      "name": "python-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/python-style",
-      "display_name": "Python Style",
-      "description": "Guidelines for writing idiomatic, maintainable Python.",
-      "tags": [
-        "python",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "refactoring",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/refactoring",
-      "display_name": "Refactoring",
-      "description": "Guidelines for refactoring safely: small steps, preserved behavior, verified changes.",
-      "tags": [
-        "refactoring",
-        "code",
-        "quality"
-      ]
-    },
-    {
-      "name": "release-management",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/release-management",
-      "display_name": "Release Management",
-      "description": "Guidelines for versioning, changelogs and smooth releases.",
-      "tags": [
-        "release",
-        "versioning",
-        "changelog"
-      ]
-    },
-    {
-      "name": "rust-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/rust-style",
-      "display_name": "Rust Style",
-      "description": "Guidelines for writing safe, idiomatic Rust.",
-      "tags": [
-        "rust",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "security",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/security",
-      "display_name": "Security",
-      "description": "Guidelines for handling secrets, permissions and risky operations safely.",
-      "tags": [
-        "security",
-        "safety",
-        "permissions"
-      ]
-    },
-    {
-      "name": "seo",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/seo",
-      "display_name": "SEO",
-      "description": "Guidelines for search engine optimization: content, structure and metadata.",
-      "tags": [
-        "seo",
-        "web",
-        "marketing"
-      ]
-    },
-    {
-      "name": "sql-writing",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/sql-writing",
-      "display_name": "SQL Writing",
-      "description": "Guidelines for writing readable and efficient SQL queries.",
-      "tags": [
-        "sql",
-        "database",
-        "queries"
-      ]
-    },
-    {
-      "name": "technical-writing",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/technical-writing",
-      "display_name": "Technical Writing",
-      "description": "Guidelines for writing precise technical documentation and tutorials.",
-      "tags": [
-        "writing",
-        "docs",
-        "technical"
-      ]
-    },
-    {
-      "name": "test-writing",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/test-writing",
-      "display_name": "Test Writing",
-      "description": "Guidelines for writing effective tests: what to test, how to structure them.",
-      "tags": [
-        "tests",
-        "quality",
-        "code"
-      ]
-    },
-    {
-      "name": "typescript-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/typescript-style",
-      "display_name": "TypeScript Style",
-      "description": "Guidelines for using TypeScript effectively: types, strictness and structure.",
-      "tags": [
-        "typescript",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "web-research",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/web-research",
-      "display_name": "Web Research",
-      "description": "Guidelines for researching effectively: queries, source evaluation and citations.",
-      "tags": [
-        "web",
-        "research",
-        "search"
       ]
     }
   ]

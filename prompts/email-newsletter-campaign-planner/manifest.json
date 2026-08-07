@@ -1,0 +1,14 @@
+{
+  "name": "email-newsletter-campaign-planner",
+  "display_name": "Email Newsletter Campaign Planner",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Plans and writes a multi-email newsletter campaign with subject lines and cadence.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-12-01",
+  "tags": ["email", "marketing", "writing"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

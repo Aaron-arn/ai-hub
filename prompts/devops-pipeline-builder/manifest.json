@@ -1,0 +1,14 @@
+{
+  "name": "devops-pipeline-builder",
+  "display_name": "DevOps Pipeline Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a GitHub Actions CI/CD pipeline with caching and security steps.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-04-25",
+  "tags": ["devops", "automation", "building", "backend"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

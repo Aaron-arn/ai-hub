@@ -1,0 +1,14 @@
+{
+  "name": "customer-support-response-scripts",
+  "display_name": "Customer Support Response Scripts",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Drafts empathetic, on-brand replies to common customer support situations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-07-28",
+  "tags": ["customer-support", "communication", "writing"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

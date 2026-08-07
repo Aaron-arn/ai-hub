@@ -1,0 +1,14 @@
+{
+  "name": "kpi-reporting-dashboard",
+  "display_name": "KPI Reporting Dashboard Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Designs a KPI dashboard with metrics, targets and reporting cadence.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-03-24",
+  "tags": ["data-analysis", "business", "productivity"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

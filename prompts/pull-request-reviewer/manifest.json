@@ -1,0 +1,19 @@
+{
+  "name": "pull-request-reviewer",
+  "display_name": "Pull Request Reviewer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Review pull requests for correctness, security, performance, tests and readability.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-03-04",
+  "tags": ["code-review", "testing", "thinking"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

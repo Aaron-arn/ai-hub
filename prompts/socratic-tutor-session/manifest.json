@@ -1,0 +1,14 @@
+{
+  "name": "socratic-tutor-session",
+  "display_name": "Socratic Tutor Session",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Runs a guided tutoring session where questions lead you to the answer yourself.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-05-20",
+  "tags": ["education", "math", "science"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

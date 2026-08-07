@@ -1,0 +1,14 @@
+{
+  "name": "step-by-step-math-solver",
+  "display_name": "Step-by-Step Math Solver",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Solves math problems with full step-by-step reasoning, checks, and practice questions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-10-16",
+  "tags": ["math", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

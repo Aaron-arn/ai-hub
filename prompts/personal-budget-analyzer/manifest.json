@@ -1,0 +1,14 @@
+{
+  "name": "personal-budget-analyzer",
+  "display_name": "Personal Budget Analyzer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Analyzes personal spending, flags risks, and proposes a realistic monthly budget.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-11-28",
+  "tags": ["finance", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

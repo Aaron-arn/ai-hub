@@ -1,0 +1,19 @@
+{
+  "name": "container-security-review",
+  "display_name": "Container Security Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audit container images and configs for vulnerabilities, privileges and misconfigurations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-11-23",
+  "tags": ["docker", "devops", "security"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

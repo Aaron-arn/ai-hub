@@ -1,0 +1,14 @@
+{
+  "name": "customer-interview-questionnaire",
+  "display_name": "Customer Interview Questionnaire",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Builds a customer interview guide with discovery questions and follow-up probes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-07-10",
+  "tags": ["research", "product", "communication"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

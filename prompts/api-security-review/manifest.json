@@ -1,0 +1,19 @@
+{
+  "name": "api-security-review",
+  "display_name": "API Security Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audit APIs for authentication, authorization, injection and data exposure flaws.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-05-31",
+  "tags": ["cybersecurity", "testing", "security"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

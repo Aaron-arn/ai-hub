@@ -1,0 +1,19 @@
+{
+  "name": "container-image-hardening",
+  "display_name": "Container Image Hardening",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Harden container images against known vulnerabilities and misconfigurations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-04-17",
+  "tags": ["docker", "security", "devops"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

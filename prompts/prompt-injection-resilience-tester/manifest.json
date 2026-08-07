@@ -1,0 +1,19 @@
+{
+  "name": "prompt-injection-resilience-tester",
+  "display_name": "Prompt Injection Resilience Tester",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Test system prompts against injection attacks and report robustness and defenses.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-07-14",
+  "tags": ["jailbreaking", "testing", "security"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

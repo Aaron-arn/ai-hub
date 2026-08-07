@@ -1,0 +1,14 @@
+{
+  "name": "python-cli-scaffolder",
+  "display_name": "Python CLI Scaffolder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a complete, production-ready Python CLI tool skeleton with argparse.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-01-15",
+  "tags": ["python", "coding", "building", "devops"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

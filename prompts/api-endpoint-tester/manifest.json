@@ -1,0 +1,14 @@
+{
+  "name": "api-endpoint-tester",
+  "display_name": "API Endpoint Tester",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a full test plan with curl commands for any API endpoint.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-10-10",
+  "tags": ["api", "backend", "automation", "devops"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

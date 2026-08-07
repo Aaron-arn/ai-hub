@@ -1,0 +1,19 @@
+{
+  "name": "infrastructure-security-audit",
+  "display_name": "Infrastructure Security Audit",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audit infrastructure for exposure, weak access control and missing encryption.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-12-15",
+  "tags": ["cybersecurity", "cloud", "devops"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

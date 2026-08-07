@@ -1,0 +1,14 @@
+{
+  "name": "investment-risk-review",
+  "display_name": "Investment Risk Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Reviews investment ideas for risk, diversification, and alignment with your goals.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-12-19",
+  "tags": ["finance", "research"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

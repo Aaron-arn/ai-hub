@@ -1,0 +1,14 @@
+{
+  "name": "seo-blog-outline-generator",
+  "display_name": "SEO Blog Outline Generator",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Creates a keyword-targeted blog outline with H2s, H3s and search intent.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-03-25",
+  "tags": ["seo", "writing", "research"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

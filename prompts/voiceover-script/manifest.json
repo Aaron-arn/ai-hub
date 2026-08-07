@@ -1,0 +1,14 @@
+{
+  "name": "voiceover-script",
+  "display_name": "Voice-Over Script",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Writes a natural voice-over script with pacing, performance notes, and tone variants.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-07-20",
+  "tags": ["audio", "creative", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

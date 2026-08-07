@@ -1,0 +1,14 @@
+{
+  "name": "cold-email-sequence",
+  "display_name": "Cold Email Sequence Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Builds a 4-email cold outreach sequence with subject lines and follow-ups.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-02-18",
+  "tags": ["email", "sales", "marketing"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

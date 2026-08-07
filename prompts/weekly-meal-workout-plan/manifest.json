@@ -1,0 +1,14 @@
+{
+  "name": "weekly-meal-workout-plan",
+  "display_name": "Weekly Meal and Workout Plan",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Builds a personalized weekly meal and workout plan from your goals and schedule.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-02-03",
+  "tags": ["health", "food", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

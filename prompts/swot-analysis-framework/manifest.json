@@ -1,0 +1,14 @@
+{
+  "name": "swot-analysis-framework",
+  "display_name": "SWOT Analysis Framework",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Runs a structured SWOT analysis on a business, product or project.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-04-12",
+  "tags": ["business", "thinking", "planning"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "legacy-code-modernization",
+  "display_name": "Legacy Code Modernization",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Build a phased modernization plan for legacy code with managed risk.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-02-19",
+  "tags": ["refactoring", "devops", "planning"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

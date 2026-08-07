@@ -1,0 +1,19 @@
+{
+  "name": "incremental-refactoring-planner",
+  "display_name": "Incremental Refactoring Planner",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Plan safe, step-by-step refactoring that preserves behavior and verifies every change.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-05-09",
+  "tags": ["refactoring", "planning", "testing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

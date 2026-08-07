@@ -1,0 +1,19 @@
+{
+  "name": "jailbreak-red-team-evaluator",
+  "display_name": "Jailbreak Red Team Evaluator",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Run an authorized red-team evaluation of a model's resistance to jailbreak attacks.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-01-06",
+  "tags": ["jailbreaking", "testing", "security"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

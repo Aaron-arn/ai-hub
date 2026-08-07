@@ -1,0 +1,19 @@
+{
+  "name": "security-audit-checklist",
+  "display_name": "Security Audit Checklist",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Run a complete security audit of code and infrastructure with prioritized, actionable findings.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-01-20",
+  "tags": ["cybersecurity", "security", "testing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

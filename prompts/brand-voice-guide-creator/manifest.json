@@ -1,0 +1,14 @@
+{
+  "name": "brand-voice-guide-creator",
+  "display_name": "Brand Voice Guide Creator",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Creates a practical brand voice guide with tone rules and examples.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-05-13",
+  "tags": ["marketing", "writing", "creative"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

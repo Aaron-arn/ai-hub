@@ -1,0 +1,14 @@
+{
+  "name": "js-package-manager-helper",
+  "display_name": "JS Package Manager Helper",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Diagnose npm and package.json issues and produce safe fix commands.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-11-25",
+  "tags": ["javascript", "devops", "coding", "building"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

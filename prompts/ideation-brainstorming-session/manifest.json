@@ -1,0 +1,14 @@
+{
+  "name": "ideation-brainstorming-session",
+  "display_name": "Ideation Brainstorming Session",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Facilitates a structured brainstorming session with quantity-first idea generation.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-06-26",
+  "tags": ["brainstorming", "creative", "thinking"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

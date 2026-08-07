@@ -1,0 +1,19 @@
+{
+  "name": "agent-tool-execution-debugger",
+  "display_name": "Agent Tool Execution Debugger",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Diagnose failed agent tool calls from logs and fix the root cause.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-06-09",
+  "tags": ["agent-job", "debugging", "testing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

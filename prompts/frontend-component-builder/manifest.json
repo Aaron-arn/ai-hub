@@ -1,0 +1,14 @@
+{
+  "name": "frontend-component-builder",
+  "display_name": "Frontend Component Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Build an accessible, reusable React component with props and keyboard support.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-06-22",
+  "tags": ["frontend", "web", "javascript", "building"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

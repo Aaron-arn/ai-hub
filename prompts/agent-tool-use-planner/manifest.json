@@ -1,0 +1,19 @@
+{
+  "name": "agent-tool-use-planner",
+  "display_name": "Agent Tool Use Planner",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Plan how an AI agent should choose, call and verify tools for a task.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-09-18",
+  "tags": ["agent-job", "planning", "thinking"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

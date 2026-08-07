@@ -1,0 +1,19 @@
+{
+  "name": "cloud-architecture-review",
+  "display_name": "Cloud Architecture Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Review cloud architectures against reliability, security, cost and performance pillars.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-08-05",
+  "tags": ["cloud", "planning", "decision"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

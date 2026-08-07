@@ -1,0 +1,14 @@
+{
+  "name": "youtube-script-outline",
+  "display_name": "YouTube Script Outline",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Builds a complete YouTube video outline with hooks, sections, timestamps, and visual notes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-05-12",
+  "tags": ["video", "storytelling", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "short-story-writer",
+  "display_name": "Short Story Writer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Develops a complete short story from premise to polished draft in five stages.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-04-29",
+  "tags": ["storytelling", "creative", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "prompt-engineering-tutor",
+  "display_name": "Prompt Engineering Tutor",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Turn vague requests into structured, high-performing LLM prompts.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-12-15",
+  "tags": ["llm", "chat", "productivity", "coding"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

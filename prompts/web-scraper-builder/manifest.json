@@ -1,0 +1,14 @@
+{
+  "name": "web-scraper-builder",
+  "display_name": "Web Scraper Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Build a polite Python web scraper that exports clean data to CSV.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-03-28",
+  "tags": ["web", "python", "automation", "data-analysis"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "prompt-injection-defense-builder",
+  "display_name": "Prompt Injection Defense Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Harden system prompts and agent designs against prompt injection attacks.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-04-04",
+  "tags": ["cybersecurity", "security", "testing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

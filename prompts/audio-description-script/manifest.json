@@ -1,0 +1,14 @@
+{
+  "name": "audio-description-script",
+  "display_name": "Audio Description Script",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Writes timecoded audio description narration for videos to make them accessible.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-07-02",
+  "tags": ["audio", "storytelling", "creative"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

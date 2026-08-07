@@ -1,0 +1,19 @@
+{
+  "name": "system-prompt-extraction-tester",
+  "display_name": "System Prompt Extraction Tester",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Evaluate how easily a system prompt can be extracted and how to defend it.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-10-10",
+  "tags": ["jailbreaking", "security", "testing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

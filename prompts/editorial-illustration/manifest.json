@@ -1,0 +1,14 @@
+{
+  "name": "editorial-illustration",
+  "display_name": "Editorial Illustration",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Designs a metaphorical editorial illustration prompt with palette and headline space for articles.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-03-05",
+  "tags": ["image", "creative", "storytelling"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

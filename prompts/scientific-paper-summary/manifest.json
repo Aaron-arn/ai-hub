@@ -1,0 +1,14 @@
+{
+  "name": "scientific-paper-summary",
+  "display_name": "Scientific Paper Summary",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Summarizes scientific papers with question, method, results, limitations, and implications.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-11-07",
+  "tags": ["science", "research", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

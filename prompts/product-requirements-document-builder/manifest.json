@@ -1,0 +1,14 @@
+{
+  "name": "product-requirements-document-builder",
+  "display_name": "Product Requirements Document Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Writes a complete PRD with goals, user stories, specs and success metrics.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-05-30",
+  "tags": ["product", "planning", "business"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "contract-review-checklist",
+  "display_name": "Contract Review Checklist",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Reviews contracts clause by clause with risk levels and suggested changes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-01-12",
+  "tags": ["legal", "research"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

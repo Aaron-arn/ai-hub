@@ -1,0 +1,14 @@
+{
+  "name": "lesson-plan-creator",
+  "display_name": "Lesson Plan Creator",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Designs a complete lesson plan with objectives, activities and assessment.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-07-22",
+  "tags": ["education", "planning", "productivity"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

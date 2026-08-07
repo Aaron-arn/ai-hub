@@ -1,0 +1,14 @@
+{
+  "name": "pros-and-cons-analyzer",
+  "display_name": "Pros and Cons Analyzer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Weighted pros and cons analysis with bias checks for personal decisions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-01-27",
+  "tags": ["decision", "thinking", "planning"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

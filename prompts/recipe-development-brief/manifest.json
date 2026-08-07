@@ -1,0 +1,14 @@
+{
+  "name": "recipe-development-brief",
+  "display_name": "Recipe Development Brief",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Develops a complete recipe with method, timings, substitutions, and failure points.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-03-18",
+  "tags": ["food", "creative", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sql-query-optimizer",
+  "display_name": "SQL Query Optimizer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Rewrite slow SQL queries and recommend indexes for faster execution.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-02-10",
+  "tags": ["sql", "database", "backend", "data-analysis"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

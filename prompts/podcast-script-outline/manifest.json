@@ -1,0 +1,14 @@
+{
+  "name": "podcast-script-outline",
+  "display_name": "Podcast Script Outline",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Builds a structured podcast episode outline with segments, questions, and outro lines.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-06-25",
+  "tags": ["audio", "storytelling", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

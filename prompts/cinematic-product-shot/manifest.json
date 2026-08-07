@@ -1,0 +1,14 @@
+{
+  "name": "cinematic-product-shot",
+  "display_name": "Cinematic Product Shot",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generates a cinematic product photography prompt ready to paste into Midjourney, DALL-E, or Stable Diffusion.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-01-15",
+  "tags": ["image", "design", "creative"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

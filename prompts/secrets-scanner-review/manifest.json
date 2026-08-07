@@ -1,0 +1,19 @@
+{
+  "name": "secrets-scanner-review",
+  "display_name": "Secrets Scanner Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Find hardcoded secrets, keys and tokens in code before they leak.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-08-27",
+  "tags": ["cybersecurity", "code-review", "privacy"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

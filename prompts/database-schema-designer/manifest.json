@@ -1,0 +1,14 @@
+{
+  "name": "database-schema-designer",
+  "display_name": "Database Schema Designer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Design a normalized SQL schema with DDL and constraints for any domain.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-07-15",
+  "tags": ["database", "sql", "backend", "building"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

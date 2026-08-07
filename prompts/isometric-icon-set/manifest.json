@@ -1,0 +1,14 @@
+{
+  "name": "isometric-icon-set",
+  "display_name": "Isometric Icon Set",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Builds a consistent isometric icon set prompt with a matching style for apps and documents.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-03-28",
+  "tags": ["image", "design", "creative"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "trip-itinerary-planner",
+  "display_name": "Trip Itinerary Planner",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Creates a day-by-day travel itinerary with logistics, budgets, and backup options.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-02-24",
+  "tags": ["travel", "research"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

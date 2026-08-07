@@ -1,0 +1,14 @@
+{
+  "name": "rest-api-client-generator",
+  "display_name": "REST API Client Generator",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a typed JavaScript fetch client from an OpenAPI specification.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-03-05",
+  "tags": ["api", "javascript", "coding", "building"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

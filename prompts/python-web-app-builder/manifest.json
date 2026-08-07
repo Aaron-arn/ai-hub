@@ -1,0 +1,14 @@
+{
+  "name": "python-web-app-builder",
+  "display_name": "Python Web App Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Scaffold a complete FastAPI backend with validation and error handling.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-11-02",
+  "tags": ["python", "web", "building", "backend"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

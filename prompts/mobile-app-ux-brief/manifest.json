@@ -1,0 +1,14 @@
+{
+  "name": "mobile-app-ux-brief",
+  "display_name": "Mobile App UX Brief",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Writes a mobile app UX brief with personas, flows, screens, and success metrics.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-09-02",
+  "tags": ["ux", "design", "research"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

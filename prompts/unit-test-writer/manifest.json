@@ -1,0 +1,14 @@
+{
+  "name": "unit-test-writer",
+  "display_name": "Unit Test Writer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Write thorough unit tests with edge cases for your functions and classes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-01-28",
+  "tags": ["coding", "python", "javascript", "productivity"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

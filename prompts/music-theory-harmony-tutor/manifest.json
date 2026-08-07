@@ -1,0 +1,14 @@
+{
+  "name": "music-theory-harmony-tutor",
+  "display_name": "Music Theory and Harmony Tutor",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Teaches music theory and harmony with examples, exercises, and graded feedback.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-04-08",
+  "tags": ["music", "education"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

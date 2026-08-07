@@ -1,0 +1,14 @@
+{
+  "name": "sales-objection-handling-coach",
+  "display_name": "Sales Objection Handling Coach",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Practices objection handling with realistic sales role-play scenarios.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-04-28",
+  "tags": ["sales", "communication", "customer-support"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

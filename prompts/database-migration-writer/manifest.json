@@ -1,0 +1,14 @@
+{
+  "name": "database-migration-writer",
+  "display_name": "Database Migration Writer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Write reversible SQL migration scripts with safety checks and rollback.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-01-05",
+  "tags": ["database", "sql", "devops", "backend"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

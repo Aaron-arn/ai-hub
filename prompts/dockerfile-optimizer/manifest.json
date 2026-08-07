@@ -1,0 +1,19 @@
+{
+  "name": "dockerfile-optimizer",
+  "display_name": "Dockerfile Optimizer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Rewrite Dockerfiles for smaller images, faster builds, and safer containers.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-05-12",
+  "tags": ["devops", "building", "backend", "coding"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

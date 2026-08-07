@@ -1,0 +1,14 @@
+{
+  "name": "sora-storyboard-shot-list",
+  "display_name": "Sora Storyboard and Shot List",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Turns a video idea into a shot-by-shot storyboard with ready-to-paste AI generation prompts.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-04-18",
+  "tags": ["video", "storytelling", "creative"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

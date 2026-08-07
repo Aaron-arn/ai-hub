@@ -1,0 +1,19 @@
+{
+  "name": "agent-safety-bounds-review",
+  "display_name": "Agent Safety Bounds Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Review agent designs for permission limits, injection surfaces and runaway risks.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-01-28",
+  "tags": ["agent-job", "security", "code-review"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

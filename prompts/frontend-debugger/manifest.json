@@ -1,0 +1,14 @@
+{
+  "name": "frontend-debugger",
+  "display_name": "Frontend Debugger",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Diagnose and fix buggy HTML, CSS, and JavaScript snippets with explanations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-04-01",
+  "tags": ["frontend", "web", "javascript", "coding"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

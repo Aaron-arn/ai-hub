@@ -1,0 +1,19 @@
+{
+  "name": "performance-code-review",
+  "display_name": "Performance Code Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Review code for performance issues: complexity, allocations, caching and I/O.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-11-01",
+  "tags": ["code-review", "debugging", "testing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ci-cd-pipeline-review",
+  "display_name": "CI/CD Pipeline Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Review CI/CD pipelines for secrets handling, test coverage and safe deployments.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-06-22",
+  "tags": ["devops", "testing", "code-review"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

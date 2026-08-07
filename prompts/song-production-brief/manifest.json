@@ -1,0 +1,14 @@
+{
+  "name": "song-production-brief",
+  "display_name": "Song Production Brief",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Turns a musical idea into a production brief with structure, arrangement, and mix checklist.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-08-11",
+  "tags": ["music", "audio", "creative"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

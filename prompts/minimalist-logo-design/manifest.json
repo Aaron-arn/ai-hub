@@ -1,0 +1,14 @@
+{
+  "name": "minimalist-logo-design",
+  "display_name": "Minimalist Logo Design",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Creates a precise minimalist logo concept prompt with rationale and variations for any brand.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-02-10",
+  "tags": ["image", "design", "creative"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

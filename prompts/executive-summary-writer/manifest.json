@@ -1,0 +1,14 @@
+{
+  "name": "executive-summary-writer",
+  "display_name": "Executive Summary Writer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Condenses long reports or data into a one-page executive summary.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-09-09",
+  "tags": ["writing", "business", "data-analysis"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "translation-proofreader",
+  "display_name": "Translation Proofreader",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Reviews translated text for accuracy, natural tone and terminology consistency.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-04-09",
+  "tags": ["translation", "writing", "language-learning"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

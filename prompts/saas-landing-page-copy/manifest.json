@@ -1,0 +1,14 @@
+{
+  "name": "saas-landing-page-copy",
+  "display_name": "SaaS Landing Page Copy",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generates a full SaaS landing page copy from a one-line product description.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-01-15",
+  "tags": ["writing", "marketing", "seo"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

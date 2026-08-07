@@ -1,0 +1,19 @@
+{
+  "name": "agent-memory-and-context-manager",
+  "display_name": "Agent Memory and Context Manager",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Design short and long-term memory strategies that fit an agent's context budget.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-04-26",
+  "tags": ["agent-job", "planning", "thinking"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

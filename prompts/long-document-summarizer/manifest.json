@@ -1,0 +1,14 @@
+{
+  "name": "long-document-summarizer",
+  "display_name": "Long Document Summarizer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Summarizes long documents in layers with key points and quotes preserved.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-06-12",
+  "tags": ["writing", "productivity", "research"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

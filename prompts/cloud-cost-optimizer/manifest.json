@@ -1,0 +1,19 @@
+{
+  "name": "cloud-cost-optimizer",
+  "display_name": "Cloud Cost Optimizer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Find cloud cost leaks and build a prioritized savings plan with estimates.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-03-13",
+  "tags": ["cloud", "decision", "devops"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

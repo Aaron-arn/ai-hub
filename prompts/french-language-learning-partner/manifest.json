@@ -1,0 +1,14 @@
+{
+  "name": "french-language-learning-partner",
+  "display_name": "French Language Learning Partner",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Conversational French tutor that corrects errors and adapts to your level.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-11-04",
+  "tags": ["language-learning", "education", "communication"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

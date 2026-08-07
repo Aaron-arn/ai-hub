@@ -1,0 +1,14 @@
+{
+  "name": "code-reviewer",
+  "display_name": "Code Reviewer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Review code snippets with severity-ranked findings and concrete fixes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-05-15",
+  "tags": ["coding", "productivity", "python", "javascript"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

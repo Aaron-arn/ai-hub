@@ -1,0 +1,14 @@
+{
+  "name": "api-rate-limit-handler",
+  "display_name": "API Rate Limit Handler",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate robust Python code with retries and backoff for rate-limited APIs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-02-18",
+  "tags": ["api", "python", "automation", "backend"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

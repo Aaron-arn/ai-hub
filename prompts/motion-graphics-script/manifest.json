@@ -1,0 +1,14 @@
+{
+  "name": "motion-graphics-script",
+  "display_name": "Motion Graphics Script",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Creates a frame-by-frame motion graphics script with timing, motion notes, and style direction.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-06-03",
+  "tags": ["video", "design", "creative"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

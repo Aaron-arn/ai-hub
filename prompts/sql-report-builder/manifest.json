@@ -1,0 +1,14 @@
+{
+  "name": "sql-report-builder",
+  "display_name": "SQL Report Builder",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Translate business questions into correct, runnable SQL report queries.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-07-30",
+  "tags": ["sql", "database", "data-analysis", "productivity"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

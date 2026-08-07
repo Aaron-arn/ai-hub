@@ -1,0 +1,19 @@
+{
+  "name": "systematic-debugger",
+  "display_name": "Systematic Debugger",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Debug code methodically: reproduce, isolate, hypothesize, fix and verify with confidence.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-02-11",
+  "tags": ["debugging", "testing", "thinking"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

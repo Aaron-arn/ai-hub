@@ -1,0 +1,14 @@
+{
+  "name": "excel-macro-generator",
+  "display_name": "Excel Macro Generator",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a ready-to-paste VBA macro for repetitive Excel tasks.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2025-06-01",
+  "tags": ["excel", "automation", "productivity", "coding"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

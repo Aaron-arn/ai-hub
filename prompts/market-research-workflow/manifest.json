@@ -1,0 +1,14 @@
+{
+  "name": "market-research-workflow",
+  "display_name": "Market Research Workflow",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Structured research plan to analyze a market, customers and competitors.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-01-08",
+  "tags": ["research", "business", "data-analysis"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

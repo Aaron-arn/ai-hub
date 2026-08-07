@@ -1,0 +1,14 @@
+{
+  "name": "data-viz-generator",
+  "display_name": "Data Visualization Generator",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate Python chart scripts that turn raw data into clear visuals.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-06-10",
+  "tags": ["data-analysis", "python", "web", "productivity"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

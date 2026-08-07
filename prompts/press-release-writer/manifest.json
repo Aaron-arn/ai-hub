@@ -1,0 +1,14 @@
+{
+  "name": "press-release-writer",
+  "display_name": "Press Release Writer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Writes a journalist-ready press release with headline, quotes and boilerplate.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-02-12",
+  "tags": ["writing", "marketing", "communication"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}

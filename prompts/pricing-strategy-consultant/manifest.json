@@ -1,0 +1,14 @@
+{
+  "name": "pricing-strategy-consultant",
+  "display_name": "Pricing Strategy Consultant",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Develops pricing models and packaging tiers for products and services.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-03-05",
+  "tags": ["business", "product", "decision"],
+  "permissions": { "network": false, "filesystem": false, "shell": false, "environment": false },
+  "dependencies": []
+}
