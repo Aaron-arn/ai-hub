@@ -1,0 +1,17 @@
+{
+  "name": "organization",
+  "display_name": "Organization",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["organization", "structure", "workflow"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

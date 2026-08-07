@@ -1,0 +1,17 @@
+{
+  "name": "code-review",
+  "display_name": "Code Review",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for reviewing code: correctness, security, performance and readability checklist.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["code", "review", "quality"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

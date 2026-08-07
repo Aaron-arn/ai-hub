@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "packages": [
+    {
+      "name": "web-search",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/web-search",
+      "display_name": "Web Search",
+      "description": "Search the web using DuckDuckGo and retrieve results.",
+      "tags": ["web", "search", "research"]
+    },
+    {
+      "name": "calculator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/calculator",
+      "display_name": "Calculator",
+      "description": "Safely evaluate arithmetic expressions.",
+      "tags": ["math", "utility", "calculation"]
+    },
+    {
+      "name": "filesystem",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/filesystem",
+      "display_name": "Filesystem",
+      "description": "List, read and write files safely inside a sandboxed directory.",
+      "tags": ["files", "storage", "utility"]
+    },
+    {
+      "name": "code-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-management",
+      "display_name": "Code Management",
+      "description": "Guidelines for managing code: version control, commits, branches and project hygiene.",
+      "tags": ["code", "git", "workflow"]
+    },
+    {
+      "name": "code-review",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-review",
+      "display_name": "Code Review",
+      "description": "Guidelines for reviewing code: correctness, security, performance and readability checklist.",
+      "tags": ["code", "review", "quality"]
+    },
+    {
+      "name": "organization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/organization",
+      "display_name": "Organization",
+      "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
+      "tags": ["organization", "structure", "workflow"]
+    }
+  ]
+}

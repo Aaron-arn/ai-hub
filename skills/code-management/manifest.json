@@ -1,0 +1,17 @@
+{
+  "name": "code-management",
+  "display_name": "Code Management",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for managing code: version control, commits, branches and project hygiene.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["code", "git", "workflow"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
