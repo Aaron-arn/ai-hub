@@ -1,0 +1,23 @@
+{
+  "name": "test-contribution-prompt",
+  "display_name": "Test Contribution Prompt",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "A test prompt for the contribution workflow.",
+  "author": "Test User",
+  "license": "MIT",
+  "language": "English",
+  "published": "2026-08-07",
+  "tags": [
+    "coding",
+    "testing",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
