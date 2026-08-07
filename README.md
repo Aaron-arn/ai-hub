@@ -45,8 +45,8 @@ See `registry/registry.json` for the full index.
 
 ## Related repositories
 
+- [ai-hub-site](https://github.com/Aaron-arn/ai-hub-site) — the catalog website: <https://aaron-arn.github.io/ai-hub-site/>
 - [ai-hub-cli](https://github.com/Aaron-arn/ai-hub-cli) — the `aihub` command line tool
-- [ai-hub-site](https://github.com/Aaron-arn/ai-hub-site) — the catalog website
 
 ## License
 
