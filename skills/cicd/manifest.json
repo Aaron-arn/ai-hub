@@ -1,0 +1,17 @@
+{
+  "name": "cicd",
+  "display_name": "CI/CD",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for continuous integration and deployment pipelines.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["ci", "cd", "pipelines"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

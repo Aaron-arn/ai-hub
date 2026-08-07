@@ -1,0 +1,22 @@
+{
+  "name": "mime-types",
+  "display_name": "MIME Types",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Look up MIME types from file extensions and vice versa.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["mime", "files", "web"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

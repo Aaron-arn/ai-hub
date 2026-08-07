@@ -1,0 +1,22 @@
+{
+  "name": "dns-lookup",
+  "display_name": "DNS Lookup",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Resolve hostnames to IP addresses (A and AAAA records).",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["dns", "network", "lookup"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": true,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

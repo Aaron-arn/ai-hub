@@ -1,0 +1,22 @@
+{
+  "name": "regex-tools",
+  "display_name": "Regex Tools",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Test regular expressions and extract matching groups from text.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["regex", "text", "search"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

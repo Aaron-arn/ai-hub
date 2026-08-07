@@ -1,0 +1,17 @@
+{
+  "name": "linux-ops",
+  "display_name": "Linux Ops",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for Linux system administration: processes, permissions and services.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["linux", "sysadmin", "ops"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

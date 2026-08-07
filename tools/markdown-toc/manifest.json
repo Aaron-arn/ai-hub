@@ -1,0 +1,22 @@
+{
+  "name": "markdown-toc",
+  "display_name": "Markdown TOC",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Generate a table of contents from Markdown headings.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["markdown", "toc", "docs"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

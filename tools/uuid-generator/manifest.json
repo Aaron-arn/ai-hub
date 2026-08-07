@@ -1,0 +1,22 @@
+{
+  "name": "uuid-generator",
+  "display_name": "UUID Generator",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Generate UUIDs (v1, v4, v5) for unique identifiers.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["uuid", "id", "utility"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

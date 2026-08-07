@@ -1,0 +1,17 @@
+{
+  "name": "frontend-development",
+  "display_name": "Frontend Development",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for building accessible, responsive web frontends.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["frontend", "html", "css"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

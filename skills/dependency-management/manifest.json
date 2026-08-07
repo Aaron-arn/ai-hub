@@ -1,0 +1,17 @@
+{
+  "name": "dependency-management",
+  "display_name": "Dependency Management",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for adding, updating and auditing dependencies.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["dependencies", "security", "maintenance"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

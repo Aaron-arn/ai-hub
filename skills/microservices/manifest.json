@@ -1,0 +1,17 @@
+{
+  "name": "microservices",
+  "display_name": "Microservices",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for designing and operating microservice architectures.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["microservices", "architecture", "distributed"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

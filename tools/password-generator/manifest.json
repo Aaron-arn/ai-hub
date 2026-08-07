@@ -1,0 +1,22 @@
+{
+  "name": "password-generator",
+  "display_name": "Password Generator",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Generate strong random passwords with configurable length and character sets.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["password", "security", "generator"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

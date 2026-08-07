@@ -1,0 +1,17 @@
+{
+  "name": "code-explaining",
+  "display_name": "Code Explaining",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for explaining code clearly to humans.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["code", "explanation", "teaching"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

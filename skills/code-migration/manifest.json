@@ -1,0 +1,17 @@
+{
+  "name": "code-migration",
+  "display_name": "Code Migration",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for migrating and porting code between languages and frameworks.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["migration", "porting", "upgrade"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

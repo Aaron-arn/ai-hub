@@ -1,0 +1,17 @@
+{
+  "name": "logging-observability",
+  "display_name": "Logging and Observability",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for structured logging, traces and observability.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["logging", "observability", "monitoring"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

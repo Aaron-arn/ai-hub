@@ -1,0 +1,17 @@
+{
+  "name": "docker",
+  "display_name": "Docker",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for building efficient Docker images and managing containers.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["docker", "containers", "devops"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

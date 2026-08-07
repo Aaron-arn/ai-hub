@@ -1,0 +1,17 @@
+{
+  "name": "graphql",
+  "display_name": "GraphQL",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for designing and consuming GraphQL APIs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["graphql", "api", "query-language"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

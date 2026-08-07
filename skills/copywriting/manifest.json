@@ -1,0 +1,17 @@
+{
+  "name": "copywriting",
+  "display_name": "Copywriting",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for persuasive, clear and concise copywriting.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["writing", "copy", "marketing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

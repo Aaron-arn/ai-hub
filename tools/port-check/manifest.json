@@ -1,0 +1,22 @@
+{
+  "name": "port-check",
+  "display_name": "Port Check",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Check whether a TCP port is reachable on a host.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["port", "network", "tcp"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": true,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

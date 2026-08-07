@@ -1,0 +1,17 @@
+{
+  "name": "database-design",
+  "display_name": "Database Design",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for schema design: normalization, indexes and migrations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["database", "sql", "design"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

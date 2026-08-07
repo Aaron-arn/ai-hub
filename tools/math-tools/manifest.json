@@ -1,0 +1,22 @@
+{
+  "name": "math-tools",
+  "display_name": "Math Tools",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Number theory helpers: gcd, lcm, primes, factorial, fibonacci.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["math", "numbers", "utility"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

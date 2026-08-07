@@ -1,0 +1,17 @@
+{
+  "name": "technical-writing",
+  "display_name": "Technical Writing",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for writing precise technical documentation and tutorials.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["writing", "docs", "technical"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

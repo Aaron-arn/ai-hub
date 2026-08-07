@@ -1,0 +1,17 @@
+{
+  "name": "communication",
+  "display_name": "Communication",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for effective written communication in teams and with users.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["communication", "writing", "collaboration"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

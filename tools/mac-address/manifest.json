@@ -1,0 +1,22 @@
+{
+  "name": "mac-address",
+  "display_name": "MAC Address",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Validate, format, parse and generate MAC addresses.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["mac", "network", "addresses"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

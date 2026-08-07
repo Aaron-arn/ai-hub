@@ -1,0 +1,17 @@
+{
+  "name": "git-workflow",
+  "display_name": "Git Workflow",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for git workflows: branching, commits, rebasing and pull requests.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["git", "workflow", "version-control"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

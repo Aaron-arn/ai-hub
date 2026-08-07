@@ -1,0 +1,17 @@
+{
+  "name": "seo",
+  "display_name": "SEO",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for search engine optimization: content, structure and metadata.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["seo", "web", "marketing"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

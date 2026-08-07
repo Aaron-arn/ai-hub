@@ -2,13 +2,30 @@
   "version": 1,
   "packages": [
     {
-      "name": "web-search",
+      "name": "ascii-table",
       "type": "tool",
       "version": "1.0.0",
-      "path": "tools/web-search",
-      "display_name": "Web Search",
-      "description": "Search the web using DuckDuckGo and retrieve results.",
-      "tags": ["web", "search", "research"]
+      "path": "tools/ascii-table",
+      "display_name": "ASCII Table",
+      "description": "Build ASCII tables from rows of data.",
+      "tags": [
+        "table",
+        "text",
+        "formatting"
+      ]
+    },
+    {
+      "name": "base-converter",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/base-converter",
+      "display_name": "Base Converter",
+      "description": "Convert numbers between bases 2, 8, 10, 16 and 36.",
+      "tags": [
+        "base",
+        "conversion",
+        "numbers"
+      ]
     },
     {
       "name": "calculator",
@@ -17,52 +34,63 @@
       "path": "tools/calculator",
       "display_name": "Calculator",
       "description": "Safely evaluate arithmetic expressions.",
-      "tags": ["math", "utility", "calculation"]
+      "tags": [
+        "math",
+        "utility",
+        "calculation"
+      ]
     },
     {
-      "name": "filesystem",
+      "name": "calendar-tools",
       "type": "tool",
       "version": "1.0.0",
-      "path": "tools/filesystem",
-      "display_name": "Filesystem",
-      "description": "List, read and write files safely inside a sandboxed directory.",
-      "tags": ["files", "storage", "utility"]
+      "path": "tools/calendar-tools",
+      "display_name": "Calendar Tools",
+      "description": "Show month calendars, week numbers and day-of-week calculations.",
+      "tags": [
+        "calendar",
+        "date",
+        "time"
+      ]
     },
     {
-      "name": "http-request",
+      "name": "color-tools",
       "type": "tool",
       "version": "1.0.0",
-      "path": "tools/http-request",
-      "display_name": "HTTP Request",
-      "description": "Send GET and POST requests, return status, headers and body.",
-      "tags": ["http", "network", "api", "web"]
+      "path": "tools/color-tools",
+      "display_name": "Color Tools",
+      "description": "Convert between hex, RGB and HSL color formats.",
+      "tags": [
+        "color",
+        "design",
+        "conversion"
+      ]
     },
     {
-      "name": "json-tools",
+      "name": "crc-tools",
       "type": "tool",
       "version": "1.0.0",
-      "path": "tools/json-tools",
-      "display_name": "JSON Tools",
-      "description": "Validate, format and extract values from JSON documents.",
-      "tags": ["json", "data", "utility"]
+      "path": "tools/crc-tools",
+      "display_name": "CRC Tools",
+      "description": "Compute CRC32 checksums and base64 encode/decode data.",
+      "tags": [
+        "crc",
+        "checksum",
+        "base64"
+      ]
     },
     {
-      "name": "text-tools",
+      "name": "cron-parser",
       "type": "tool",
       "version": "1.0.0",
-      "path": "tools/text-tools",
-      "display_name": "Text Tools",
-      "description": "Count, transform and manipulate text: case, slugify, replace.",
-      "tags": ["text", "utility", "strings"]
-    },
-    {
-      "name": "hash-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/hash-tools",
-      "display_name": "Hash Tools",
-      "description": "Compute MD5, SHA-1, SHA-256, SHA-512 digests and base64 encodings.",
-      "tags": ["hash", "base64", "crypto", "utility"]
+      "path": "tools/cron-parser",
+      "display_name": "Cron Parser",
+      "description": "Parse cron expressions and describe their schedule.",
+      "tags": [
+        "cron",
+        "scheduler",
+        "time"
+      ]
     },
     {
       "name": "csv-tools",
@@ -71,7 +99,11 @@
       "path": "tools/csv-tools",
       "display_name": "CSV Tools",
       "description": "Parse CSV data, convert to JSON, count rows and filter columns.",
-      "tags": ["csv", "data", "utility"]
+      "tags": [
+        "csv",
+        "data",
+        "utility"
+      ]
     },
     {
       "name": "date-time",
@@ -80,7 +112,469 @@
       "path": "tools/date-time",
       "display_name": "Date & Time",
       "description": "Current time, ISO formatting and timezone conversions.",
-      "tags": ["date", "time", "timezone", "utility"]
+      "tags": [
+        "date",
+        "time",
+        "timezone",
+        "utility"
+      ]
+    },
+    {
+      "name": "dns-lookup",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/dns-lookup",
+      "display_name": "DNS Lookup",
+      "description": "Resolve hostnames to IP addresses (A and AAAA records).",
+      "tags": [
+        "dns",
+        "network",
+        "lookup"
+      ]
+    },
+    {
+      "name": "duration-format",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/duration-format",
+      "display_name": "Duration Format",
+      "description": "Humanize durations between two dates or from seconds.",
+      "tags": [
+        "time",
+        "duration",
+        "formatting"
+      ]
+    },
+    {
+      "name": "file-type",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/file-type",
+      "display_name": "File Type",
+      "description": "Detect file type from magic bytes.",
+      "tags": [
+        "files",
+        "detection",
+        "magic"
+      ]
+    },
+    {
+      "name": "filesystem",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/filesystem",
+      "display_name": "Filesystem",
+      "description": "List, read and write files safely inside a sandboxed directory.",
+      "tags": [
+        "files",
+        "storage",
+        "utility"
+      ]
+    },
+    {
+      "name": "hash-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/hash-tools",
+      "display_name": "Hash Tools",
+      "description": "Compute MD5, SHA-1, SHA-256, SHA-512 digests and base64 encodings.",
+      "tags": [
+        "hash",
+        "base64",
+        "crypto",
+        "utility"
+      ]
+    },
+    {
+      "name": "hex-dump",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/hex-dump",
+      "display_name": "Hex Dump",
+      "description": "Print hexadecimal dumps of files or strings.",
+      "tags": [
+        "hex",
+        "binary",
+        "dump"
+      ]
+    },
+    {
+      "name": "html-entities",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/html-entities",
+      "display_name": "HTML Entities",
+      "description": "Encode and decode HTML entities in text.",
+      "tags": [
+        "html",
+        "encoding",
+        "entities"
+      ]
+    },
+    {
+      "name": "html-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/html-tools",
+      "display_name": "HTML Tools",
+      "description": "Extract text content and links from HTML pages.",
+      "tags": [
+        "html",
+        "parsing",
+        "web"
+      ]
+    },
+    {
+      "name": "http-request",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/http-request",
+      "display_name": "HTTP Request",
+      "description": "Send GET and POST requests, return status, headers and body.",
+      "tags": [
+        "http",
+        "network",
+        "api",
+        "web"
+      ]
+    },
+    {
+      "name": "image-info",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/image-info",
+      "display_name": "Image Info",
+      "description": "Read image dimensions and format from PNG, JPEG, GIF, BMP and WebP headers.",
+      "tags": [
+        "image",
+        "metadata",
+        "utility"
+      ]
+    },
+    {
+      "name": "ip-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/ip-tools",
+      "display_name": "IP Tools",
+      "description": "Validate and parse IPv4 and IPv6 addresses and CIDR ranges.",
+      "tags": [
+        "ip",
+        "network",
+        "cidr"
+      ]
+    },
+    {
+      "name": "json-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/json-tools",
+      "display_name": "JSON Tools",
+      "description": "Validate, format and extract values from JSON documents.",
+      "tags": [
+        "json",
+        "data",
+        "utility"
+      ]
+    },
+    {
+      "name": "jwt-decode",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/jwt-decode",
+      "display_name": "JWT Decode",
+      "description": "Decode and inspect JWT headers and payloads without verification.",
+      "tags": [
+        "jwt",
+        "token",
+        "auth"
+      ]
+    },
+    {
+      "name": "mac-address",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/mac-address",
+      "display_name": "MAC Address",
+      "description": "Validate, format, parse and generate MAC addresses.",
+      "tags": [
+        "mac",
+        "network",
+        "addresses"
+      ]
+    },
+    {
+      "name": "markdown-toc",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/markdown-toc",
+      "display_name": "Markdown TOC",
+      "description": "Generate a table of contents from Markdown headings.",
+      "tags": [
+        "markdown",
+        "toc",
+        "docs"
+      ]
+    },
+    {
+      "name": "markdown-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/markdown-tools",
+      "display_name": "Markdown Tools",
+      "description": "Convert Markdown text into HTML.",
+      "tags": [
+        "markdown",
+        "html",
+        "writing"
+      ]
+    },
+    {
+      "name": "math-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/math-tools",
+      "display_name": "Math Tools",
+      "description": "Number theory helpers: gcd, lcm, primes, factorial, fibonacci.",
+      "tags": [
+        "math",
+        "numbers",
+        "utility"
+      ]
+    },
+    {
+      "name": "mime-types",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/mime-types",
+      "display_name": "MIME Types",
+      "description": "Look up MIME types from file extensions and vice versa.",
+      "tags": [
+        "mime",
+        "files",
+        "web"
+      ]
+    },
+    {
+      "name": "number-to-words",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/number-to-words",
+      "display_name": "Number to Words",
+      "description": "Convert numbers to English words.",
+      "tags": [
+        "numbers",
+        "words",
+        "text"
+      ]
+    },
+    {
+      "name": "password-checker",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/password-checker",
+      "display_name": "Password Checker",
+      "description": "Estimate password strength and entropy.",
+      "tags": [
+        "password",
+        "security",
+        "strength"
+      ]
+    },
+    {
+      "name": "password-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/password-generator",
+      "display_name": "Password Generator",
+      "description": "Generate strong random passwords with configurable length and character sets.",
+      "tags": [
+        "password",
+        "security",
+        "generator"
+      ]
+    },
+    {
+      "name": "port-check",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/port-check",
+      "display_name": "Port Check",
+      "description": "Check whether a TCP port is reachable on a host.",
+      "tags": [
+        "port",
+        "network",
+        "tcp"
+      ]
+    },
+    {
+      "name": "qr-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/qr-generator",
+      "display_name": "QR Generator",
+      "description": "Generate QR codes as PNG or SVG images.",
+      "tags": [
+        "qr",
+        "barcode",
+        "image"
+      ]
+    },
+    {
+      "name": "random-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/random-tools",
+      "display_name": "Random Tools",
+      "description": "Generate secure random numbers, choices and sampling.",
+      "tags": [
+        "random",
+        "secure",
+        "utility"
+      ]
+    },
+    {
+      "name": "regex-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/regex-tools",
+      "display_name": "Regex Tools",
+      "description": "Test regular expressions and extract matching groups from text.",
+      "tags": [
+        "regex",
+        "text",
+        "search"
+      ]
+    },
+    {
+      "name": "roman-numerals",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/roman-numerals",
+      "display_name": "Roman Numerals",
+      "description": "Convert between integers and Roman numerals.",
+      "tags": [
+        "roman",
+        "numbers",
+        "conversion"
+      ]
+    },
+    {
+      "name": "rss-reader",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/rss-reader",
+      "display_name": "RSS Reader",
+      "description": "Parse RSS and Atom feeds into structured items.",
+      "tags": [
+        "rss",
+        "feed",
+        "news"
+      ]
+    },
+    {
+      "name": "semantic-version",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/semantic-version",
+      "display_name": "Semantic Version",
+      "description": "Parse, validate and compare semantic version strings.",
+      "tags": [
+        "version",
+        "semver",
+        "utility"
+      ]
+    },
+    {
+      "name": "sorting-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/sorting-tools",
+      "display_name": "Sorting Tools",
+      "description": "Sort lines of text in various ways: natural, numeric, reverse, unique.",
+      "tags": [
+        "sort",
+        "text",
+        "utility"
+      ]
+    },
+    {
+      "name": "sql-query",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/sql-query",
+      "display_name": "SQL Query",
+      "description": "Run read-only SQL queries against an in-memory SQLite database.",
+      "tags": [
+        "sql",
+        "database",
+        "sqlite"
+      ]
+    },
+    {
+      "name": "subnet-calculator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/subnet-calculator",
+      "display_name": "Subnet Calculator",
+      "description": "Calculate network, broadcast, mask and host ranges from a CIDR.",
+      "tags": [
+        "subnet",
+        "cidr",
+        "network"
+      ]
+    },
+    {
+      "name": "tar-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/tar-tools",
+      "display_name": "TAR Tools",
+      "description": "List, extract and create TAR archives.",
+      "tags": [
+        "tar",
+        "archive",
+        "compression"
+      ]
+    },
+    {
+      "name": "text-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/text-tools",
+      "display_name": "Text Tools",
+      "description": "Count, transform and manipulate text: case, slugify, replace.",
+      "tags": [
+        "text",
+        "utility",
+        "strings"
+      ]
+    },
+    {
+      "name": "unicode-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/unicode-tools",
+      "display_name": "Unicode Tools",
+      "description": "Inspect Unicode characters: names, categories and normalization.",
+      "tags": [
+        "unicode",
+        "text",
+        "encoding"
+      ]
+    },
+    {
+      "name": "unit-converter",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/unit-converter",
+      "display_name": "Unit Converter",
+      "description": "Convert between length, weight, temperature and volume units.",
+      "tags": [
+        "conversion",
+        "units",
+        "utility"
+      ]
     },
     {
       "name": "url-tools",
@@ -89,7 +583,194 @@
       "path": "tools/url-tools",
       "display_name": "URL Tools",
       "description": "Parse URLs, encode and decode query strings and components.",
-      "tags": ["url", "query", "web", "utility"]
+      "tags": [
+        "url",
+        "query",
+        "web",
+        "utility"
+      ]
+    },
+    {
+      "name": "uuid-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/uuid-generator",
+      "display_name": "UUID Generator",
+      "description": "Generate UUIDs (v1, v4, v5) for unique identifiers.",
+      "tags": [
+        "uuid",
+        "id",
+        "utility"
+      ]
+    },
+    {
+      "name": "web-search",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/web-search",
+      "display_name": "Web Search",
+      "description": "Search the web using DuckDuckGo and retrieve results.",
+      "tags": [
+        "web",
+        "search",
+        "research"
+      ]
+    },
+    {
+      "name": "xml-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/xml-tools",
+      "display_name": "XML Tools",
+      "description": "Parse XML documents and convert them to JSON.",
+      "tags": [
+        "xml",
+        "parsing",
+        "data"
+      ]
+    },
+    {
+      "name": "yaml-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/yaml-tools",
+      "display_name": "YAML Tools",
+      "description": "Convert between YAML and JSON documents.",
+      "tags": [
+        "yaml",
+        "config",
+        "data"
+      ]
+    },
+    {
+      "name": "zip-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/zip-tools",
+      "display_name": "ZIP Tools",
+      "description": "List, extract and create ZIP archives.",
+      "tags": [
+        "zip",
+        "archive",
+        "compression"
+      ]
+    },
+    {
+      "name": "accessibility",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/accessibility",
+      "display_name": "Accessibility",
+      "description": "Guidelines for making products usable by everyone: a11y best practices.",
+      "tags": [
+        "accessibility",
+        "a11y",
+        "inclusive"
+      ]
+    },
+    {
+      "name": "agent-development",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/agent-development",
+      "display_name": "Agent Development",
+      "description": "Guidelines for building reliable AI agents: tools, memory and safety.",
+      "tags": [
+        "agents",
+        "ai",
+        "tools"
+      ]
+    },
+    {
+      "name": "api-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/api-design",
+      "display_name": "API Design",
+      "description": "Guidelines for designing clean, consistent and versioned APIs.",
+      "tags": [
+        "api",
+        "design",
+        "rest"
+      ]
+    },
+    {
+      "name": "architecture-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/architecture-design",
+      "display_name": "Architecture Design",
+      "description": "Guidelines for designing scalable, maintainable system architecture.",
+      "tags": [
+        "architecture",
+        "design",
+        "systems"
+      ]
+    },
+    {
+      "name": "authentication-authorization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/authentication-authorization",
+      "display_name": "Authentication and Authorization",
+      "description": "Guidelines for implementing authentication and authorization safely.",
+      "tags": [
+        "auth",
+        "security",
+        "identity"
+      ]
+    },
+    {
+      "name": "backup-recovery",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/backup-recovery",
+      "display_name": "Backup and Recovery",
+      "description": "Guidelines for reliable backups and disaster recovery planning.",
+      "tags": [
+        "backup",
+        "recovery",
+        "reliability"
+      ]
+    },
+    {
+      "name": "cicd",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/cicd",
+      "display_name": "CI/CD",
+      "description": "Guidelines for continuous integration and deployment pipelines.",
+      "tags": [
+        "ci",
+        "cd",
+        "pipelines"
+      ]
+    },
+    {
+      "name": "cli-mastery",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/cli-mastery",
+      "display_name": "CLI Mastery",
+      "description": "Guidelines for using command-line tools efficiently: pipes, flags and scripting.",
+      "tags": [
+        "cli",
+        "terminal",
+        "shell"
+      ]
+    },
+    {
+      "name": "code-explaining",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-explaining",
+      "display_name": "Code Explaining",
+      "description": "Guidelines for explaining code clearly to humans.",
+      "tags": [
+        "code",
+        "explanation",
+        "teaching"
+      ]
     },
     {
       "name": "code-management",
@@ -98,7 +779,24 @@
       "path": "skills/code-management",
       "display_name": "Code Management",
       "description": "Guidelines for managing code: version control, commits, branches and project hygiene.",
-      "tags": ["code", "git", "workflow"]
+      "tags": [
+        "code",
+        "git",
+        "workflow"
+      ]
+    },
+    {
+      "name": "code-migration",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-migration",
+      "display_name": "Code Migration",
+      "description": "Guidelines for migrating and porting code between languages and frameworks.",
+      "tags": [
+        "migration",
+        "porting",
+        "upgrade"
+      ]
     },
     {
       "name": "code-review",
@@ -107,34 +805,76 @@
       "path": "skills/code-review",
       "display_name": "Code Review",
       "description": "Guidelines for reviewing code: correctness, security, performance and readability checklist.",
-      "tags": ["code", "review", "quality"]
+      "tags": [
+        "code",
+        "review",
+        "quality"
+      ]
     },
     {
-      "name": "organization",
+      "name": "communication",
       "type": "skill",
       "version": "1.0.0",
-      "path": "skills/organization",
-      "display_name": "Organization",
-      "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
-      "tags": ["organization", "structure", "workflow"]
+      "path": "skills/communication",
+      "display_name": "Communication",
+      "description": "Guidelines for effective written communication in teams and with users.",
+      "tags": [
+        "communication",
+        "writing",
+        "collaboration"
+      ]
     },
     {
-      "name": "web-research",
+      "name": "copywriting",
       "type": "skill",
       "version": "1.0.0",
-      "path": "skills/web-research",
-      "display_name": "Web Research",
-      "description": "Guidelines for researching effectively: queries, source evaluation and citations.",
-      "tags": ["web", "research", "search"]
+      "path": "skills/copywriting",
+      "display_name": "Copywriting",
+      "description": "Guidelines for persuasive, clear and concise copywriting.",
+      "tags": [
+        "writing",
+        "copy",
+        "marketing"
+      ]
     },
     {
-      "name": "security",
+      "name": "data-analysis",
       "type": "skill",
       "version": "1.0.0",
-      "path": "skills/security",
-      "display_name": "Security",
-      "description": "Guidelines for handling secrets, permissions and risky operations safely.",
-      "tags": ["security", "safety", "permissions"]
+      "path": "skills/data-analysis",
+      "display_name": "Data Analysis",
+      "description": "Guidelines for analyzing data: cleaning, exploring and reporting findings.",
+      "tags": [
+        "data",
+        "analysis",
+        "statistics"
+      ]
+    },
+    {
+      "name": "data-visualization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/data-visualization",
+      "display_name": "Data Visualization",
+      "description": "Guidelines for choosing charts and building clear visualizations.",
+      "tags": [
+        "charts",
+        "visualization",
+        "data"
+      ]
+    },
+    {
+      "name": "database-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/database-design",
+      "display_name": "Database Design",
+      "description": "Guidelines for schema design: normalization, indexes and migrations.",
+      "tags": [
+        "database",
+        "sql",
+        "design"
+      ]
     },
     {
       "name": "debugging",
@@ -143,7 +883,37 @@
       "path": "skills/debugging",
       "display_name": "Debugging",
       "description": "Guidelines for systematic debugging: reproduce, isolate, fix, verify.",
-      "tags": ["debugging", "errors", "troubleshooting"]
+      "tags": [
+        "debugging",
+        "errors",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "dependency-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/dependency-management",
+      "display_name": "Dependency Management",
+      "description": "Guidelines for adding, updating and auditing dependencies.",
+      "tags": [
+        "dependencies",
+        "security",
+        "maintenance"
+      ]
+    },
+    {
+      "name": "docker",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/docker",
+      "display_name": "Docker",
+      "description": "Guidelines for building efficient Docker images and managing containers.",
+      "tags": [
+        "docker",
+        "containers",
+        "devops"
+      ]
     },
     {
       "name": "documentation",
@@ -152,25 +922,219 @@
       "path": "skills/documentation",
       "display_name": "Documentation",
       "description": "Guidelines for writing clear documentation: READMEs, comments, changelogs.",
-      "tags": ["documentation", "docs", "writing"]
+      "tags": [
+        "documentation",
+        "docs",
+        "writing"
+      ]
     },
     {
-      "name": "refactoring",
+      "name": "error-handling",
       "type": "skill",
       "version": "1.0.0",
-      "path": "skills/refactoring",
-      "display_name": "Refactoring",
-      "description": "Guidelines for refactoring safely: small steps, preserved behavior, verified changes.",
-      "tags": ["refactoring", "code", "quality"]
+      "path": "skills/error-handling",
+      "display_name": "Error Handling",
+      "description": "Guidelines for robust error handling and graceful failures.",
+      "tags": [
+        "errors",
+        "robustness",
+        "reliability"
+      ]
     },
     {
-      "name": "test-writing",
+      "name": "frontend-development",
       "type": "skill",
       "version": "1.0.0",
-      "path": "skills/test-writing",
-      "display_name": "Test Writing",
-      "description": "Guidelines for writing effective tests: what to test, how to structure them.",
-      "tags": ["tests", "quality", "code"]
+      "path": "skills/frontend-development",
+      "display_name": "Frontend Development",
+      "description": "Guidelines for building accessible, responsive web frontends.",
+      "tags": [
+        "frontend",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "name": "git-workflow",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/git-workflow",
+      "display_name": "Git Workflow",
+      "description": "Guidelines for git workflows: branching, commits, rebasing and pull requests.",
+      "tags": [
+        "git",
+        "workflow",
+        "version-control"
+      ]
+    },
+    {
+      "name": "go-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/go-style",
+      "display_name": "Go Style",
+      "description": "Guidelines for writing idiomatic Go: packages, errors and concurrency.",
+      "tags": [
+        "go",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "graphql",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/graphql",
+      "display_name": "GraphQL",
+      "description": "Guidelines for designing and consuming GraphQL APIs.",
+      "tags": [
+        "graphql",
+        "api",
+        "query-language"
+      ]
+    },
+    {
+      "name": "incident-response",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/incident-response",
+      "display_name": "Incident Response",
+      "description": "Guidelines for responding to incidents calmly and systematically.",
+      "tags": [
+        "incident",
+        "on-call",
+        "response"
+      ]
+    },
+    {
+      "name": "java-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/java-style",
+      "display_name": "Java Style",
+      "description": "Guidelines for writing clean Java: structure, naming and error handling.",
+      "tags": [
+        "java",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "javascript-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/javascript-style",
+      "display_name": "JavaScript Style",
+      "description": "Guidelines for writing clean, modern JavaScript.",
+      "tags": [
+        "javascript",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "kubernetes",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/kubernetes",
+      "display_name": "Kubernetes",
+      "description": "Guidelines for deploying and operating applications on Kubernetes.",
+      "tags": [
+        "kubernetes",
+        "orchestration",
+        "devops"
+      ]
+    },
+    {
+      "name": "linux-ops",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/linux-ops",
+      "display_name": "Linux Ops",
+      "description": "Guidelines for Linux system administration: processes, permissions and services.",
+      "tags": [
+        "linux",
+        "sysadmin",
+        "ops"
+      ]
+    },
+    {
+      "name": "llm-integration",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/llm-integration",
+      "display_name": "LLM Integration",
+      "description": "Guidelines for integrating LLMs into applications: calls, errors and costs.",
+      "tags": [
+        "llm",
+        "ai",
+        "integration"
+      ]
+    },
+    {
+      "name": "logging-observability",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/logging-observability",
+      "display_name": "Logging and Observability",
+      "description": "Guidelines for structured logging, traces and observability.",
+      "tags": [
+        "logging",
+        "observability",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "microservices",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/microservices",
+      "display_name": "Microservices",
+      "description": "Guidelines for designing and operating microservice architectures.",
+      "tags": [
+        "microservices",
+        "architecture",
+        "distributed"
+      ]
+    },
+    {
+      "name": "monitoring",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/monitoring",
+      "display_name": "Monitoring",
+      "description": "Guidelines for monitoring systems: metrics, alerts and dashboards.",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "alerts"
+      ]
+    },
+    {
+      "name": "organization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/organization",
+      "display_name": "Organization",
+      "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
+      "tags": [
+        "organization",
+        "structure",
+        "workflow"
+      ]
+    },
+    {
+      "name": "performance-optimization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/performance-optimization",
+      "display_name": "Performance Optimization",
+      "description": "Guidelines for profiling and optimizing application performance.",
+      "tags": [
+        "performance",
+        "profiling",
+        "optimization"
+      ]
     },
     {
       "name": "project-planning",
@@ -179,7 +1143,167 @@
       "path": "skills/project-planning",
       "display_name": "Project Planning",
       "description": "Guidelines for planning work: break down tasks, order dependencies, track progress.",
-      "tags": ["planning", "workflow", "organization"]
+      "tags": [
+        "planning",
+        "workflow",
+        "organization"
+      ]
+    },
+    {
+      "name": "prompt-engineering",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/prompt-engineering",
+      "display_name": "Prompt Engineering",
+      "description": "Guidelines for writing effective prompts and structuring LLM interactions.",
+      "tags": [
+        "llm",
+        "prompts",
+        "ai"
+      ]
+    },
+    {
+      "name": "python-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/python-style",
+      "display_name": "Python Style",
+      "description": "Guidelines for writing idiomatic, maintainable Python.",
+      "tags": [
+        "python",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "refactoring",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/refactoring",
+      "display_name": "Refactoring",
+      "description": "Guidelines for refactoring safely: small steps, preserved behavior, verified changes.",
+      "tags": [
+        "refactoring",
+        "code",
+        "quality"
+      ]
+    },
+    {
+      "name": "release-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/release-management",
+      "display_name": "Release Management",
+      "description": "Guidelines for versioning, changelogs and smooth releases.",
+      "tags": [
+        "release",
+        "versioning",
+        "changelog"
+      ]
+    },
+    {
+      "name": "rust-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/rust-style",
+      "display_name": "Rust Style",
+      "description": "Guidelines for writing safe, idiomatic Rust.",
+      "tags": [
+        "rust",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "security",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/security",
+      "display_name": "Security",
+      "description": "Guidelines for handling secrets, permissions and risky operations safely.",
+      "tags": [
+        "security",
+        "safety",
+        "permissions"
+      ]
+    },
+    {
+      "name": "seo",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/seo",
+      "display_name": "SEO",
+      "description": "Guidelines for search engine optimization: content, structure and metadata.",
+      "tags": [
+        "seo",
+        "web",
+        "marketing"
+      ]
+    },
+    {
+      "name": "sql-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/sql-writing",
+      "display_name": "SQL Writing",
+      "description": "Guidelines for writing readable and efficient SQL queries.",
+      "tags": [
+        "sql",
+        "database",
+        "queries"
+      ]
+    },
+    {
+      "name": "technical-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/technical-writing",
+      "display_name": "Technical Writing",
+      "description": "Guidelines for writing precise technical documentation and tutorials.",
+      "tags": [
+        "writing",
+        "docs",
+        "technical"
+      ]
+    },
+    {
+      "name": "test-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/test-writing",
+      "display_name": "Test Writing",
+      "description": "Guidelines for writing effective tests: what to test, how to structure them.",
+      "tags": [
+        "tests",
+        "quality",
+        "code"
+      ]
+    },
+    {
+      "name": "typescript-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/typescript-style",
+      "display_name": "TypeScript Style",
+      "description": "Guidelines for using TypeScript effectively: types, strictness and structure.",
+      "tags": [
+        "typescript",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "web-research",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/web-research",
+      "display_name": "Web Research",
+      "description": "Guidelines for researching effectively: queries, source evaluation and citations.",
+      "tags": [
+        "web",
+        "research",
+        "search"
+      ]
     }
   ]
 }

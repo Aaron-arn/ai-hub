@@ -1,0 +1,17 @@
+{
+  "name": "backup-recovery",
+  "display_name": "Backup and Recovery",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for reliable backups and disaster recovery planning.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["backup", "recovery", "reliability"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

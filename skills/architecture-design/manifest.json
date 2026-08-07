@@ -1,0 +1,17 @@
+{
+  "name": "architecture-design",
+  "display_name": "Architecture Design",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for designing scalable, maintainable system architecture.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["architecture", "design", "systems"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

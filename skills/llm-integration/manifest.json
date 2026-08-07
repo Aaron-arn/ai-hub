@@ -1,0 +1,17 @@
+{
+  "name": "llm-integration",
+  "display_name": "LLM Integration",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for integrating LLMs into applications: calls, errors and costs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["llm", "ai", "integration"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

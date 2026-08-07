@@ -1,0 +1,17 @@
+{
+  "name": "typescript-style",
+  "display_name": "TypeScript Style",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for using TypeScript effectively: types, strictness and structure.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["typescript", "style", "best-practices"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

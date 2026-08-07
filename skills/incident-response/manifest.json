@@ -1,0 +1,17 @@
+{
+  "name": "incident-response",
+  "display_name": "Incident Response",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for responding to incidents calmly and systematically.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["incident", "on-call", "response"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "data-visualization",
+  "display_name": "Data Visualization",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for choosing charts and building clear visualizations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["charts", "visualization", "data"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

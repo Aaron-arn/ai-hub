@@ -1,0 +1,17 @@
+{
+  "name": "agent-development",
+  "display_name": "Agent Development",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for building reliable AI agents: tools, memory and safety.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["agents", "ai", "tools"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

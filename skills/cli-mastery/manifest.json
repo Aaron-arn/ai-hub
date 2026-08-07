@@ -1,0 +1,17 @@
+{
+  "name": "cli-mastery",
+  "display_name": "CLI Mastery",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for using command-line tools efficiently: pipes, flags and scripting.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["cli", "terminal", "shell"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "go-style",
+  "display_name": "Go Style",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for writing idiomatic Go: packages, errors and concurrency.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["go", "style", "best-practices"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

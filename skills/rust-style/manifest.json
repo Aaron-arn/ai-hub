@@ -1,0 +1,17 @@
+{
+  "name": "rust-style",
+  "display_name": "Rust Style",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for writing safe, idiomatic Rust.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["rust", "style", "best-practices"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

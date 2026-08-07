@@ -1,0 +1,17 @@
+{
+  "name": "sql-writing",
+  "display_name": "SQL Writing",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for writing readable and efficient SQL queries.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["sql", "database", "queries"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

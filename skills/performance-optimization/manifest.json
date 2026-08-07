@@ -1,0 +1,17 @@
+{
+  "name": "performance-optimization",
+  "display_name": "Performance Optimization",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for profiling and optimizing application performance.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["performance", "profiling", "optimization"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

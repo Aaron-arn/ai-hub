@@ -1,0 +1,17 @@
+{
+  "name": "kubernetes",
+  "display_name": "Kubernetes",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for deploying and operating applications on Kubernetes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["kubernetes", "orchestration", "devops"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

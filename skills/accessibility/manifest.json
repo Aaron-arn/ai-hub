@@ -1,0 +1,17 @@
+{
+  "name": "accessibility",
+  "display_name": "Accessibility",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for making products usable by everyone: a11y best practices.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["accessibility", "a11y", "inclusive"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

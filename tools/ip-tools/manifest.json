@@ -1,0 +1,22 @@
+{
+  "name": "ip-tools",
+  "display_name": "IP Tools",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Validate and parse IPv4 and IPv6 addresses and CIDR ranges.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["ip", "network", "cidr"],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

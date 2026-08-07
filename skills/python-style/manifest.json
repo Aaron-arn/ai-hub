@@ -1,0 +1,17 @@
+{
+  "name": "python-style",
+  "display_name": "Python Style",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for writing idiomatic, maintainable Python.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["python", "style", "best-practices"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

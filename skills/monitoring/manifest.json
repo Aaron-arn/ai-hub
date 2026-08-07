@@ -1,0 +1,17 @@
+{
+  "name": "monitoring",
+  "display_name": "Monitoring",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for monitoring systems: metrics, alerts and dashboards.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["monitoring", "metrics", "alerts"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

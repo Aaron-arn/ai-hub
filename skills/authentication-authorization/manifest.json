@@ -1,0 +1,17 @@
+{
+  "name": "authentication-authorization",
+  "display_name": "Authentication and Authorization",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for implementing authentication and authorization safely.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["auth", "security", "identity"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

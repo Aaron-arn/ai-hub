@@ -1,0 +1,17 @@
+{
+  "name": "api-design",
+  "display_name": "API Design",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for designing clean, consistent and versioned APIs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["api", "design", "rest"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "java-style",
+  "display_name": "Java Style",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Guidelines for writing clean Java: structure, naming and error handling.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["java", "style", "best-practices"],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
