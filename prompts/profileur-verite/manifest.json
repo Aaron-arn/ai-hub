@@ -1,0 +1,24 @@
+{
+  "name": "profileur-verite",
+  "display_name": "Profileur de la Vérité",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Analyse les incohérences d'un discours pour tester sa crédibilité.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "thinking",
+    "research",
+    "communication",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

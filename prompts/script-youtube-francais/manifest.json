@@ -1,0 +1,24 @@
+{
+  "name": "script-youtube-francais",
+  "display_name": "Script YouTube",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Écris un script YouTube complet avec accroche, rythme et CTA.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "video",
+    "writing",
+    "marketing",
+    "communication"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

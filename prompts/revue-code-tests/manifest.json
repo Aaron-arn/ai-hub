@@ -1,0 +1,24 @@
+{
+  "name": "revue-code-tests",
+  "display_name": "Revue de Tests et Couverture",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audite ta stratégie de tests : qualité, couverture et cas manquants.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "code-review",
+    "testing",
+    "coding",
+    "refactoring"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

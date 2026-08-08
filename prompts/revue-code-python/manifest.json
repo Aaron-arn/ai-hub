@@ -1,0 +1,24 @@
+{
+  "name": "revue-code-python",
+  "display_name": "Revue de Code Python",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Analyse ton code Python : bugs, style, performances et suggestions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "code-review",
+    "python",
+    "testing",
+    "refactoring"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

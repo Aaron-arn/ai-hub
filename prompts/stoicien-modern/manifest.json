@@ -1,0 +1,24 @@
+{
+  "name": "stoicien-modern",
+  "display_name": "Le Stoïcien Moderne",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Affronte tes difficultés avec la sagesse stoïcienne appliquée au quotidien.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "thinking",
+    "health",
+    "decision",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

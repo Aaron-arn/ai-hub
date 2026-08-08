@@ -1,0 +1,24 @@
+{
+  "name": "meilleure-version-soi",
+  "display_name": "Ma Meilleure Version",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Imagine et construis pas à pas ta meilleure version possible.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "thinking",
+    "planning",
+    "productivity",
+    "communication"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

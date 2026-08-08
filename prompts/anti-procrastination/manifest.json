@@ -1,0 +1,24 @@
+{
+  "name": "anti-procrastination",
+  "display_name": "Anti-Procrastination",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Débloque ta productivité quand tu repousses sans cesse une tâche.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "productivity",
+    "thinking",
+    "planning",
+    "health"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

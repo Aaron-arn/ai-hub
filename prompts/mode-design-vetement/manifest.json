@@ -1,0 +1,23 @@
+{
+  "name": "mode-design-vetement",
+  "display_name": "Design de Mode",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Conçois des tenues originales avec matières, coupes et associations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "design"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

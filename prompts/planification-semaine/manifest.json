@@ -1,0 +1,24 @@
+{
+  "name": "planification-semaine",
+  "display_name": "Planification de la Semaine",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Organise ta semaine pour être efficace sans te surcharger.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "planning",
+    "productivity",
+    "meeting",
+    "automation"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

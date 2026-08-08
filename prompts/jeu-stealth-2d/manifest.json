@@ -1,0 +1,24 @@
+{
+  "name": "jeu-stealth-2d",
+  "display_name": "Jeu d'Infiltration 2D",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Prototype un jeu de furtivité : ombres, champs de vision et gardes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

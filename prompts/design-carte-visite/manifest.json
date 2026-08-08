@@ -1,0 +1,23 @@
+{
+  "name": "design-carte-visite",
+  "display_name": "Carte de Visite Design",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Conçois une carte de visite moderne : recto, verso et choix typographiques.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "design",
+    "business"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "coach-financier-personnel",
+  "display_name": "Coach Financier Personnel",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Reprends le contrôle de tes finances avec un coach pragmatique.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "finance",
+    "planning",
+    "thinking",
+    "productivity"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

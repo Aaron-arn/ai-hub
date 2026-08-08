@@ -1,0 +1,24 @@
+{
+  "name": "resume-reunion",
+  "display_name": "Compte-Rendu de Réunion",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Transforme des notes de réunion en compte-rendu clair et actionnable.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "meeting",
+    "productivity",
+    "communication",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

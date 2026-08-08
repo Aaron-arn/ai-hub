@@ -1,0 +1,24 @@
+{
+  "name": "mentor-technique",
+  "display_name": "Mentor Technique",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Apprends avec un mentor qui corrige, explique et challenge.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "education",
+    "coding",
+    "communication",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "logo-designer-rapide",
+  "display_name": "Logo Designer Rapide",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Conçois un logo minimal et mémorable à partir d'une simple description de marque.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "design",
+    "business"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

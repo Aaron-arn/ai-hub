@@ -1,0 +1,24 @@
+{
+  "name": "jeu-multiplayer-web",
+  "display_name": "Jeu Multijoueur Web",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Construis un jeu multijoueur simple en temps réel avec partage d'écran.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "javascript",
+    "web",
+    "backend"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

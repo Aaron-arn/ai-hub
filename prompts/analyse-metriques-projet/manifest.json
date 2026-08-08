@@ -1,0 +1,24 @@
+{
+  "name": "analyse-metriques-projet",
+  "display_name": "Analyse des Métriques",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Définis et analyse les KPIs d'un projet pour piloter la réussite.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "data-analysis",
+    "research",
+    "product",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

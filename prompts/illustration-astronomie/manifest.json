@@ -1,0 +1,23 @@
+{
+  "name": "illustration-astronomie",
+  "display_name": "Illustration Astronomie",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère des scènes d'astronomie époustouflantes : nébuleuses, planètes, vaisseaux.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "science"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

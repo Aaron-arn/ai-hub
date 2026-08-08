@@ -1,0 +1,24 @@
+{
+  "name": "rapport-quotidien-travail",
+  "display_name": "Rapport de Travail Quotidien",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Rédige des comptes-rendus d'activité clairs et professionnels.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "meeting",
+    "productivity",
+    "communication",
+    "writing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

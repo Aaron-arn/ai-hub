@@ -1,0 +1,24 @@
+{
+  "name": "communication-assertive",
+  "display_name": "Communication Assertive",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Dis non, pose tes limites et exprime-toi sans agressivité.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "thinking",
+    "productivity",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "jeu-course-3d",
+  "display_name": "Jeu de Course 3D",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Prototype un jeu de course 3D avec circuit, vitesse et chrono.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

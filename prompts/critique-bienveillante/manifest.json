@@ -1,0 +1,24 @@
+{
+  "name": "critique-bienveillante",
+  "display_name": "Critique Bienveillante",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Obtenez des critiques constructives qui ne démoralisent pas.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "thinking",
+    "productivity",
+    "creative"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "analyse-productivite-equipe",
+  "display_name": "Analyse de Productivité d'Équipe",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Diagnostique la productivité d'une équipe et propose des améliorations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "planning",
+    "communication",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "art-cuisine-food",
+  "display_name": "Art Culinaire Food",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Décris des visuels de nourriture appétissants pour réseaux sociaux ou menus.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "food",
+    "marketing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

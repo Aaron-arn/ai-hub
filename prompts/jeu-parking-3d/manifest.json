@@ -1,0 +1,24 @@
+{
+  "name": "jeu-parking-3d",
+  "display_name": "Jeu de Parking 3D",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Prototype un jeu de stationnement 3D avec manœuvres et chrono.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

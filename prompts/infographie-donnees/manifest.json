@@ -1,0 +1,23 @@
+{
+  "name": "infographie-donnees",
+  "display_name": "Infographie de Données",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Transforme des données brutes en concept d'infographie claire et percutante.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "data-analysis",
+    "design"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "jeu-voxel-world",
+  "display_name": "Monde Voxel Génératif",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère un monde voxel procédural avec montagnes et lacs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "math"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

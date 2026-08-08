@@ -1,0 +1,24 @@
+{
+  "name": "feedback-direct",
+  "display_name": "Feedback Direct et Clair",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Formule des feedbacks directs sans détour, ni agressivité.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "productivity",
+    "decision",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

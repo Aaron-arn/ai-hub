@@ -1,0 +1,23 @@
+{
+  "name": "art-isometrique",
+  "display_name": "Art Isométrique",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère des scènes isométriques détaillées pour jeux ou présentations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "building"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

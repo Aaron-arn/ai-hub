@@ -1,0 +1,24 @@
+{
+  "name": "partenaire-idee",
+  "display_name": "Trouver un Partenaire d'Affaires",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Définis le profil du partenaire idéal et le plan pour le trouver.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "planning",
+    "communication",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

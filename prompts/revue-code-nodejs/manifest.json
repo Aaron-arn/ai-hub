@@ -1,0 +1,24 @@
+{
+  "name": "revue-code-nodejs",
+  "display_name": "Revue de Code Node.js",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audite un backend Node : async, erreurs et performances.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "code-review",
+    "backend",
+    "javascript",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

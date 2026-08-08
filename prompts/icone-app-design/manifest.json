@@ -1,0 +1,23 @@
+{
+  "name": "icone-app-design",
+  "display_name": "Icône d'Application",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère un concept d'icône d'application avec style, couleurs et guide de rendu.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "design",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

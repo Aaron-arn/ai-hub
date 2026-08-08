@@ -1,0 +1,24 @@
+{
+  "name": "correction-orthographe",
+  "display_name": "Correcteur d'Orthographe et de Style",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Corrige tes textes : orthographe, grammaire, style et clarté.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "writing",
+    "education",
+    "communication",
+    "language-learning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

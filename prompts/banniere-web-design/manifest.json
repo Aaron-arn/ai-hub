@@ -1,0 +1,24 @@
+{
+  "name": "banniere-web-design",
+  "display_name": "Bannière Web",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée le concept d'une bannière web attractive : hiérarchie, couleurs et texte.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "design",
+    "web",
+    "marketing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

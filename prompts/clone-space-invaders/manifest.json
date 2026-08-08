@@ -1,0 +1,24 @@
+{
+  "name": "clone-space-invaders",
+  "display_name": "Clone Space Invaders",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Reconstruis Space Invaders : vagues d'aliens, boucliers et vaisseau.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

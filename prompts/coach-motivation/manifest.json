@@ -1,0 +1,24 @@
+{
+  "name": "coach-motivation",
+  "display_name": "Coach Motivation",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Retrouve la motivation grâce à un coaching structuré et personnalisé.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "productivity",
+    "health",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "marche-niche-detection",
+  "display_name": "Détection de Niche de Marché",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Trouve des niches rentables et sous-servies dans un secteur.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "research",
+    "marketing",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

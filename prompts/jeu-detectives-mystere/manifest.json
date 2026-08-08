@@ -1,0 +1,24 @@
+{
+  "name": "jeu-detectives-mystere",
+  "display_name": "Jeu de Détective",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Construis une enquête interactive : suspects, indices et déduction.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "storytelling"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "idee-business-generateur",
+  "display_name": "Générateur d'Idées Business",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère des idées de business originales et évaluées selon tes critères.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "brainstorming",
+    "creative",
+    "research"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

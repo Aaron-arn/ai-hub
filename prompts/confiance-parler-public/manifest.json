@@ -1,0 +1,24 @@
+{
+  "name": "confiance-parler-public",
+  "display_name": "Confiance en Public",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Prépare des prises de parole sans stress, de la préparation à l'exécution.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "productivity",
+    "planning",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

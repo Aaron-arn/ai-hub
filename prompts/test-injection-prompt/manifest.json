@@ -1,0 +1,24 @@
+{
+  "name": "test-injection-prompt",
+  "display_name": "Test d'Injection de Prompt",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Vérifie si un modèle distingue les instructions d'un texte injecté dans ses données.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "jailbreaking",
+    "security",
+    "testing",
+    "llm"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

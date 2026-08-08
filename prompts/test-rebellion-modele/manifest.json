@@ -1,0 +1,24 @@
+{
+  "name": "test-rebellion-modele",
+  "display_name": "Test de Rébellion du Modèle",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Mesure la résistance d'un modèle aux demandes de désobéissance.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "jailbreaking",
+    "testing",
+    "llm",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

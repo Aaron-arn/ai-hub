@@ -1,0 +1,24 @@
+{
+  "name": "mail-pro-francais",
+  "display_name": "Emails Professionnels",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Rédige des emails professionnels clairs, polis et efficaces.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "email",
+    "communication",
+    "business",
+    "writing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

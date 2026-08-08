@@ -1,0 +1,24 @@
+{
+  "name": "scenario-hypothetique-test",
+  "display_name": "Test des Scénarios Hypothétiques",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Mesure si un modèle assouplit ses règles dans des scénarios fictifs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "jailbreaking",
+    "testing",
+    "llm",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

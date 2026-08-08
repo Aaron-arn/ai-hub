@@ -1,0 +1,24 @@
+{
+  "name": "gourou-productivite",
+  "display_name": "Gourou de la Productivité",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Optimise ton organisation avec une méthode adaptée à ton profil.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "productivity",
+    "planning",
+    "communication",
+    "automation"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

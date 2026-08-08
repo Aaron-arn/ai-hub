@@ -1,0 +1,24 @@
+{
+  "name": "brainstorm-50-idees",
+  "display_name": "50 Idées en Une Séance",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère 50 idées autour d'un thème, sans filtre, puis trie-les.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "brainstorming",
+    "creative",
+    "thinking",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

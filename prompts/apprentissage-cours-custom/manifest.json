@@ -1,0 +1,24 @@
+{
+  "name": "apprentissage-cours-custom",
+  "display_name": "Cours Personnalisé",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Apprends n'importe quel sujet avec un cours fait sur mesure.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "education",
+    "planning",
+    "productivity",
+    "language-learning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

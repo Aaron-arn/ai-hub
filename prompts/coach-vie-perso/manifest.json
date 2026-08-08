@@ -1,0 +1,24 @@
+{
+  "name": "coach-vie-perso",
+  "display_name": "Coach de Vie Personnel",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Fais le point sur ta vie avec un coach structuré et bienveillant.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "thinking",
+    "planning",
+    "health"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

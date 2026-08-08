@@ -1,0 +1,24 @@
+{
+  "name": "jeu-python-pygame",
+  "display_name": "Jeu Python avec Pygame",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère pas à pas un jeu complet en Python avec Pygame, prêt à exécuter.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

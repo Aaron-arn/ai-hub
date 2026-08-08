@@ -1,0 +1,24 @@
+{
+  "name": "analyse-opportunites",
+  "display_name": "Analyse des Opportunités",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Repère et priorise les opportunités de croissance d'un produit.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "business",
+    "product",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

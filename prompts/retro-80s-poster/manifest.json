@@ -1,0 +1,23 @@
+{
+  "name": "retro-80s-poster",
+  "display_name": "Affiche Rétro Années 80",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Conçois des posters rétro futuristes inspirés des années 80.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "design"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "jeu-memoire-cartes",
+  "display_name": "Jeu de Mémoire",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Implémente le jeu de mémoire : retourner des cartes et trouver les paires.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "javascript",
+    "web",
+    "building"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

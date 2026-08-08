@@ -1,0 +1,24 @@
+{
+  "name": "nom-entreprise-generateur",
+  "display_name": "Générateur de Noms d'Entreprise",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Trouve des noms percutants et vérifiables pour ton entreprise.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "brainstorming",
+    "creative",
+    "marketing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

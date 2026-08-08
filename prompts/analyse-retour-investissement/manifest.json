@@ -1,0 +1,24 @@
+{
+  "name": "analyse-retour-investissement",
+  "display_name": "Analyse du Retour sur Investissement",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Calcule le ROI d'un projet avec hypothèses et scénarios.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "finance",
+    "research",
+    "decision",
+    "business"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

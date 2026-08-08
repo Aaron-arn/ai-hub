@@ -1,0 +1,23 @@
+{
+  "name": "fond-ecran-abstrait",
+  "display_name": "Fond d'Écran Abstrait",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère des fonds d'écran abstraits selon l'ambiance et les couleurs voulues.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "design"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

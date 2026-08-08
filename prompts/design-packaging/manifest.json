@@ -1,0 +1,24 @@
+{
+  "name": "design-packaging",
+  "display_name": "Design de Packaging",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Imagine l'emballage d'un produit : structure, couleurs, mentions clés.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "design",
+    "product",
+    "business"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

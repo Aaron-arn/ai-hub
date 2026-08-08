@@ -1,0 +1,24 @@
+{
+  "name": "jeu-tir-topdown",
+  "display_name": "Jeu de Tir Vue de Dessus",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée un shoot'em up top-down avec vagues d'ennemis et power-ups.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

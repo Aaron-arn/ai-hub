@@ -1,0 +1,24 @@
+{
+  "name": "illustration-enfant-livre",
+  "display_name": "Illustration pour Livre Enfant",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée des illustrations douces et cohérentes pour un livre jeunesse.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "storytelling",
+    "education"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

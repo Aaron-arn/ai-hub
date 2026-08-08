@@ -1,0 +1,24 @@
+{
+  "name": "jeu-gestion-ressources",
+  "display_name": "Jeu de Gestion de Ressources",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée un jeu de récolte et gestion : inventaire, craft et objectifs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

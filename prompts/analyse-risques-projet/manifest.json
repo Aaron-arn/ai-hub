@@ -1,0 +1,24 @@
+{
+  "name": "analyse-risques-projet",
+  "display_name": "Analyse des Risques d'un Projet",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Identifie et priorise les risques d'un projet avec plans d'atténuation.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "thinking",
+    "planning",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

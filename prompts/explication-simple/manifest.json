@@ -1,0 +1,24 @@
+{
+  "name": "explication-simple",
+  "display_name": "Explication Simple",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Fais-moi comprendre n'importe quel sujet en partant de zéro.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "education",
+    "communication",
+    "language-learning",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

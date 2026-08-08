@@ -1,0 +1,24 @@
+{
+  "name": "jeu-moteur-3d-opengl",
+  "display_name": "Moteur 3D Minimal",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Créer un mini moteur 3D : caméra, cube texturé et rotation.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "math"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

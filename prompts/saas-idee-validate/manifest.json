@@ -1,0 +1,24 @@
+{
+  "name": "saas-idee-validate",
+  "display_name": "Valider une Idée SaaS",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Valide ou invalide une idée SaaS en 30 jours avec un plan précis.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "product",
+    "research",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

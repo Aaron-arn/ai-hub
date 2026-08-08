@@ -1,0 +1,24 @@
+{
+  "name": "psychologue-role",
+  "display_name": "Séance de Réflexion",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Réfléchis à une situation avec la méthode d'un psychologue bienveillant.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "thinking",
+    "health",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

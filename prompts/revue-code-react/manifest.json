@@ -1,0 +1,24 @@
+{
+  "name": "revue-code-react",
+  "display_name": "Revue de Code React",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audite des composants React : hooks, re-renders et accessibilité.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "code-review",
+    "frontend",
+    "javascript",
+    "refactoring"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

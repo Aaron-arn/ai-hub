@@ -1,0 +1,24 @@
+{
+  "name": "jeu-rpg-textuel",
+  "display_name": "Jeu RPG Textuel",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Construis un RPG textuel interactif avec inventaire, combats et embranchements.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "storytelling"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

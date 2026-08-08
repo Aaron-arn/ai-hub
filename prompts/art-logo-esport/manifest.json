@@ -1,0 +1,23 @@
+{
+  "name": "art-logo-esport",
+  "display_name": "Logo Esport",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée des concepts de logo agressifs et mémorables pour équipes esport.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "design",
+    "building"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "jeu-de-la-vie",
+  "display_name": "Jeu de la Vie",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Implémente le jeu de la vie de Conway avec motifs célèbres.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "javascript",
+    "math"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

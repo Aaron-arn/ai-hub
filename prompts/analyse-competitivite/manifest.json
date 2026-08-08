@@ -1,0 +1,24 @@
+{
+  "name": "analyse-competitivite",
+  "display_name": "Analyse de la Concurrence",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audite tes concurrents : forces, faiblesses et angles d'attaque.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "business",
+    "marketing",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

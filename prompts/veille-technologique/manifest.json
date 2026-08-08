@@ -1,0 +1,24 @@
+{
+  "name": "veille-technologique",
+  "display_name": "Veille Technologique",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Fais un point de veille ciblé sur un domaine et ses évolutions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "coding",
+    "automation",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "art-pixel-game",
+  "display_name": "Art Pixel pour Jeu Vidéo",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère des sprites et décors pixel art avec une palette cohérente pour ton jeu.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "coding",
+    "creative",
+    "building"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

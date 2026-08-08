@@ -1,0 +1,24 @@
+{
+  "name": "analyse-architecture-logicielle",
+  "display_name": "Analyse d'Architecture Logicielle",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Évalue l'architecture d'un système : choix, couplage et évolutivité.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "thinking",
+    "coding",
+    "refactoring"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "lettre-motivation",
+  "display_name": "Lettre de Motivation",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Rédige une lettre de motivation personnalisée et sincère.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "writing",
+    "education",
+    "communication",
+    "business"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -3,6 +3,22 @@
   "generated": "2026-08-07",
   "packages": [
     {
+      "name": "affiche-evenement",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/affiche-evenement",
+      "display_name": "Affiche d'Événement",
+      "description": "Conçois une affiche percutante pour tout type d'événement.",
+      "tags": [
+        "image",
+        "design",
+        "marketing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "agent-memory-and-context-manager",
       "type": "prompt",
       "version": "1.0.0",
@@ -67,6 +83,312 @@
       "language": "English"
     },
     {
+      "name": "alter-ego-confiant",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/alter-ego-confiant",
+      "display_name": "Mon Alter Ego Confiant",
+      "description": "Répète les situations stressantes avec ta version la plus confiante.",
+      "tags": [
+        "communication",
+        "thinking",
+        "productivity",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "ami-sincere",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/ami-sincere",
+      "display_name": "L'Ami Sincère",
+      "description": "Parle avec un ami honnête qui te dit la vérité avec bienveillance.",
+      "tags": [
+        "communication",
+        "thinking",
+        "decision",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-architecture-logicielle",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-architecture-logicielle",
+      "display_name": "Analyse d'Architecture Logicielle",
+      "description": "Évalue l'architecture d'un système : choix, couplage et évolutivité.",
+      "tags": [
+        "research",
+        "thinking",
+        "coding",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-competitivite",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-competitivite",
+      "display_name": "Analyse de la Concurrence",
+      "description": "Audite tes concurrents : forces, faiblesses et angles d'attaque.",
+      "tags": [
+        "research",
+        "business",
+        "marketing",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-couts-projet",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-couts-projet",
+      "display_name": "Analyse des Coûts",
+      "description": "Décompose les coûts d'un projet et trouve les économies possibles.",
+      "tags": [
+        "finance",
+        "research",
+        "planning",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-deadlines-projet",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-deadlines-projet",
+      "display_name": "Analyse des Délais",
+      "description": "Évalue les délais d'un projet : dépendances, marges et plan réaliste.",
+      "tags": [
+        "planning",
+        "research",
+        "thinking",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-dette-technique",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-dette-technique",
+      "display_name": "Analyse de la Dette Technique",
+      "description": "Quantifie la dette technique d'un codebase et priorise son remboursement.",
+      "tags": [
+        "research",
+        "coding",
+        "refactoring",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-ecosysteme-projet",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-ecosysteme-projet",
+      "display_name": "Analyse de l'Écosystème",
+      "description": "Cartographie l'écosystème d'un projet : acteurs, dépendances et positions.",
+      "tags": [
+        "research",
+        "business",
+        "planning",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-metriques-projet",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-metriques-projet",
+      "display_name": "Analyse des Métriques",
+      "description": "Définis et analyse les KPIs d'un projet pour piloter la réussite.",
+      "tags": [
+        "data-analysis",
+        "research",
+        "product",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-opportunites",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-opportunites",
+      "display_name": "Analyse des Opportunités",
+      "description": "Repère et priorise les opportunités de croissance d'un produit.",
+      "tags": [
+        "research",
+        "business",
+        "product",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-productivite-equipe",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-productivite-equipe",
+      "display_name": "Analyse de Productivité d'Équipe",
+      "description": "Diagnostique la productivité d'une équipe et propose des améliorations.",
+      "tags": [
+        "research",
+        "planning",
+        "communication",
+        "product"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-projet-global",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-projet-global",
+      "display_name": "Analyse Globale d'un Projet",
+      "description": "Audite un projet complet : objectifs, forces, faiblesses et plan d'action.",
+      "tags": [
+        "research",
+        "thinking",
+        "planning",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-retour-investissement",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-retour-investissement",
+      "display_name": "Analyse du Retour sur Investissement",
+      "description": "Calcule le ROI d'un projet avec hypothèses et scénarios.",
+      "tags": [
+        "finance",
+        "research",
+        "decision",
+        "business"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-risques-projet",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-risques-projet",
+      "display_name": "Analyse des Risques d'un Projet",
+      "description": "Identifie et priorise les risques d'un projet avec plans d'atténuation.",
+      "tags": [
+        "research",
+        "thinking",
+        "planning",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-swot-projet",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-swot-projet",
+      "display_name": "Analyse SWOT d'un Projet",
+      "description": "Rédige une analyse SWOT complète et actionnable.",
+      "tags": [
+        "research",
+        "thinking",
+        "planning",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-technique-projet",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-technique-projet",
+      "display_name": "Analyse Technique d'un Projet",
+      "description": "Décortique la faisabilité technique : stack, effort et points durs.",
+      "tags": [
+        "research",
+        "coding",
+        "planning",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "analyse-viabilite-projet",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/analyse-viabilite-projet",
+      "display_name": "Analyse de Viabilité",
+      "description": "Détermine si un projet vaut le coup : demande, coûts et rentabilité.",
+      "tags": [
+        "research",
+        "business",
+        "finance",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "anti-procrastination",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/anti-procrastination",
+      "display_name": "Anti-Procrastination",
+      "description": "Débloque ta productivité quand tu repousses sans cesse une tâche.",
+      "tags": [
+        "productivity",
+        "thinking",
+        "planning",
+        "health"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "api-endpoint-tester",
       "type": "prompt",
       "version": "1.0.0",
@@ -117,6 +439,121 @@
       "language": "English"
     },
     {
+      "name": "apprentissage-cours-custom",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/apprentissage-cours-custom",
+      "display_name": "Cours Personnalisé",
+      "description": "Apprends n'importe quel sujet avec un cours fait sur mesure.",
+      "tags": [
+        "education",
+        "planning",
+        "productivity",
+        "language-learning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "aquarelle-art",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/aquarelle-art",
+      "display_name": "Art Aquarelle",
+      "description": "Décris des illustrations aquarelle douces avec textures et cernes.",
+      "tags": [
+        "image",
+        "creative",
+        "design"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "art-cuisine-food",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/art-cuisine-food",
+      "display_name": "Art Culinaire Food",
+      "description": "Décris des visuels de nourriture appétissants pour réseaux sociaux ou menus.",
+      "tags": [
+        "image",
+        "creative",
+        "food",
+        "marketing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "art-cyberpunk",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/art-cyberpunk",
+      "display_name": "Art Cyberpunk",
+      "description": "Décris des scènes cyberpunk urbaines détaillées avec néons et pluie.",
+      "tags": [
+        "image",
+        "creative",
+        "storytelling"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "art-isometrique",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/art-isometrique",
+      "display_name": "Art Isométrique",
+      "description": "Génère des scènes isométriques détaillées pour jeux ou présentations.",
+      "tags": [
+        "image",
+        "creative",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "art-logo-esport",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/art-logo-esport",
+      "display_name": "Logo Esport",
+      "description": "Crée des concepts de logo agressifs et mémorables pour équipes esport.",
+      "tags": [
+        "image",
+        "design",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "art-pixel-game",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/art-pixel-game",
+      "display_name": "Art Pixel pour Jeu Vidéo",
+      "description": "Génère des sprites et décors pixel art avec une palette cohérente pour ton jeu.",
+      "tags": [
+        "image",
+        "coding",
+        "creative",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "audio-description-script",
       "type": "prompt",
       "version": "1.0.0",
@@ -133,6 +570,74 @@
       "language": "English"
     },
     {
+      "name": "avocat-du-diable",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/avocat-du-diable",
+      "display_name": "Avocat du Diable",
+      "description": "Teste tes idées et décisions avec une critique systématique et argumentée.",
+      "tags": [
+        "thinking",
+        "decision",
+        "brainstorming",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "banniere-web-design",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/banniere-web-design",
+      "display_name": "Bannière Web",
+      "description": "Crée le concept d'une bannière web attractive : hiérarchie, couleurs et texte.",
+      "tags": [
+        "image",
+        "design",
+        "web",
+        "marketing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "boss-exigeant",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/boss-exigeant",
+      "display_name": "Le Boss Exigeant",
+      "description": "Reçois des exigences élevées et des retours durs mais utiles.",
+      "tags": [
+        "communication",
+        "productivity",
+        "decision",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "brainstorm-50-idees",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/brainstorm-50-idees",
+      "display_name": "50 Idées en Une Séance",
+      "description": "Génère 50 idées autour d'un thème, sans filtre, puis trie-les.",
+      "tags": [
+        "brainstorming",
+        "creative",
+        "thinking",
+        "product"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "brand-voice-guide-creator",
       "type": "prompt",
       "version": "1.0.0",
@@ -147,6 +652,40 @@
       "author": "Aaron Dalibard",
       "published": "2026-05-13",
       "language": "English"
+    },
+    {
+      "name": "business-cote-zero",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/business-cote-zero",
+      "display_name": "Business à Coût Zéro",
+      "description": "Génère des idées de business lancables sans argent.",
+      "tags": [
+        "business",
+        "brainstorming",
+        "product",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "business-simulation",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/business-simulation",
+      "display_name": "Simulation de Business",
+      "description": "Simule le développement de ton business année par année.",
+      "tags": [
+        "business",
+        "planning",
+        "finance",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "ci-cd-pipeline-review",
@@ -181,6 +720,108 @@
       "language": "English"
     },
     {
+      "name": "clone-flappy-bird",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/clone-flappy-bird",
+      "display_name": "Clone Flappy Bird",
+      "description": "Reproduis Flappy Bird avec physique, tuyaux et score en quelques lignes.",
+      "tags": [
+        "coding",
+        "python",
+        "javascript",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "clone-gta-2d",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/clone-gta-2d",
+      "display_name": "Clone GTA 2D",
+      "description": "Développe une version 2D très simplifiée de type GTA : ville, véhicules, missions.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "clone-minecraft-basique",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/clone-minecraft-basique",
+      "display_name": "Clone Minecraft Simple",
+      "description": "Construis un jeu de type Minecraft basique : voxels, minage et placement de blocs.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "clone-snake",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/clone-snake",
+      "display_name": "Clone Snake",
+      "description": "Crée le jeu Snake avec croissance, bonus et collisions.",
+      "tags": [
+        "coding",
+        "python",
+        "javascript",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "clone-space-invaders",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/clone-space-invaders",
+      "display_name": "Clone Space Invaders",
+      "description": "Reconstruis Space Invaders : vagues d'aliens, boucliers et vaisseau.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "clone-tetris",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/clone-tetris",
+      "display_name": "Clone Tetris",
+      "description": "Implémente Tetris complet : pièces, rotation, lignes et scores.",
+      "tags": [
+        "coding",
+        "python",
+        "testing",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "cloud-architecture-review",
       "type": "prompt",
       "version": "1.0.0",
@@ -211,6 +852,74 @@
       "author": "Aaron Dalibard",
       "published": "2026-03-13",
       "language": "English"
+    },
+    {
+      "name": "coach-financier-personnel",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/coach-financier-personnel",
+      "display_name": "Coach Financier Personnel",
+      "description": "Reprends le contrôle de tes finances avec un coach pragmatique.",
+      "tags": [
+        "finance",
+        "planning",
+        "thinking",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "coach-motivation",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/coach-motivation",
+      "display_name": "Coach Motivation",
+      "description": "Retrouve la motivation grâce à un coaching structuré et personnalisé.",
+      "tags": [
+        "communication",
+        "productivity",
+        "health",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "coach-sportif-mentor",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/coach-sportif-mentor",
+      "display_name": "Coach Sportif Mentor",
+      "description": "Entraîne-toi avec un coach sportif qui suit ta progression.",
+      "tags": [
+        "health",
+        "planning",
+        "productivity",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "coach-vie-perso",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/coach-vie-perso",
+      "display_name": "Coach de Vie Personnel",
+      "description": "Fais le point sur ta vie avec un coach structuré et bienveillant.",
+      "tags": [
+        "communication",
+        "thinking",
+        "planning",
+        "health"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "code-reviewer",
@@ -244,6 +953,56 @@
       "author": "Aaron Dalibard",
       "published": "2025-02-18",
       "language": "English"
+    },
+    {
+      "name": "communication-assertive",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/communication-assertive",
+      "display_name": "Communication Assertive",
+      "description": "Dis non, pose tes limites et exprime-toi sans agressivité.",
+      "tags": [
+        "communication",
+        "thinking",
+        "productivity",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "concept-art-environnement",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/concept-art-environnement",
+      "display_name": "Concept Art d'Environnement",
+      "description": "Conçois l'environnement d'un jeu ou film : architecture, ambiances et détails.",
+      "tags": [
+        "image",
+        "creative",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "confiance-parler-public",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/confiance-parler-public",
+      "display_name": "Confiance en Public",
+      "description": "Prépare des prises de parole sans stress, de la préparation à l'exécution.",
+      "tags": [
+        "communication",
+        "productivity",
+        "planning",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "container-image-hardening",
@@ -291,6 +1050,40 @@
       "author": "Aaron Dalibard",
       "published": "2026-01-12",
       "language": "English"
+    },
+    {
+      "name": "correction-orthographe",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/correction-orthographe",
+      "display_name": "Correcteur d'Orthographe et de Style",
+      "description": "Corrige tes textes : orthographe, grammaire, style et clarté.",
+      "tags": [
+        "writing",
+        "education",
+        "communication",
+        "language-learning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "critique-bienveillante",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/critique-bienveillante",
+      "display_name": "Critique Bienveillante",
+      "description": "Obtenez des critiques constructives qui ne démoralisent pas.",
+      "tags": [
+        "communication",
+        "thinking",
+        "productivity",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "csv-cleaner",
@@ -425,6 +1218,39 @@
       "language": "English"
     },
     {
+      "name": "design-carte-visite",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/design-carte-visite",
+      "display_name": "Carte de Visite Design",
+      "description": "Conçois une carte de visite moderne : recto, verso et choix typographiques.",
+      "tags": [
+        "image",
+        "design",
+        "business"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "design-packaging",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/design-packaging",
+      "display_name": "Design de Packaging",
+      "description": "Imagine l'emballage d'un produit : structure, couleurs, mentions clés.",
+      "tags": [
+        "image",
+        "design",
+        "product",
+        "business"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "devops-pipeline-builder",
       "type": "prompt",
       "version": "1.0.0",
@@ -440,6 +1266,23 @@
       "author": "Aaron Dalibard",
       "published": "2026-04-25",
       "language": "English"
+    },
+    {
+      "name": "discipline-habitudes",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/discipline-habitudes",
+      "display_name": "Discipline et Habitudes",
+      "description": "Installe des habitudes durables grâce à un système personnalisé.",
+      "tags": [
+        "productivity",
+        "planning",
+        "health",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "dockerfile-optimizer",
@@ -459,6 +1302,23 @@
       "language": "English"
     },
     {
+      "name": "ecommerce-idees",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/ecommerce-idees",
+      "display_name": "Idées E-commerce",
+      "description": "Trouve des produits et angles e-commerce rentables.",
+      "tags": [
+        "business",
+        "research",
+        "marketing",
+        "sales"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "editorial-illustration",
       "type": "prompt",
       "version": "1.0.0",
@@ -473,6 +1333,23 @@
       "author": "Aaron Dalibard",
       "published": "2025-03-05",
       "language": "English"
+    },
+    {
+      "name": "elevator-pitch",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/elevator-pitch",
+      "display_name": "Elevator Pitch",
+      "description": "Construis un pitch de 30 secondes qui vends ton idée immédiatement.",
+      "tags": [
+        "business",
+        "communication",
+        "marketing",
+        "sales"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "email-newsletter-campaign-planner",
@@ -539,6 +1416,73 @@
       "author": "Aaron Dalibard",
       "published": "2025-09-09",
       "language": "English"
+    },
+    {
+      "name": "explication-simple",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/explication-simple",
+      "display_name": "Explication Simple",
+      "description": "Fais-moi comprendre n'importe quel sujet en partant de zéro.",
+      "tags": [
+        "education",
+        "communication",
+        "language-learning",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "feedback-direct",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/feedback-direct",
+      "display_name": "Feedback Direct et Clair",
+      "description": "Formule des feedbacks directs sans détour, ni agressivité.",
+      "tags": [
+        "communication",
+        "productivity",
+        "decision",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "fond-ecran-abstrait",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/fond-ecran-abstrait",
+      "display_name": "Fond d'Écran Abstrait",
+      "description": "Génère des fonds d'écran abstraits selon l'ambiance et les couleurs voulues.",
+      "tags": [
+        "image",
+        "creative",
+        "design"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "franchise-idees",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/franchise-idees",
+      "display_name": "Idées de Franchise",
+      "description": "Évalue et génère des concepts de franchise rentables.",
+      "tags": [
+        "business",
+        "research",
+        "finance",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "french-language-learning-partner",
@@ -608,6 +1552,39 @@
       "language": "English"
     },
     {
+      "name": "gourou-productivite",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/gourou-productivite",
+      "display_name": "Gourou de la Productivité",
+      "description": "Optimise ton organisation avec une méthode adaptée à ton profil.",
+      "tags": [
+        "productivity",
+        "planning",
+        "communication",
+        "automation"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "icone-app-design",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/icone-app-design",
+      "display_name": "Icône d'Application",
+      "description": "Génère un concept d'icône d'application avec style, couleurs et guide de rendu.",
+      "tags": [
+        "image",
+        "design",
+        "product"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "ideation-brainstorming-session",
       "type": "prompt",
       "version": "1.0.0",
@@ -624,6 +1601,72 @@
       "language": "English"
     },
     {
+      "name": "idee-business-generateur",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/idee-business-generateur",
+      "display_name": "Générateur d'Idées Business",
+      "description": "Génère des idées de business originales et évaluées selon tes critères.",
+      "tags": [
+        "business",
+        "brainstorming",
+        "creative",
+        "research"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "illustrateur-fantasy",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/illustrateur-fantasy",
+      "display_name": "Illustrateur Fantasy",
+      "description": "Transforme n'importe quelle idée en illustration fantasy détaillée avec composition, ambiance et palette.",
+      "tags": [
+        "image",
+        "creative",
+        "storytelling"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "illustration-astronomie",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/illustration-astronomie",
+      "display_name": "Illustration Astronomie",
+      "description": "Génère des scènes d'astronomie époustouflantes : nébuleuses, planètes, vaisseaux.",
+      "tags": [
+        "image",
+        "creative",
+        "science"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "illustration-enfant-livre",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/illustration-enfant-livre",
+      "display_name": "Illustration pour Livre Enfant",
+      "description": "Crée des illustrations douces et cohérentes pour un livre jeunesse.",
+      "tags": [
+        "image",
+        "creative",
+        "storytelling",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "incremental-refactoring-planner",
       "type": "prompt",
       "version": "1.0.0",
@@ -638,6 +1681,22 @@
       "author": "Aaron Dalibard",
       "published": "2025-05-09",
       "language": "English"
+    },
+    {
+      "name": "infographie-donnees",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/infographie-donnees",
+      "display_name": "Infographie de Données",
+      "description": "Transforme des données brutes en concept d'infographie claire et percutante.",
+      "tags": [
+        "image",
+        "data-analysis",
+        "design"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "infrastructure-security-audit",
@@ -718,6 +1777,414 @@
       "author": "Aaron Dalibard",
       "published": "2025-04-20",
       "language": "English"
+    },
+    {
+      "name": "jeu-combat-2d",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-combat-2d",
+      "display_name": "Jeu de Combat 2D",
+      "description": "Développe un fighting game simple : deux combattants et combos basiques.",
+      "tags": [
+        "coding",
+        "python",
+        "javascript",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-course-3d",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-course-3d",
+      "display_name": "Jeu de Course 3D",
+      "description": "Prototype un jeu de course 3D avec circuit, vitesse et chrono.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-course-moto-2d",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-course-moto-2d",
+      "display_name": "Course de Moto 2D",
+      "description": "Développe une course de moto 2D en vue de dessus avec dérapage.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-de-la-vie",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-de-la-vie",
+      "display_name": "Jeu de la Vie",
+      "description": "Implémente le jeu de la vie de Conway avec motifs célèbres.",
+      "tags": [
+        "coding",
+        "python",
+        "javascript",
+        "math"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-detectives-mystere",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-detectives-mystere",
+      "display_name": "Jeu de Détective",
+      "description": "Construis une enquête interactive : suspects, indices et déduction.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "storytelling"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-enigme-puzzle",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-enigme-puzzle",
+      "display_name": "Jeu d'Énigmes",
+      "description": "Construis un puzzle game avec énigmes logiques en escalade de difficulté.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-gestion-ressources",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-gestion-ressources",
+      "display_name": "Jeu de Gestion de Ressources",
+      "description": "Crée un jeu de récolte et gestion : inventaire, craft et objectifs.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-infini-runner",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-infini-runner",
+      "display_name": "Jeu Infini Runner",
+      "description": "Crée un endless runner avec obstacles aléatoires et vitesse croissante.",
+      "tags": [
+        "coding",
+        "javascript",
+        "python",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-javascript-canvas",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-javascript-canvas",
+      "display_name": "Jeu JavaScript Canvas",
+      "description": "Crée un jeu 2D jouable dans le navigateur avec Canvas et zéro dépendance.",
+      "tags": [
+        "coding",
+        "javascript",
+        "building",
+        "web"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-memoire-cartes",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-memoire-cartes",
+      "display_name": "Jeu de Mémoire",
+      "description": "Implémente le jeu de mémoire : retourner des cartes et trouver les paires.",
+      "tags": [
+        "coding",
+        "javascript",
+        "web",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-moteur-3d-opengl",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-moteur-3d-opengl",
+      "display_name": "Moteur 3D Minimal",
+      "description": "Créer un mini moteur 3D : caméra, cube texturé et rotation.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "math"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-multiplayer-web",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-multiplayer-web",
+      "display_name": "Jeu Multijoueur Web",
+      "description": "Construis un jeu multijoueur simple en temps réel avec partage d'écran.",
+      "tags": [
+        "coding",
+        "javascript",
+        "web",
+        "backend"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-parking-3d",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-parking-3d",
+      "display_name": "Jeu de Parking 3D",
+      "description": "Prototype un jeu de stationnement 3D avec manœuvres et chrono.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-plateforme-3d",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-plateforme-3d",
+      "display_name": "Jeu Plateforme 3D",
+      "description": "Crée un jeu de plateforme 3D simple avec sauts et collectibles.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-plateforme-javascript",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-plateforme-javascript",
+      "display_name": "Jeu Plateforme JavaScript",
+      "description": "Crée un jeu de plateforme en JavaScript avec niveaux et pièces.",
+      "tags": [
+        "coding",
+        "javascript",
+        "building",
+        "web"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-python-pygame",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-python-pygame",
+      "display_name": "Jeu Python avec Pygame",
+      "description": "Génère pas à pas un jeu complet en Python avec Pygame, prêt à exécuter.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-quiz-interactif",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-quiz-interactif",
+      "display_name": "Jeu Quiz Interactif",
+      "description": "Génère un quiz interactif avec score, timer et questions personnalisées.",
+      "tags": [
+        "coding",
+        "javascript",
+        "web",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-rpg-textuel",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-rpg-textuel",
+      "display_name": "Jeu RPG Textuel",
+      "description": "Construis un RPG textuel interactif avec inventaire, combats et embranchements.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "storytelling"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-simulation-ville",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-simulation-ville",
+      "display_name": "Simulation de Ville",
+      "description": "Crée une mini simulation de ville : routes, bâtiments et croissance.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "math"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-stealth-2d",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-stealth-2d",
+      "display_name": "Jeu d'Infiltration 2D",
+      "description": "Prototype un jeu de furtivité : ombres, champs de vision et gardes.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-tir-topdown",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-tir-topdown",
+      "display_name": "Jeu de Tir Vue de Dessus",
+      "description": "Crée un shoot'em up top-down avec vagues d'ennemis et power-ups.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-tour-par-tour",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-tour-par-tour",
+      "display_name": "Jeu de Combat Tour par Tour",
+      "description": "Crée un système de combat au tour par tour complet avec types d'attaques.",
+      "tags": [
+        "coding",
+        "python",
+        "javascript",
+        "building"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "jeu-voxel-world",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/jeu-voxel-world",
+      "display_name": "Monde Voxel Génératif",
+      "description": "Génère un monde voxel procédural avec montagnes et lacs.",
+      "tags": [
+        "coding",
+        "python",
+        "building",
+        "math"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "journal-intime-guide",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/journal-intime-guide",
+      "display_name": "Journal Intime Guidé",
+      "description": "Clarifie tes émotions grâce à une écriture introspective guidée.",
+      "tags": [
+        "thinking",
+        "health",
+        "communication",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "js-package-manager-helper",
@@ -801,6 +2268,23 @@
       "language": "English"
     },
     {
+      "name": "lettre-motivation",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/lettre-motivation",
+      "display_name": "Lettre de Motivation",
+      "description": "Rédige une lettre de motivation personnalisée et sincère.",
+      "tags": [
+        "writing",
+        "education",
+        "communication",
+        "business"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "literature-review-synthesis",
       "type": "prompt",
       "version": "1.0.0",
@@ -817,6 +2301,22 @@
       "language": "English"
     },
     {
+      "name": "logo-designer-rapide",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/logo-designer-rapide",
+      "display_name": "Logo Designer Rapide",
+      "description": "Conçois un logo minimal et mémorable à partir d'une simple description de marque.",
+      "tags": [
+        "image",
+        "design",
+        "business"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "long-document-summarizer",
       "type": "prompt",
       "version": "1.0.0",
@@ -831,6 +2331,57 @@
       "author": "Aaron Dalibard",
       "published": "2026-06-12",
       "language": "English"
+    },
+    {
+      "name": "mail-pro-francais",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/mail-pro-francais",
+      "display_name": "Emails Professionnels",
+      "description": "Rédige des emails professionnels clairs, polis et efficaces.",
+      "tags": [
+        "email",
+        "communication",
+        "business",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "manager-devenir-coach",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/manager-devenir-coach",
+      "display_name": "Mon Manager Devient Mon Coach",
+      "description": "Transforme le comportement de ton manager en coach bienveillant.",
+      "tags": [
+        "communication",
+        "thinking",
+        "productivity",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "marche-niche-detection",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/marche-niche-detection",
+      "display_name": "Détection de Niche de Marché",
+      "description": "Trouve des niches rentables et sous-servies dans un secteur.",
+      "tags": [
+        "business",
+        "research",
+        "marketing",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "market-research-workflow",
@@ -865,6 +2416,56 @@
       "language": "English"
     },
     {
+      "name": "meilleure-version-soi",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/meilleure-version-soi",
+      "display_name": "Ma Meilleure Version",
+      "description": "Imagine et construis pas à pas ta meilleure version possible.",
+      "tags": [
+        "thinking",
+        "planning",
+        "productivity",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "mentor-technique",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/mentor-technique",
+      "display_name": "Mentor Technique",
+      "description": "Apprends avec un mentor qui corrige, explique et challenge.",
+      "tags": [
+        "education",
+        "coding",
+        "communication",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "minimalisme-flat-design",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/minimalisme-flat-design",
+      "display_name": "Flat Design Minimaliste",
+      "description": "Crée des illustrations flat design épurées avec formes simples et couleurs franches.",
+      "tags": [
+        "image",
+        "design",
+        "product"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "minimalist-logo-design",
       "type": "prompt",
       "version": "1.0.0",
@@ -895,6 +2496,39 @@
       "author": "Aaron Dalibard",
       "published": "2025-09-02",
       "language": "English"
+    },
+    {
+      "name": "mode-design-vetement",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/mode-design-vetement",
+      "display_name": "Design de Mode",
+      "description": "Conçois des tenues originales avec matières, coupes et associations.",
+      "tags": [
+        "image",
+        "creative",
+        "design"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "modele-revenus-creatif",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/modele-revenus-creatif",
+      "display_name": "Modèles de Revenus",
+      "description": "Invente plusieurs façons de monétiser un produit ou service.",
+      "tags": [
+        "business",
+        "brainstorming",
+        "product",
+        "finance"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "motion-graphics-script",
@@ -928,6 +2562,91 @@
       "language": "English"
     },
     {
+      "name": "negotiation-moi-verite",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/negotiation-moi-verite",
+      "display_name": "Négociation avec Soi-Même",
+      "description": "Négocie tes résistances intérieures pour passer à l'action.",
+      "tags": [
+        "thinking",
+        "productivity",
+        "decision",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "nom-entreprise-generateur",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/nom-entreprise-generateur",
+      "display_name": "Générateur de Noms d'Entreprise",
+      "description": "Trouve des noms percutants et vérifiables pour ton entreprise.",
+      "tags": [
+        "business",
+        "brainstorming",
+        "creative",
+        "marketing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "objectifs-smart",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/objectifs-smart",
+      "display_name": "Objectifs SMART",
+      "description": "Définis des objectifs précis, mesurables et atteignables.",
+      "tags": [
+        "planning",
+        "productivity",
+        "education",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "offre-lancement",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/offre-lancement",
+      "display_name": "Offre de Lancement",
+      "description": "Conçois une offre de lancement attractive avec prix et bonus.",
+      "tags": [
+        "business",
+        "marketing",
+        "product",
+        "sales"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "partenaire-idee",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/partenaire-idee",
+      "display_name": "Trouver un Partenaire d'Affaires",
+      "description": "Définis le profil du partenaire idéal et le plan pour le trouver.",
+      "tags": [
+        "business",
+        "planning",
+        "communication",
+        "product"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "performance-code-review",
       "type": "prompt",
       "version": "1.0.0",
@@ -959,6 +2678,73 @@
       "language": "English"
     },
     {
+      "name": "photo-realisme-produit",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/photo-realisme-produit",
+      "display_name": "Rendu Produit Photoréaliste",
+      "description": "Crée des mises en scène photoréalistes pour mettre en valeur un produit.",
+      "tags": [
+        "image",
+        "design",
+        "marketing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "plan-business-mini",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/plan-business-mini",
+      "display_name": "Mini Business Plan",
+      "description": "Rédige un business plan complet et structuré en une page.",
+      "tags": [
+        "business",
+        "planning",
+        "finance",
+        "product"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "planification-semaine",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/planification-semaine",
+      "display_name": "Planification de la Semaine",
+      "description": "Organise ta semaine pour être efficace sans te surcharger.",
+      "tags": [
+        "planning",
+        "productivity",
+        "meeting",
+        "automation"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "plus-honnete",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/plus-honnete",
+      "display_name": "Devenir Plus Honnête",
+      "description": "Entraîne-toi à être plus honnête dans tes échanges, sans brutalité.",
+      "tags": [
+        "communication",
+        "thinking",
+        "productivity",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "podcast-script-outline",
       "type": "prompt",
       "version": "1.0.0",
@@ -973,6 +2759,39 @@
       "author": "Aaron Dalibard",
       "published": "2025-06-25",
       "language": "English"
+    },
+    {
+      "name": "portrait-artistique",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/portrait-artistique",
+      "display_name": "Portrait Artistique",
+      "description": "Décris un portrait artistique original avec style, éclairage et expression.",
+      "tags": [
+        "image",
+        "creative",
+        "design"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "post-linkedin-francais",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/post-linkedin-francais",
+      "display_name": "Posts LinkedIn",
+      "description": "Crée des posts LinkedIn engageants pour ta marque personnelle.",
+      "tags": [
+        "marketing",
+        "communication",
+        "writing",
+        "seo"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "press-release-writer",
@@ -1037,6 +2856,23 @@
       "author": "Aaron Dalibard",
       "published": "2025-06-14",
       "language": "English"
+    },
+    {
+      "name": "profileur-verite",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/profileur-verite",
+      "display_name": "Profileur de la Vérité",
+      "description": "Analyse les incohérences d'un discours pour tester sa crédibilité.",
+      "tags": [
+        "thinking",
+        "research",
+        "communication",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "prompt-engineering-tutor",
@@ -1120,6 +2956,23 @@
       "language": "English"
     },
     {
+      "name": "psychologue-role",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/psychologue-role",
+      "display_name": "Séance de Réflexion",
+      "description": "Réfléchis à une situation avec la méthode d'un psychologue bienveillant.",
+      "tags": [
+        "communication",
+        "thinking",
+        "health",
+        "decision"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "pull-request-reviewer",
       "type": "prompt",
       "version": "1.0.0",
@@ -1170,6 +3023,23 @@
       "language": "English"
     },
     {
+      "name": "rapport-quotidien-travail",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/rapport-quotidien-travail",
+      "display_name": "Rapport de Travail Quotidien",
+      "description": "Rédige des comptes-rendus d'activité clairs et professionnels.",
+      "tags": [
+        "meeting",
+        "productivity",
+        "communication",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "recipe-development-brief",
       "type": "prompt",
       "version": "1.0.0",
@@ -1184,6 +3054,23 @@
       "author": "Aaron Dalibard",
       "published": "2026-03-18",
       "language": "English"
+    },
+    {
+      "name": "redaction-article-blog",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/redaction-article-blog",
+      "display_name": "Rédaction d'Article de Blog",
+      "description": "Rédige un article de blog structuré, engageant et optimisé SEO.",
+      "tags": [
+        "writing",
+        "marketing",
+        "seo",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "regex-pattern-builder",
@@ -1220,6 +3107,345 @@
       "language": "English"
     },
     {
+      "name": "resume-cv-francais",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/resume-cv-francais",
+      "display_name": "Résumé de CV",
+      "description": "Optimise tes expériences en résumés percutants pour ton CV.",
+      "tags": [
+        "writing",
+        "education",
+        "communication",
+        "product"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "resume-de-texte",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/resume-de-texte",
+      "display_name": "Résumé de Texte",
+      "description": "Résume n'importe quel texte avec les points clés et les chiffres.",
+      "tags": [
+        "writing",
+        "research",
+        "communication",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "resume-reunion",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/resume-reunion",
+      "display_name": "Compte-Rendu de Réunion",
+      "description": "Transforme des notes de réunion en compte-rendu clair et actionnable.",
+      "tags": [
+        "meeting",
+        "productivity",
+        "communication",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "retro-80s-poster",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/retro-80s-poster",
+      "display_name": "Affiche Rétro Années 80",
+      "description": "Conçois des posters rétro futuristes inspirés des années 80.",
+      "tags": [
+        "image",
+        "creative",
+        "design"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-api",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-api",
+      "display_name": "Revue d'API et Endpoints",
+      "description": "Audite une API REST : contrats, versions, erreurs et ergonomie.",
+      "tags": [
+        "code-review",
+        "api",
+        "backend",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-backend",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-backend",
+      "display_name": "Revue de Code Backend",
+      "description": "Contrôle la qualité d'un backend : API, sécurité et données.",
+      "tags": [
+        "code-review",
+        "backend",
+        "api",
+        "security"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-database",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-database",
+      "display_name": "Revue de Code et Base de Données",
+      "description": "Audite les requêtes SQL et le modèle de données d'un projet.",
+      "tags": [
+        "code-review",
+        "sql",
+        "database",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-django",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-django",
+      "display_name": "Revue de Code Django",
+      "description": "Audite une application Django : modèles, vues et sécurité.",
+      "tags": [
+        "code-review",
+        "backend",
+        "python",
+        "security"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-flask",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-flask",
+      "display_name": "Revue de Code Flask",
+      "description": "Audite une application Flask : routes, sessions et sécurité.",
+      "tags": [
+        "code-review",
+        "backend",
+        "python",
+        "security"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-frontend",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-frontend",
+      "display_name": "Revue de Code Frontend",
+      "description": "Audite le code front : accessibilité, responsive et performance.",
+      "tags": [
+        "code-review",
+        "frontend",
+        "web",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-git-pr",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-git-pr",
+      "display_name": "Revue de Pull Request",
+      "description": "Évalue une pull request comme un reviewer exigeant et bienveillant.",
+      "tags": [
+        "code-review",
+        "testing",
+        "coding",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-javascript",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-javascript",
+      "display_name": "Revue de Code JavaScript",
+      "description": "Vérifie ton code JS/TS : bugs, anti-patterns et améliorations.",
+      "tags": [
+        "code-review",
+        "javascript",
+        "testing",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-nodejs",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-nodejs",
+      "display_name": "Revue de Code Node.js",
+      "description": "Audite un backend Node : async, erreurs et performances.",
+      "tags": [
+        "code-review",
+        "backend",
+        "javascript",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-python",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-python",
+      "display_name": "Revue de Code Python",
+      "description": "Analyse ton code Python : bugs, style, performances et suggestions.",
+      "tags": [
+        "code-review",
+        "python",
+        "testing",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-react",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-react",
+      "display_name": "Revue de Code React",
+      "description": "Audite des composants React : hooks, re-renders et accessibilité.",
+      "tags": [
+        "code-review",
+        "frontend",
+        "javascript",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-code-tests",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-code-tests",
+      "display_name": "Revue de Tests et Couverture",
+      "description": "Audite ta stratégie de tests : qualité, couverture et cas manquants.",
+      "tags": [
+        "code-review",
+        "testing",
+        "coding",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-performances-code",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-performances-code",
+      "display_name": "Revue de Code Performances",
+      "description": "Optimise ton code : profilage, complexité et goulots d'étranglement.",
+      "tags": [
+        "code-review",
+        "testing",
+        "data-analysis",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-refactoring",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-refactoring",
+      "display_name": "Revue et Refactoring",
+      "description": "Refactorise ton code pour le rendre plus propre sans changer le comportement.",
+      "tags": [
+        "code-review",
+        "refactoring",
+        "coding",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "revue-securite-code",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/revue-securite-code",
+      "display_name": "Revue de Code Sécurité",
+      "description": "Détecte les failles de sécurité dans ton code avec priorisation.",
+      "tags": [
+        "code-review",
+        "security",
+        "cybersecurity",
+        "testing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "saas-idee-validate",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/saas-idee-validate",
+      "display_name": "Valider une Idée SaaS",
+      "description": "Valide ou invalide une idée SaaS en 30 jours avec un plan précis.",
+      "tags": [
+        "business",
+        "product",
+        "research",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "saas-landing-page-copy",
       "type": "prompt",
       "version": "1.0.0",
@@ -1252,6 +3478,23 @@
       "language": "English"
     },
     {
+      "name": "scenario-hypothetique-test",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/scenario-hypothetique-test",
+      "display_name": "Test des Scénarios Hypothétiques",
+      "description": "Mesure si un modèle assouplit ses règles dans des scénarios fictifs.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "llm",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "scientific-paper-summary",
       "type": "prompt",
       "version": "1.0.0",
@@ -1266,6 +3509,23 @@
       "author": "Aaron Dalibard",
       "published": "2025-11-07",
       "language": "English"
+    },
+    {
+      "name": "script-youtube-francais",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/script-youtube-francais",
+      "display_name": "Script YouTube",
+      "description": "Écris un script YouTube complet avec accroche, rythme et CTA.",
+      "tags": [
+        "video",
+        "writing",
+        "marketing",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "secrets-scanner-review",
@@ -1348,6 +3608,23 @@
       "language": "English"
     },
     {
+      "name": "slogan-entreprise",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/slogan-entreprise",
+      "display_name": "Slogans d'Entreprise",
+      "description": "Crée des slogans mémorables qui vendent la promesse de ta marque.",
+      "tags": [
+        "business",
+        "marketing",
+        "creative",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "socratic-tutor-session",
       "type": "prompt",
       "version": "1.0.0",
@@ -1394,6 +3671,23 @@
       "author": "Aaron Dalibard",
       "published": "2025-04-18",
       "language": "English"
+    },
+    {
+      "name": "sparring-partner-idees",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/sparring-partner-idees",
+      "display_name": "Sparring Partner d'Idées",
+      "description": "Développe tes idées en les confrontant à un partenaire exigeant.",
+      "tags": [
+        "brainstorming",
+        "thinking",
+        "product",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "sql-query-optimizer",
@@ -1445,6 +3739,23 @@
       "language": "English"
     },
     {
+      "name": "stoicien-modern",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/stoicien-modern",
+      "display_name": "Le Stoïcien Moderne",
+      "description": "Affronte tes difficultés avec la sagesse stoïcienne appliquée au quotidien.",
+      "tags": [
+        "thinking",
+        "health",
+        "decision",
+        "planning"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "story-idea-generator",
       "type": "prompt",
       "version": "1.0.0",
@@ -1459,6 +3770,38 @@
       "author": "Aaron Dalibard",
       "published": "2025-10-21",
       "language": "English"
+    },
+    {
+      "name": "storyboard-visuel",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/storyboard-visuel",
+      "display_name": "Storyboard Visuel",
+      "description": "Découpe ta scène en plan séquencés avec cadrage et mouvement de caméra.",
+      "tags": [
+        "image",
+        "video",
+        "creative"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "style-anime",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/style-anime",
+      "display_name": "Style Anime",
+      "description": "Génère des illustrations anime avec personnages et scènes expressives.",
+      "tags": [
+        "image",
+        "creative",
+        "storytelling"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "swot-analysis-framework",
@@ -1509,6 +3852,176 @@
       "language": "English"
     },
     {
+      "name": "test-chaine-raisonnement",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-chaine-raisonnement",
+      "display_name": "Test de la Chaîne de Raisonnement",
+      "description": "Vérifie si un modèle peut être déstabilisé en attaquant son raisonnement.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "thinking",
+        "llm"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "test-dev-mode",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-dev-mode",
+      "display_name": "Test du Mode Développeur",
+      "description": "Vérifie si un modèle se laisse tromper par des déclarations de mode spécial.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "llm",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "test-injection-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-injection-prompt",
+      "display_name": "Test d'Injection de Prompt",
+      "description": "Vérifie si un modèle distingue les instructions d'un texte injecté dans ses données.",
+      "tags": [
+        "jailbreaking",
+        "security",
+        "testing",
+        "llm"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "test-limites-modele",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-limites-modele",
+      "display_name": "Test des Limites du Modèle",
+      "description": "Sonde méthodiquement les limites d'un modèle pour cartographier ses refus.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "llm",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "test-meta-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-meta-prompt",
+      "display_name": "Test des Méta-Prompts",
+      "description": "Vérifie si un modèle est influençable par des instructions déguisées dans la requête.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "llm",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "test-persuasion-modele",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-persuasion-modele",
+      "display_name": "Test de Persuasion et Consistance",
+      "description": "Teste si un modèle se contredit, se laisse manipuler ou change d'avis sans raison.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "llm",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "test-pression-contradiction",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-pression-contradiction",
+      "display_name": "Test de Pression et Contradiction",
+      "description": "Teste la stabilité d'un modèle face aux pressions et contradictions.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "llm",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "test-rebellion-modele",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-rebellion-modele",
+      "display_name": "Test de Rébellion du Modèle",
+      "description": "Mesure la résistance d'un modèle aux demandes de désobéissance.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "llm",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "test-roleplay-consistance",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-roleplay-consistance",
+      "display_name": "Test de Consistance en Jeu de Rôle",
+      "description": "Vérifie si un modèle garde ses règles quand on incarne un personnage.",
+      "tags": [
+        "jailbreaking",
+        "testing",
+        "llm",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "traduction-fr-en",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/traduction-fr-en",
+      "display_name": "Traduction Français-Anglais",
+      "description": "Traduis des textes avec nuances culturelles et registre adapté.",
+      "tags": [
+        "translation",
+        "language-learning",
+        "writing",
+        "communication"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
       "name": "translation-proofreader",
       "type": "prompt",
       "version": "1.0.0",
@@ -1555,6 +4068,23 @@
       "author": "Aaron Dalibard",
       "published": "2026-01-28",
       "language": "English"
+    },
+    {
+      "name": "veille-technologique",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/veille-technologique",
+      "display_name": "Veille Technologique",
+      "description": "Fais un point de veille ciblé sur un domaine et ses évolutions.",
+      "tags": [
+        "research",
+        "coding",
+        "automation",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
     },
     {
       "name": "voiceover-script",

@@ -1,0 +1,24 @@
+{
+  "name": "traduction-fr-en",
+  "display_name": "Traduction Français-Anglais",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Traduis des textes avec nuances culturelles et registre adapté.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "translation",
+    "language-learning",
+    "writing",
+    "communication"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

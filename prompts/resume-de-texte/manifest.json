@@ -1,0 +1,24 @@
+{
+  "name": "resume-de-texte",
+  "display_name": "Résumé de Texte",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Résume n'importe quel texte avec les points clés et les chiffres.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "writing",
+    "research",
+    "communication",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

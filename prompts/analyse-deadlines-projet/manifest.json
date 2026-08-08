@@ -1,0 +1,24 @@
+{
+  "name": "analyse-deadlines-projet",
+  "display_name": "Analyse des Délais",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Évalue les délais d'un projet : dépendances, marges et plan réaliste.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "planning",
+    "research",
+    "thinking",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

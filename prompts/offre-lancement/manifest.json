@@ -1,0 +1,24 @@
+{
+  "name": "offre-lancement",
+  "display_name": "Offre de Lancement",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Conçois une offre de lancement attractive avec prix et bonus.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "marketing",
+    "product",
+    "sales"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

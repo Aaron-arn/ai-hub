@@ -1,0 +1,24 @@
+{
+  "name": "jeu-plateforme-javascript",
+  "display_name": "Jeu Plateforme JavaScript",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée un jeu de plateforme en JavaScript avec niveaux et pièces.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "javascript",
+    "building",
+    "web"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

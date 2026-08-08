@@ -1,0 +1,23 @@
+{
+  "name": "minimalisme-flat-design",
+  "display_name": "Flat Design Minimaliste",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée des illustrations flat design épurées avec formes simples et couleurs franches.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "design",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

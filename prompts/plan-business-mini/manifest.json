@@ -1,0 +1,24 @@
+{
+  "name": "plan-business-mini",
+  "display_name": "Mini Business Plan",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Rédige un business plan complet et structuré en une page.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "planning",
+    "finance",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

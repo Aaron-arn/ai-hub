@@ -1,0 +1,24 @@
+{
+  "name": "jeu-enigme-puzzle",
+  "display_name": "Jeu d'Énigmes",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Construis un puzzle game avec énigmes logiques en escalade de difficulté.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

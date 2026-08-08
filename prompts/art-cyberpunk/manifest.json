@@ -1,0 +1,23 @@
+{
+  "name": "art-cyberpunk",
+  "display_name": "Art Cyberpunk",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Décris des scènes cyberpunk urbaines détaillées avec néons et pluie.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "storytelling"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "photo-realisme-produit",
+  "display_name": "Rendu Produit Photoréaliste",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée des mises en scène photoréalistes pour mettre en valeur un produit.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "design",
+    "marketing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

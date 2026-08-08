@@ -1,0 +1,24 @@
+{
+  "name": "jeu-simulation-ville",
+  "display_name": "Simulation de Ville",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée une mini simulation de ville : routes, bâtiments et croissance.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "math"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "jeu-course-moto-2d",
+  "display_name": "Course de Moto 2D",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Développe une course de moto 2D en vue de dessus avec dérapage.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "analyse-couts-projet",
+  "display_name": "Analyse des Coûts",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Décompose les coûts d'un projet et trouve les économies possibles.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "finance",
+    "research",
+    "planning",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

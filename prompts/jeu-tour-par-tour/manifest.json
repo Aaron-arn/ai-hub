@@ -1,0 +1,24 @@
+{
+  "name": "jeu-tour-par-tour",
+  "display_name": "Jeu de Combat Tour par Tour",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée un système de combat au tour par tour complet avec types d'attaques.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "javascript",
+    "building"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

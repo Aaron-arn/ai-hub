@@ -1,0 +1,24 @@
+{
+  "name": "analyse-projet-global",
+  "display_name": "Analyse Globale d'un Projet",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audite un projet complet : objectifs, forces, faiblesses et plan d'action.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "thinking",
+    "planning",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

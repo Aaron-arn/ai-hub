@@ -1,0 +1,24 @@
+{
+  "name": "clone-flappy-bird",
+  "display_name": "Clone Flappy Bird",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Reproduis Flappy Bird avec physique, tuyaux et score en quelques lignes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "javascript",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

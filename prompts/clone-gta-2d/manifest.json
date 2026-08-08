@@ -1,0 +1,24 @@
+{
+  "name": "clone-gta-2d",
+  "display_name": "Clone GTA 2D",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Développe une version 2D très simplifiée de type GTA : ville, véhicules, missions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "jeu-infini-runner",
+  "display_name": "Jeu Infini Runner",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée un endless runner avec obstacles aléatoires et vitesse croissante.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "javascript",
+    "python",
+    "building"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

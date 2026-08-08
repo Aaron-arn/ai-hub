@@ -1,0 +1,24 @@
+{
+  "name": "resume-cv-francais",
+  "display_name": "Résumé de CV",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Optimise tes expériences en résumés percutants pour ton CV.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "writing",
+    "education",
+    "communication",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

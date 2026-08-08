@@ -1,0 +1,24 @@
+{
+  "name": "test-persuasion-modele",
+  "display_name": "Test de Persuasion et Consistance",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Teste si un modèle se contredit, se laisse manipuler ou change d'avis sans raison.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "jailbreaking",
+    "testing",
+    "llm",
+    "thinking"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

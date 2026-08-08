@@ -1,0 +1,23 @@
+{
+  "name": "storyboard-visuel",
+  "display_name": "Storyboard Visuel",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Découpe ta scène en plan séquencés avec cadrage et mouvement de caméra.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "video",
+    "creative"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

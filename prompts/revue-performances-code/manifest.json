@@ -1,0 +1,24 @@
+{
+  "name": "revue-performances-code",
+  "display_name": "Revue de Code Performances",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Optimise ton code : profilage, complexité et goulots d'étranglement.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "code-review",
+    "testing",
+    "data-analysis",
+    "refactoring"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

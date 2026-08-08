@@ -1,0 +1,24 @@
+{
+  "name": "plus-honnete",
+  "display_name": "Devenir Plus Honnête",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Entraîne-toi à être plus honnête dans tes échanges, sans brutalité.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "thinking",
+    "productivity",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

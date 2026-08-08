@@ -1,0 +1,23 @@
+{
+  "name": "illustrateur-fantasy",
+  "display_name": "Illustrateur Fantasy",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Transforme n'importe quelle idée en illustration fantasy détaillée avec composition, ambiance et palette.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "storytelling"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

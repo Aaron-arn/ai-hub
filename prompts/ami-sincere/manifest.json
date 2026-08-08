@@ -1,0 +1,24 @@
+{
+  "name": "ami-sincere",
+  "display_name": "L'Ami Sincère",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Parle avec un ami honnête qui te dit la vérité avec bienveillance.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "thinking",
+    "decision",
+    "productivity"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

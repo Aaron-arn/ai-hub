@@ -1,0 +1,24 @@
+{
+  "name": "franchise-idees",
+  "display_name": "Idées de Franchise",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Évalue et génère des concepts de franchise rentables.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "research",
+    "finance",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

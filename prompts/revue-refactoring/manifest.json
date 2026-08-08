@@ -1,0 +1,24 @@
+{
+  "name": "revue-refactoring",
+  "display_name": "Revue et Refactoring",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Refactorise ton code pour le rendre plus propre sans changer le comportement.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "code-review",
+    "refactoring",
+    "coding",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

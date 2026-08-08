@@ -1,0 +1,24 @@
+{
+  "name": "clone-snake",
+  "display_name": "Clone Snake",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée le jeu Snake avec croissance, bonus et collisions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "javascript",
+    "building"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

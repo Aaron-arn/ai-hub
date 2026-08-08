@@ -1,0 +1,23 @@
+{
+  "name": "concept-art-environnement",
+  "display_name": "Concept Art d'Environnement",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Conçois l'environnement d'un jeu ou film : architecture, ambiances et détails.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "image",
+    "creative",
+    "building"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

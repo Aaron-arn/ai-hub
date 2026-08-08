@@ -1,0 +1,24 @@
+{
+  "name": "analyse-dette-technique",
+  "display_name": "Analyse de la Dette Technique",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Quantifie la dette technique d'un codebase et priorise son remboursement.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "coding",
+    "refactoring",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

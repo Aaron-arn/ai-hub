@@ -1,0 +1,24 @@
+{
+  "name": "jeu-javascript-canvas",
+  "display_name": "Jeu JavaScript Canvas",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Crée un jeu 2D jouable dans le navigateur avec Canvas et zéro dépendance.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "javascript",
+    "building",
+    "web"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

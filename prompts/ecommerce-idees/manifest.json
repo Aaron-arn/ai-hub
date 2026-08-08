@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-idees",
+  "display_name": "Idées E-commerce",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Trouve des produits et angles e-commerce rentables.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "research",
+    "marketing",
+    "sales"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

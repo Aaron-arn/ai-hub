@@ -1,0 +1,24 @@
+{
+  "name": "alter-ego-confiant",
+  "display_name": "Mon Alter Ego Confiant",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Répète les situations stressantes avec ta version la plus confiante.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "communication",
+    "thinking",
+    "productivity",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

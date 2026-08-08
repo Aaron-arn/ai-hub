@@ -1,0 +1,24 @@
+{
+  "name": "jeu-quiz-interactif",
+  "display_name": "Jeu Quiz Interactif",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Génère un quiz interactif avec score, timer et questions personnalisées.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "javascript",
+    "web",
+    "education"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

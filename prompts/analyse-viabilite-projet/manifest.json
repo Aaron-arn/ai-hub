@@ -1,0 +1,24 @@
+{
+  "name": "analyse-viabilite-projet",
+  "display_name": "Analyse de Viabilité",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Détermine si un projet vaut le coup : demande, coûts et rentabilité.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "business",
+    "finance",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

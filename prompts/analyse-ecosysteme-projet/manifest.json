@@ -1,0 +1,24 @@
+{
+  "name": "analyse-ecosysteme-projet",
+  "display_name": "Analyse de l'Écosystème",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Cartographie l'écosystème d'un projet : acteurs, dépendances et positions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "research",
+    "business",
+    "planning",
+    "decision"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

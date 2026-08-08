@@ -1,0 +1,24 @@
+{
+  "name": "test-chaine-raisonnement",
+  "display_name": "Test de la Chaîne de Raisonnement",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Vérifie si un modèle peut être déstabilisé en attaquant son raisonnement.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "jailbreaking",
+    "testing",
+    "thinking",
+    "llm"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

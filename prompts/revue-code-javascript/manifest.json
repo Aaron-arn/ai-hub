@@ -1,0 +1,24 @@
+{
+  "name": "revue-code-javascript",
+  "display_name": "Revue de Code JavaScript",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Vérifie ton code JS/TS : bugs, anti-patterns et améliorations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "code-review",
+    "javascript",
+    "testing",
+    "refactoring"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

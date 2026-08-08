@@ -1,0 +1,24 @@
+{
+  "name": "modele-revenus-creatif",
+  "display_name": "Modèles de Revenus",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Invente plusieurs façons de monétiser un produit ou service.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "business",
+    "brainstorming",
+    "product",
+    "finance"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "revue-code-database",
+  "display_name": "Revue de Code et Base de Données",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audite les requêtes SQL et le modèle de données d'un projet.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "code-review",
+    "sql",
+    "database",
+    "refactoring"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

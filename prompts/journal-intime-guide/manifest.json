@@ -1,0 +1,24 @@
+{
+  "name": "journal-intime-guide",
+  "display_name": "Journal Intime Guidé",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Clarifie tes émotions grâce à une écriture introspective guidée.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "thinking",
+    "health",
+    "communication",
+    "writing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

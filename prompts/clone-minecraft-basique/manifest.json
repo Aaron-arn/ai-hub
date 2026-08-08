@@ -1,0 +1,24 @@
+{
+  "name": "clone-minecraft-basique",
+  "display_name": "Clone Minecraft Simple",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Construis un jeu de type Minecraft basique : voxels, minage et placement de blocs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "language": "Français",
+  "published": "2026-08-08",
+  "tags": [
+    "coding",
+    "python",
+    "building",
+    "testing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
