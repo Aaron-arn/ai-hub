@@ -1,0 +1,37 @@
+name: Prompt PR auto-merge
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+    paths:
+      - "prompts/**"
+      - "registry/registry.json"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: prompt-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  validate-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout base
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate and merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python .github/scripts/validate_prompt.py
+          gh pr merge "$PR_NUMBER" --squash --delete-branch

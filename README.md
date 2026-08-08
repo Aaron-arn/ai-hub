@@ -39,29 +39,23 @@ See `registry/registry.json` for the full index.
 
 ## Contributing a prompt
 
-Open an issue in this repository with the structured format below (the [AIHub website](https://aaron-arn.github.io/ai-hub-site/) "Submit a prompt" form builds it for you). A GitHub Action automatically creates a pull request from it:
+Share a prompt with the community from the CLI:
 
-```text
-## AIHub Prompt Contribution
-
-### Title
-Your prompt title
-
-### Description
-One sentence about what it does
-
-### Author
-Your name
-
-### Language
-English
-
-### Tags
-coding, testing, thinking
-
-### Prompt
-The full prompt text you want to share
+```bash
+pip install aihub-cli
+gh auth login        # or: aihub config set github_token <token>
+aihub contribute prompt
 ```
+
+`aihub contribute prompt` asks for the title, description, author, language,
+2-4 tags and the prompt text, then forks this repository, pushes a
+`prompt/<slug>` branch and opens a pull request. The
+[Prompt PR auto-merge](.github/workflows/prompt-pr.yml) workflow validates
+the package against the AIHub contract and merges it automatically — no
+manual approval needed.
+
+Contributions to tools and skills are not open yet; they will require a
+manual review.
 
 ## Roadmap
 
@@ -69,9 +63,9 @@ The full prompt text you want to share
 - [x] Create registry.json
 - [x] Add test packages (3 tools + 3 skills)
 - [x] AIHub CLI: search, info, install, uninstall, list, update
-- [x] Prompt contributions (GitHub issues -> automated PRs)
+- [x] Prompt contributions (CLI -> PRs with automatic validation and merge)
 - [x] Website with automatic registry sync
-- [ ] GitHub Actions validation for PRs
+- [x] GitHub Actions validation for PRs
 - [ ] Download counts (see `docs/COUNTS-API.md`)
 
 ## Related repositories
