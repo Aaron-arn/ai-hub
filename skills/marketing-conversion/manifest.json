@@ -1,0 +1,22 @@
+{
+  "name": "marketing-conversion",
+  "display_name": "Marketing Conversion (CRO)",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Optimize landing pages and funnels for conversions with a structured CRO process.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "marketing",
+    "conversion",
+    "growth",
+    "web"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

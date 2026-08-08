@@ -30,6 +30,8 @@ def request(method: str, url: str, data: str | None = None, timeout: int = 15, m
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if len(args) < 2 or args[0].lower() not in ("get", "post"):
         print(json.dumps({"error": "Usage: python main.py <get|post> <url> [data] [--timeout 15] [--max-bytes 100000]"}))
         sys.exit(1)

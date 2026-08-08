@@ -19,6 +19,8 @@ def slug(text: str) -> str:
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if len(args) < 2:
         print(json.dumps({"error": "Usage: python main.py <count|slug|upper|lower|title|replace> <text> [old] [new]"}))
         sys.exit(1)

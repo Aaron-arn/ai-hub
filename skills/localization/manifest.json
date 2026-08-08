@@ -1,0 +1,22 @@
+{
+  "name": "localization",
+  "display_name": "Localization",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Adapt content and software for international audiences, not just translate.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "localization",
+    "translation",
+    "internationalization",
+    "language"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

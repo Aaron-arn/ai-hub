@@ -8,6 +8,8 @@ import sys
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if len(args) < 2:
         print(json.dumps({"error": "Usage: python main.py <md5|sha1|sha256|sha512|base64-encode|base64-decode> <text>"}))
         sys.exit(1)

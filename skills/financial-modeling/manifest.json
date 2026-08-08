@@ -1,0 +1,22 @@
+{
+  "name": "financial-modeling",
+  "display_name": "Financial Modeling",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Build and stress-test financial models: forecasts, unit economics, scenarios.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "finance",
+    "business",
+    "data-analysis",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

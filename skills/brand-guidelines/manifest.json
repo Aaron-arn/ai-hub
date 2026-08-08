@@ -1,0 +1,22 @@
+{
+  "name": "brand-guidelines",
+  "display_name": "Brand Guidelines",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Apply and extend brand guidelines consistently across assets.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "brand",
+    "design",
+    "marketing",
+    "communication"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

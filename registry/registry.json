@@ -4191,6 +4191,20 @@
       ]
     },
     {
+      "name": "api-integration",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/api-integration",
+      "display_name": "API Integration",
+      "description": "Consume third-party APIs safely: auth, errors, pagination, retries.",
+      "tags": [
+        "api",
+        "integration",
+        "coding",
+        "backend"
+      ]
+    },
+    {
       "name": "architecture-design",
       "type": "skill",
       "version": "1.0.0",
@@ -4227,6 +4241,20 @@
         "backup",
         "recovery",
         "reliability"
+      ]
+    },
+    {
+      "name": "brand-guidelines",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/brand-guidelines",
+      "display_name": "Brand Guidelines",
+      "description": "Apply and extend brand guidelines consistently across assets.",
+      "tags": [
+        "brand",
+        "design",
+        "marketing",
+        "communication"
       ]
     },
     {
@@ -4308,6 +4336,20 @@
       ]
     },
     {
+      "name": "code-security-review",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-security-review",
+      "display_name": "Code Security Review",
+      "description": "Review code with a security-first checklist: OWASP and beyond.",
+      "tags": [
+        "security",
+        "code-review",
+        "cybersecurity",
+        "best-practices"
+      ]
+    },
+    {
       "name": "communication",
       "type": "skill",
       "version": "1.0.0",
@@ -4321,6 +4363,34 @@
       ]
     },
     {
+      "name": "content-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/content-strategy",
+      "display_name": "Content Strategy",
+      "description": "Build editorial strategies, content pillars and topic clusters.",
+      "tags": [
+        "marketing",
+        "content",
+        "seo",
+        "strategy"
+      ]
+    },
+    {
+      "name": "contract-review",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/contract-review",
+      "display_name": "Contract Review",
+      "description": "Flag contractual risks in vendor agreements with clear, non-legal summaries.",
+      "tags": [
+        "legal",
+        "business",
+        "risk",
+        "analysis"
+      ]
+    },
+    {
       "name": "copywriting",
       "type": "skill",
       "version": "1.0.0",
@@ -4331,6 +4401,20 @@
         "writing",
         "copy",
         "marketing"
+      ]
+    },
+    {
+      "name": "customer-retention",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/customer-retention",
+      "display_name": "Customer Retention",
+      "description": "Reduce churn with lifecycle analysis and retention playbooks.",
+      "tags": [
+        "product",
+        "analytics",
+        "growth",
+        "business"
       ]
     },
     {
@@ -4373,6 +4457,20 @@
       ]
     },
     {
+      "name": "database-migrations",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/database-migrations",
+      "display_name": "Database Migrations",
+      "description": "Plan and write safe schema migrations with rollback strategy.",
+      "tags": [
+        "database",
+        "sql",
+        "backend",
+        "best-practices"
+      ]
+    },
+    {
       "name": "debugging",
       "type": "skill",
       "version": "1.0.0",
@@ -4412,6 +4510,20 @@
       ]
     },
     {
+      "name": "document-automation",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/document-automation",
+      "display_name": "Document Automation",
+      "description": "Create and format Word, PDF, spreadsheet and slide documents.",
+      "tags": [
+        "documentation",
+        "productivity",
+        "office",
+        "automation"
+      ]
+    },
+    {
       "name": "documentation",
       "type": "skill",
       "version": "1.0.0",
@@ -4425,6 +4537,20 @@
       ]
     },
     {
+      "name": "email-marketing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/email-marketing",
+      "display_name": "Email Marketing",
+      "description": "Plan campaigns, write copy and structure automated sequences.",
+      "tags": [
+        "marketing",
+        "email",
+        "copywriting",
+        "growth"
+      ]
+    },
+    {
       "name": "error-handling",
       "type": "skill",
       "version": "1.0.0",
@@ -4435,6 +4561,20 @@
         "errors",
         "robustness",
         "reliability"
+      ]
+    },
+    {
+      "name": "financial-modeling",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/financial-modeling",
+      "display_name": "Financial Modeling",
+      "description": "Build and stress-test financial models: forecasts, unit economics, scenarios.",
+      "tags": [
+        "finance",
+        "business",
+        "data-analysis",
+        "planning"
       ]
     },
     {
@@ -4487,6 +4627,20 @@
         "graphql",
         "api",
         "query-language"
+      ]
+    },
+    {
+      "name": "growth-experiments",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/growth-experiments",
+      "display_name": "Growth Experiments",
+      "description": "Run structured experiment pipelines to grow a product.",
+      "tags": [
+        "growth",
+        "product",
+        "analytics",
+        "marketing"
       ]
     },
     {
@@ -4568,6 +4722,20 @@
       ]
     },
     {
+      "name": "localization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/localization",
+      "display_name": "Localization",
+      "description": "Adapt content and software for international audiences, not just translate.",
+      "tags": [
+        "localization",
+        "translation",
+        "internationalization",
+        "language"
+      ]
+    },
+    {
       "name": "logging-observability",
       "type": "skill",
       "version": "1.0.0",
@@ -4578,6 +4746,34 @@
         "logging",
         "observability",
         "monitoring"
+      ]
+    },
+    {
+      "name": "marketing-conversion",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/marketing-conversion",
+      "display_name": "Marketing Conversion (CRO)",
+      "description": "Optimize landing pages and funnels for conversions with a structured CRO process.",
+      "tags": [
+        "marketing",
+        "conversion",
+        "growth",
+        "web"
+      ]
+    },
+    {
+      "name": "meeting-notes",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/meeting-notes",
+      "display_name": "Meeting Notes & Actions",
+      "description": "Turn transcripts into structured notes with decisions and action items.",
+      "tags": [
+        "meeting",
+        "productivity",
+        "communication",
+        "writing"
       ]
     },
     {
@@ -4607,6 +4803,20 @@
       ]
     },
     {
+      "name": "negotiation",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/negotiation",
+      "display_name": "Negotiation",
+      "description": "Prepare and simulate commercial negotiations with a structured framework.",
+      "tags": [
+        "business",
+        "negotiation",
+        "sales",
+        "communication"
+      ]
+    },
+    {
       "name": "organization",
       "type": "skill",
       "version": "1.0.0",
@@ -4620,6 +4830,20 @@
       ]
     },
     {
+      "name": "performance-budget",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/performance-budget",
+      "display_name": "Performance Budget",
+      "description": "Set and enforce web performance budgets for a project.",
+      "tags": [
+        "performance",
+        "web",
+        "frontend",
+        "best-practices"
+      ]
+    },
+    {
       "name": "performance-optimization",
       "type": "skill",
       "version": "1.0.0",
@@ -4630,6 +4854,48 @@
         "performance",
         "profiling",
         "optimization"
+      ]
+    },
+    {
+      "name": "postmortem",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/postmortem",
+      "display_name": "Incident Postmortem",
+      "description": "Write blameless postmortems that turn incidents into system improvements.",
+      "tags": [
+        "incident-response",
+        "documentation",
+        "reliability",
+        "communication"
+      ]
+    },
+    {
+      "name": "pricing-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/pricing-strategy",
+      "display_name": "Pricing Strategy",
+      "description": "Design pricing models and positioning for a product.",
+      "tags": [
+        "business",
+        "pricing",
+        "strategy",
+        "product"
+      ]
+    },
+    {
+      "name": "product-analytics",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/product-analytics",
+      "display_name": "Product Analytics",
+      "description": "Define metrics, funnels and dashboards that drive product decisions.",
+      "tags": [
+        "analytics",
+        "product",
+        "data-analysis",
+        "metrics"
       ]
     },
     {
@@ -4698,6 +4964,20 @@
       ]
     },
     {
+      "name": "rfp-response",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/rfp-response",
+      "display_name": "RFP Response",
+      "description": "Analyze request for proposals and draft structured, compliant responses.",
+      "tags": [
+        "business",
+        "sales",
+        "writing",
+        "proposal"
+      ]
+    },
+    {
       "name": "rust-style",
       "type": "skill",
       "version": "1.0.0",
@@ -4708,6 +4988,20 @@
         "rust",
         "style",
         "best-practices"
+      ]
+    },
+    {
+      "name": "sales-prospecting",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/sales-prospecting",
+      "display_name": "Sales Prospecting",
+      "description": "Build outbound prospect lists, personalize outreach and sequence follow-ups.",
+      "tags": [
+        "sales",
+        "prospecting",
+        "gtm",
+        "marketing"
       ]
     },
     {
@@ -4734,6 +5028,34 @@
         "seo",
         "web",
         "marketing"
+      ]
+    },
+    {
+      "name": "serverless-development",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/serverless-development",
+      "display_name": "Serverless Development",
+      "description": "Build serverless functions following FaaS best practices.",
+      "tags": [
+        "serverless",
+        "cloud",
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "social-media-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/social-media-strategy",
+      "display_name": "Social Media Strategy",
+      "description": "Create platform-specific content plans and calendars.",
+      "tags": [
+        "marketing",
+        "social-media",
+        "content",
+        "strategy"
       ]
     },
     {
@@ -4789,6 +5111,34 @@
       ]
     },
     {
+      "name": "ux-research",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/ux-research",
+      "display_name": "UX Research",
+      "description": "Plan and run user research: interviews, usability tests, surveys.",
+      "tags": [
+        "ux",
+        "research",
+        "product",
+        "design"
+      ]
+    },
+    {
+      "name": "video-production",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/video-production",
+      "display_name": "Video Production",
+      "description": "Plan and produce video content: scripts, structure, editing guidance.",
+      "tags": [
+        "video",
+        "creative",
+        "marketing",
+        "storytelling"
+      ]
+    },
+    {
       "name": "web-research",
       "type": "skill",
       "version": "1.0.0",
@@ -4812,6 +5162,20 @@
         "table",
         "text",
         "formatting"
+      ]
+    },
+    {
+      "name": "barcode-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/barcode-generator",
+      "display_name": "Barcode Generator",
+      "description": "Generate EAN-13 barcode SVGs from a 12-digit product code.",
+      "tags": [
+        "barcode",
+        "image",
+        "ecommerce",
+        "utility"
       ]
     },
     {
@@ -4854,6 +5218,20 @@
       ]
     },
     {
+      "name": "chart-svg",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/chart-svg",
+      "display_name": "Chart Generator",
+      "description": "Render bar and line charts as standalone SVGs.",
+      "tags": [
+        "chart",
+        "image",
+        "data-analysis",
+        "utility"
+      ]
+    },
+    {
       "name": "color-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -4893,6 +5271,20 @@
       ]
     },
     {
+      "name": "crypto-price",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/crypto-price",
+      "display_name": "Crypto Price",
+      "description": "Current cryptocurrency prices from the free CoinGecko API.",
+      "tags": [
+        "finance",
+        "crypto",
+        "api",
+        "web"
+      ]
+    },
+    {
       "name": "csv-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -4903,6 +5295,20 @@
         "csv",
         "data",
         "utility"
+      ]
+    },
+    {
+      "name": "currency-converter",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/currency-converter",
+      "display_name": "Currency Converter",
+      "description": "Convert amounts between currencies using free Frankfurter exchange rates.",
+      "tags": [
+        "finance",
+        "currency",
+        "api",
+        "web"
       ]
     },
     {
@@ -4917,6 +5323,48 @@
         "time",
         "timezone",
         "utility"
+      ]
+    },
+    {
+      "name": "dictionary",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/dictionary",
+      "display_name": "Dictionary",
+      "description": "Word definitions, phonetics and examples from the free DictionaryAPI.",
+      "tags": [
+        "dictionary",
+        "language",
+        "api",
+        "web"
+      ]
+    },
+    {
+      "name": "diff-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/diff-tools",
+      "display_name": "Diff Tools",
+      "description": "Compare two strings or files and output a unified diff.",
+      "tags": [
+        "diff",
+        "git",
+        "text",
+        "utility"
+      ]
+    },
+    {
+      "name": "discord-webhook",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/discord-webhook",
+      "display_name": "Discord Webhook",
+      "description": "Send a message to a Discord channel via webhook URL.",
+      "tags": [
+        "communication",
+        "notifications",
+        "api",
+        "web"
       ]
     },
     {
@@ -4972,6 +5420,34 @@
       ]
     },
     {
+      "name": "geocoding",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/geocoding",
+      "display_name": "Geocoding",
+      "description": "Resolve a place name to coordinates using the free Open-Meteo geocoding API.",
+      "tags": [
+        "location",
+        "api",
+        "web",
+        "geocoding"
+      ]
+    },
+    {
+      "name": "hacker-news",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/hacker-news",
+      "display_name": "Hacker News Search",
+      "description": "Search Hacker News stories and comments via the Algolia API.",
+      "tags": [
+        "news",
+        "search",
+        "api",
+        "web"
+      ]
+    },
+    {
       "name": "hash-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -5009,6 +5485,20 @@
         "html",
         "encoding",
         "entities"
+      ]
+    },
+    {
+      "name": "html-to-text",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/html-to-text",
+      "display_name": "HTML to Text",
+      "description": "Extract clean readable text from HTML.",
+      "tags": [
+        "html",
+        "writing",
+        "scraping",
+        "utility"
       ]
     },
     {
@@ -5052,6 +5542,20 @@
       ]
     },
     {
+      "name": "ini-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/ini-tools",
+      "display_name": "INI Tools",
+      "description": "Parse, read and convert INI configuration files.",
+      "tags": [
+        "config",
+        "ini",
+        "utility",
+        "data-analysis"
+      ]
+    },
+    {
       "name": "ip-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -5091,6 +5595,20 @@
       ]
     },
     {
+      "name": "lorem-ipsum",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/lorem-ipsum",
+      "display_name": "Lorem Ipsum",
+      "description": "Generate lorem ipsum placeholder text.",
+      "tags": [
+        "text",
+        "placeholder",
+        "writing",
+        "utility"
+      ]
+    },
+    {
       "name": "mac-address",
       "type": "tool",
       "version": "1.0.0",
@@ -5101,6 +5619,20 @@
         "mac",
         "network",
         "addresses"
+      ]
+    },
+    {
+      "name": "markdown-to-html",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/markdown-to-html",
+      "display_name": "Markdown to HTML",
+      "description": "Convert Markdown documents to HTML.",
+      "tags": [
+        "markdown",
+        "html",
+        "writing",
+        "utility"
       ]
     },
     {
@@ -5156,6 +5688,20 @@
       ]
     },
     {
+      "name": "morse-code",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/morse-code",
+      "display_name": "Morse Code",
+      "description": "Encode and decode Morse code messages.",
+      "tags": [
+        "morse",
+        "utility",
+        "text",
+        "coding"
+      ]
+    },
+    {
       "name": "number-to-words",
       "type": "tool",
       "version": "1.0.0",
@@ -5205,6 +5751,20 @@
         "port",
         "network",
         "tcp"
+      ]
+    },
+    {
+      "name": "public-ip",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/public-ip",
+      "display_name": "Public IP",
+      "description": "Get the machine's public IP address and basic info.",
+      "tags": [
+        "network",
+        "ip",
+        "api",
+        "web"
       ]
     },
     {
@@ -5260,6 +5820,20 @@
       ]
     },
     {
+      "name": "rot13-cipher",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/rot13-cipher",
+      "display_name": "Caesar Cipher",
+      "description": "Encode or decode text with a Caesar/RotN shift cipher.",
+      "tags": [
+        "cipher",
+        "crypto",
+        "utility",
+        "text"
+      ]
+    },
+    {
       "name": "rss-reader",
       "type": "tool",
       "version": "1.0.0",
@@ -5282,6 +5856,34 @@
       "tags": [
         "version",
         "semver",
+        "utility"
+      ]
+    },
+    {
+      "name": "sitemap-parser",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/sitemap-parser",
+      "display_name": "Sitemap Parser",
+      "description": "Fetch and parse XML sitemaps into a list of URLs.",
+      "tags": [
+        "web",
+        "seo",
+        "sitemap",
+        "api"
+      ]
+    },
+    {
+      "name": "slugify",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/slugify",
+      "display_name": "Slugify",
+      "description": "Convert any text into URL-friendly slugs.",
+      "tags": [
+        "url",
+        "text",
+        "seo",
         "utility"
       ]
     },
@@ -5312,6 +5914,34 @@
       ]
     },
     {
+      "name": "sqlite-query",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/sqlite-query",
+      "display_name": "SQLite Query",
+      "description": "Run read-only SELECT queries against a SQLite database.",
+      "tags": [
+        "sql",
+        "database",
+        "sqlite",
+        "data-analysis"
+      ]
+    },
+    {
+      "name": "stock-quote",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/stock-quote",
+      "display_name": "Stock Quote",
+      "description": "Fetch a stock quote from Stooq (free CSV API, no key).",
+      "tags": [
+        "finance",
+        "stocks",
+        "api",
+        "web"
+      ]
+    },
+    {
       "name": "subnet-calculator",
       "type": "tool",
       "version": "1.0.0",
@@ -5322,6 +5952,20 @@
         "subnet",
         "cidr",
         "network"
+      ]
+    },
+    {
+      "name": "system-info",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/system-info",
+      "display_name": "System Info",
+      "description": "Report OS, platform and hardware details.",
+      "tags": [
+        "system",
+        "os",
+        "info",
+        "utility"
       ]
     },
     {
@@ -5348,6 +5992,20 @@
         "text",
         "utility",
         "strings"
+      ]
+    },
+    {
+      "name": "toml-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/toml-tools",
+      "display_name": "TOML Tools",
+      "description": "Parse and validate TOML configuration files.",
+      "tags": [
+        "config",
+        "toml",
+        "utility",
+        "data-analysis"
       ]
     },
     {
@@ -5404,6 +6062,20 @@
       ]
     },
     {
+      "name": "weather-forecast",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/weather-forecast",
+      "display_name": "Weather Forecast",
+      "description": "Current weather and forecast from Open-Meteo (no API key).",
+      "tags": [
+        "weather",
+        "api",
+        "web",
+        "location"
+      ]
+    },
+    {
       "name": "web-search",
       "type": "tool",
       "version": "1.0.0",
@@ -5414,6 +6086,20 @@
         "web",
         "search",
         "research"
+      ]
+    },
+    {
+      "name": "wikipedia-summary",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/wikipedia-summary",
+      "display_name": "Wikipedia Summary",
+      "description": "Get a Wikipedia article summary via the free REST API.",
+      "tags": [
+        "wikipedia",
+        "research",
+        "api",
+        "web"
       ]
     },
     {

@@ -1,0 +1,22 @@
+{
+  "name": "contract-review",
+  "display_name": "Contract Review",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Flag contractual risks in vendor agreements with clear, non-legal summaries.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "legal",
+    "business",
+    "risk",
+    "analysis"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

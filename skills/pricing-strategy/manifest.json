@@ -1,0 +1,22 @@
+{
+  "name": "pricing-strategy",
+  "display_name": "Pricing Strategy",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Design pricing models and positioning for a product.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "business",
+    "pricing",
+    "strategy",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

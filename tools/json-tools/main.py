@@ -26,6 +26,8 @@ def get_path(data, path: str):
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if not args:
         print(json.dumps({"error": "Usage: python main.py <validate|format|get> <json> [path]"}))
         sys.exit(1)

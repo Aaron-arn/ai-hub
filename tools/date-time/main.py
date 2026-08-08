@@ -12,6 +12,8 @@ def iso_with_tz(value: datetime) -> str:
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if not args:
         print(json.dumps({"error": "Usage: python main.py <now|unix|convert> [timezone] [timestamp]"}))
         sys.exit(1)

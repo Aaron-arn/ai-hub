@@ -1,0 +1,22 @@
+{
+  "name": "negotiation",
+  "display_name": "Negotiation",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Prepare and simulate commercial negotiations with a structured framework.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "business",
+    "negotiation",
+    "sales",
+    "communication"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

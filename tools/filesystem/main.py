@@ -55,6 +55,8 @@ def cmd_write(path: str, content: str) -> dict:
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if len(args) < 1 or args[0] not in SAFE_COMMANDS:
         print(f"Usage: python main.py <{'|'.join(SAFE_COMMANDS)}> <path> [content]")
         sys.exit(1)

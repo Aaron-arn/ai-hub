@@ -1,0 +1,22 @@
+{
+  "name": "ux-research",
+  "display_name": "UX Research",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Plan and run user research: interviews, usability tests, surveys.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "ux",
+    "research",
+    "product",
+    "design"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

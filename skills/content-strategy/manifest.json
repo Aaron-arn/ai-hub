@@ -1,0 +1,22 @@
+{
+  "name": "content-strategy",
+  "display_name": "Content Strategy",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Build editorial strategies, content pillars and topic clusters.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "marketing",
+    "content",
+    "seo",
+    "strategy"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

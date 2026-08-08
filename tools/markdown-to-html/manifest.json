@@ -1,0 +1,27 @@
+{
+  "name": "markdown-to-html",
+  "display_name": "Markdown to HTML",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Convert Markdown documents to HTML.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "markdown",
+    "html",
+    "writing",
+    "utility"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sales-prospecting",
+  "display_name": "Sales Prospecting",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Build outbound prospect lists, personalize outreach and sequence follow-ups.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "sales",
+    "prospecting",
+    "gtm",
+    "marketing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

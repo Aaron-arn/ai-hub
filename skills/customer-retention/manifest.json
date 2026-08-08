@@ -1,0 +1,22 @@
+{
+  "name": "customer-retention",
+  "display_name": "Customer Retention",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Reduce churn with lifecycle analysis and retention playbooks.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "product",
+    "analytics",
+    "growth",
+    "business"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

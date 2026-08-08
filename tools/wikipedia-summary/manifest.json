@@ -1,0 +1,27 @@
+{
+  "name": "wikipedia-summary",
+  "display_name": "Wikipedia Summary",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Get a Wikipedia article summary via the free REST API.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "wikipedia",
+    "research",
+    "api",
+    "web"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": true,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

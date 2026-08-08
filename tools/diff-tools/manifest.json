@@ -1,0 +1,27 @@
+{
+  "name": "diff-tools",
+  "display_name": "Diff Tools",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Compare two strings or files and output a unified diff.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "diff",
+    "git",
+    "text",
+    "utility"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

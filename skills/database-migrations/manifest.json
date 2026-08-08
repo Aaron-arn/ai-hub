@@ -1,0 +1,22 @@
+{
+  "name": "database-migrations",
+  "display_name": "Database Migrations",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Plan and write safe schema migrations with rollback strategy.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "database",
+    "sql",
+    "backend",
+    "best-practices"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "barcode-generator",
+  "display_name": "Barcode Generator",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Generate EAN-13 barcode SVGs from a 12-digit product code.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "barcode",
+    "image",
+    "ecommerce",
+    "utility"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dictionary",
+  "display_name": "Dictionary",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Word definitions, phonetics and examples from the free DictionaryAPI.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "dictionary",
+    "language",
+    "api",
+    "web"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": true,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

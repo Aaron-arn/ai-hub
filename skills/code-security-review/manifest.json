@@ -1,0 +1,22 @@
+{
+  "name": "code-security-review",
+  "display_name": "Code Security Review",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Review code with a security-first checklist: OWASP and beyond.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "security",
+    "code-review",
+    "cybersecurity",
+    "best-practices"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

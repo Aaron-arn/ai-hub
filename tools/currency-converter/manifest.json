@@ -1,0 +1,27 @@
+{
+  "name": "currency-converter",
+  "display_name": "Currency Converter",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Convert amounts between currencies using free Frankfurter exchange rates.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "finance",
+    "currency",
+    "api",
+    "web"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": true,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

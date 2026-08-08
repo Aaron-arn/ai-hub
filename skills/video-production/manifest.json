@@ -1,0 +1,22 @@
+{
+  "name": "video-production",
+  "display_name": "Video Production",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Plan and produce video content: scripts, structure, editing guidance.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "video",
+    "creative",
+    "marketing",
+    "storytelling"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

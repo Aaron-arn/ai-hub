@@ -11,6 +11,8 @@ def clean_params(params: dict) -> dict:
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if len(args) < 2:
         print(json.dumps({"error": "Usage: python main.py <parse|encode|decode|query> <value>"}))
         sys.exit(1)

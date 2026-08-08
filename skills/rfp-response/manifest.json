@@ -1,0 +1,22 @@
+{
+  "name": "rfp-response",
+  "display_name": "RFP Response",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Analyze request for proposals and draft structured, compliant responses.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "business",
+    "sales",
+    "writing",
+    "proposal"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

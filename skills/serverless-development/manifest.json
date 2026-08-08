@@ -1,0 +1,22 @@
+{
+  "name": "serverless-development",
+  "display_name": "Serverless Development",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Build serverless functions following FaaS best practices.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "serverless",
+    "cloud",
+    "devops",
+    "backend"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "api-integration",
+  "display_name": "API Integration",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Consume third-party APIs safely: auth, errors, pagination, retries.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "api",
+    "integration",
+    "coding",
+    "backend"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

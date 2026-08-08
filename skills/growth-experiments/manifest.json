@@ -1,0 +1,22 @@
+{
+  "name": "growth-experiments",
+  "display_name": "Growth Experiments",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Run structured experiment pipelines to grow a product.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "growth",
+    "product",
+    "analytics",
+    "marketing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "document-automation",
+  "display_name": "Document Automation",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Create and format Word, PDF, spreadsheet and slide documents.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "documentation",
+    "productivity",
+    "office",
+    "automation"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

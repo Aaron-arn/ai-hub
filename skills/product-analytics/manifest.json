@@ -1,0 +1,22 @@
+{
+  "name": "product-analytics",
+  "display_name": "Product Analytics",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Define metrics, funnels and dashboards that drive product decisions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "analytics",
+    "product",
+    "data-analysis",
+    "metrics"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "hacker-news",
+  "display_name": "Hacker News Search",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Search Hacker News stories and comments via the Algolia API.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "news",
+    "search",
+    "api",
+    "web"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": true,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

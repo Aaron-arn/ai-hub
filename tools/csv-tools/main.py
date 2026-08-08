@@ -18,6 +18,8 @@ def parse_csv(text: str) -> list[dict]:
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if not args:
         print(json.dumps({"error": "Usage: python main.py <to-json|rows|filter> <csv> [column] [value]"}))
         sys.exit(1)

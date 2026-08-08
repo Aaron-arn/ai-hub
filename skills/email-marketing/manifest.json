@@ -1,0 +1,22 @@
+{
+  "name": "email-marketing",
+  "display_name": "Email Marketing",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Plan campaigns, write copy and structure automated sequences.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "marketing",
+    "email",
+    "copywriting",
+    "growth"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

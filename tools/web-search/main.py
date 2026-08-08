@@ -48,6 +48,8 @@ def search(query: str, max_results: int = 5) -> list[dict]:
 
 def main() -> None:
     args = sys.argv[1:]
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     if not args:
         print(json.dumps({"error": "Usage: python main.py \"<query>\" [max_results]"}))
         sys.exit(1)

@@ -1,0 +1,22 @@
+{
+  "name": "meeting-notes",
+  "display_name": "Meeting Notes & Actions",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Turn transcripts into structured notes with decisions and action items.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "meeting",
+    "productivity",
+    "communication",
+    "writing"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

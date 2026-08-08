@@ -1,0 +1,22 @@
+{
+  "name": "performance-budget",
+  "display_name": "Performance Budget",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Set and enforce web performance budgets for a project.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "performance",
+    "web",
+    "frontend",
+    "best-practices"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

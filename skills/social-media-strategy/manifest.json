@@ -1,0 +1,22 @@
+{
+  "name": "social-media-strategy",
+  "display_name": "Social Media Strategy",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Create platform-specific content plans and calendars.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "marketing",
+    "social-media",
+    "content",
+    "strategy"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
