@@ -1,4 +1,4 @@
-# AIHub
+﻿# AIHub
 
 ![AIHub banner](assets/banner.png)
 
@@ -70,7 +70,7 @@ manual review.
 
 ## Related repositories
 
-- [ai-hub-site](https://github.com/Aaron-arn/ai-hub-site) — the catalog website: <https://aaron-arn.github.io/ai-hub-site/>
+- [ai-hub-site](https://github.com/Aaron-arn/ai-hub-site) — the catalog website: <https://ai-hub-fr.vercel.app>
 - [ai-hub-cli](https://github.com/Aaron-arn/ai-hub-cli) — the `aihub` command line tool
 
 ## License
