@@ -66,7 +66,9 @@ manual review.
 - [x] Prompt contributions (CLI -> PRs with automatic validation and merge)
 - [x] Website with automatic registry sync
 - [x] GitHub Actions validation for PRs
-- [ ] Download counts (see `docs/COUNTS-API.md`)
+- [x] Download counts (see `docs/COUNTS-API.md`)
+- [x] Browser contributions on the website (prompts -> PRs, `GITHUB_TOKEN`-gated)
+- [ ] Contributions for tools and skills (manual review)
 
 ## Related repositories
 
