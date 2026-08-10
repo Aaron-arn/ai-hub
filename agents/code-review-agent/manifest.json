@@ -1,0 +1,12 @@
+{
+  "name": "code-review-agent",
+  "display_name": "Code Review Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Reviews pull requests and code changes: correctness, security, style and test coverage, with a clear verdict and prioritized findings.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["code-review", "agent"],
+  "entrypoint": "agent.md",
+  "tools": ["aihub:web-search"]
+}

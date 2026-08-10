@@ -1,0 +1,51 @@
+name: Registry health
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - "registry/**"
+      - "prompts/**"
+      - "skills/**"
+      - "tools/**"
+      - ".github/scripts/health_check.py"
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run health check
+        id: health
+        run: |
+          python .github/scripts/health_check.py
+
+      - name: Summarize
+        run: |
+          cat .github/scripts/health-summary.txt
+          echo "SUMMARY=$(cat .github/scripts/health-summary.txt)" >> "$GITHUB_ENV"
+
+      - name: Open issue on failure (nightly/manual only)
+        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Registry health check failed" \
+            --body "$(cat .github/scripts/health-summary.txt)" \
+            --repo "${{ github.repository }}" \
+            || true

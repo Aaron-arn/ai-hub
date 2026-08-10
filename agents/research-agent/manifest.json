@@ -1,0 +1,12 @@
+{
+  "name": "research-agent",
+  "display_name": "Research Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Plans and runs multi-step research: formulate questions, gather sources, cross-check claims and deliver a cited, structured report.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": ["research", "agent"],
+  "entrypoint": "agent.md",
+  "tools": ["aihub:web-search", "aihub:wikipedia-summary"]
+}

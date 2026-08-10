@@ -1,7 +1,20 @@
 {
   "version": 1,
-  "generated": "2026-08-07",
+  "generated": "2026-08-10",
   "packages": [
+    {
+      "name": "accessibility",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/accessibility",
+      "display_name": "Accessibility",
+      "description": "Guidelines for making products usable by everyone: a11y best practices.",
+      "tags": [
+        "accessibility",
+        "a11y",
+        "inclusive"
+      ]
+    },
     {
       "name": "affiche-evenement",
       "type": "prompt",
@@ -17,6 +30,19 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "agent-development",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/agent-development",
+      "display_name": "Agent Development",
+      "description": "Guidelines for building reliable AI agents: tools, memory and safety.",
+      "tags": [
+        "agents",
+        "ai",
+        "tools"
+      ]
     },
     {
       "name": "agent-memory-and-context-manager",
@@ -389,6 +415,19 @@
       "language": "Français"
     },
     {
+      "name": "api-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/api-design",
+      "display_name": "API Design",
+      "description": "Guidelines for designing clean, consistent and versioned APIs.",
+      "tags": [
+        "api",
+        "design",
+        "rest"
+      ]
+    },
+    {
       "name": "api-endpoint-tester",
       "type": "prompt",
       "version": "1.0.0",
@@ -404,6 +443,20 @@
       "author": "Aaron Dalibard",
       "published": "2025-10-10",
       "language": "English"
+    },
+    {
+      "name": "api-integration",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/api-integration",
+      "display_name": "API Integration",
+      "description": "Consume third-party APIs safely: auth, errors, pagination, retries.",
+      "tags": [
+        "api",
+        "integration",
+        "coding",
+        "backend"
+      ]
     },
     {
       "name": "api-rate-limit-handler",
@@ -470,6 +523,19 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "architecture-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/architecture-design",
+      "display_name": "Architecture Design",
+      "description": "Guidelines for designing scalable, maintainable system architecture.",
+      "tags": [
+        "architecture",
+        "design",
+        "systems"
+      ]
     },
     {
       "name": "art-cuisine-food",
@@ -554,6 +620,19 @@
       "language": "Français"
     },
     {
+      "name": "ascii-table",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/ascii-table",
+      "display_name": "ASCII Table",
+      "description": "Build ASCII tables from rows of data.",
+      "tags": [
+        "table",
+        "text",
+        "formatting"
+      ]
+    },
+    {
       "name": "audio-description-script",
       "type": "prompt",
       "version": "1.0.0",
@@ -568,6 +647,19 @@
       "author": "Aaron Dalibard",
       "published": "2026-07-02",
       "language": "English"
+    },
+    {
+      "name": "authentication-authorization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/authentication-authorization",
+      "display_name": "Authentication and Authorization",
+      "description": "Guidelines for implementing authentication and authorization safely.",
+      "tags": [
+        "auth",
+        "security",
+        "identity"
+      ]
     },
     {
       "name": "avocat-du-diable",
@@ -587,6 +679,19 @@
       "language": "Français"
     },
     {
+      "name": "backup-recovery",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/backup-recovery",
+      "display_name": "Backup and Recovery",
+      "description": "Guidelines for reliable backups and disaster recovery planning.",
+      "tags": [
+        "backup",
+        "recovery",
+        "reliability"
+      ]
+    },
+    {
       "name": "banniere-web-design",
       "type": "prompt",
       "version": "1.0.0",
@@ -602,6 +707,33 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "barcode-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/barcode-generator",
+      "display_name": "Barcode Generator",
+      "description": "Generate EAN-13 barcode SVGs from a 12-digit product code.",
+      "tags": [
+        "barcode",
+        "image",
+        "ecommerce",
+        "utility"
+      ]
+    },
+    {
+      "name": "base-converter",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/base-converter",
+      "display_name": "Base Converter",
+      "description": "Convert numbers between bases 2, 8, 10, 16 and 36.",
+      "tags": [
+        "base",
+        "conversion",
+        "numbers"
+      ]
     },
     {
       "name": "boss-exigeant",
@@ -636,6 +768,20 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "brand-guidelines",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/brand-guidelines",
+      "display_name": "Brand Guidelines",
+      "description": "Apply and extend brand guidelines consistently across assets.",
+      "tags": [
+        "brand",
+        "design",
+        "marketing",
+        "communication"
+      ]
     },
     {
       "name": "brand-voice-guide-creator",
@@ -688,6 +834,46 @@
       "language": "Français"
     },
     {
+      "name": "calculator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/calculator",
+      "display_name": "Calculator",
+      "description": "Safely evaluate arithmetic expressions.",
+      "tags": [
+        "math",
+        "utility",
+        "calculation"
+      ]
+    },
+    {
+      "name": "calendar-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/calendar-tools",
+      "display_name": "Calendar Tools",
+      "description": "Show month calendars, week numbers and day-of-week calculations.",
+      "tags": [
+        "calendar",
+        "date",
+        "time"
+      ]
+    },
+    {
+      "name": "chart-svg",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/chart-svg",
+      "display_name": "Chart Generator",
+      "description": "Render bar and line charts as standalone SVGs.",
+      "tags": [
+        "chart",
+        "image",
+        "data-analysis",
+        "utility"
+      ]
+    },
+    {
       "name": "ci-cd-pipeline-review",
       "type": "prompt",
       "version": "1.0.0",
@@ -704,6 +890,19 @@
       "language": "English"
     },
     {
+      "name": "cicd",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/cicd",
+      "display_name": "CI/CD",
+      "description": "Guidelines for continuous integration and deployment pipelines.",
+      "tags": [
+        "ci",
+        "cd",
+        "pipelines"
+      ]
+    },
+    {
       "name": "cinematic-product-shot",
       "type": "prompt",
       "version": "1.0.0",
@@ -718,6 +917,19 @@
       "author": "Aaron Dalibard",
       "published": "2025-01-15",
       "language": "English"
+    },
+    {
+      "name": "cli-mastery",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/cli-mastery",
+      "display_name": "CLI Mastery",
+      "description": "Guidelines for using command-line tools efficiently: pipes, flags and scripting.",
+      "tags": [
+        "cli",
+        "terminal",
+        "shell"
+      ]
     },
     {
       "name": "clone-flappy-bird",
@@ -922,6 +1134,72 @@
       "language": "Français"
     },
     {
+      "name": "code-explaining",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-explaining",
+      "display_name": "Code Explaining",
+      "description": "Guidelines for explaining code clearly to humans.",
+      "tags": [
+        "code",
+        "explanation",
+        "teaching"
+      ]
+    },
+    {
+      "name": "code-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-management",
+      "display_name": "Code Management",
+      "description": "Guidelines for managing code: version control, commits, branches and project hygiene.",
+      "tags": [
+        "code",
+        "git",
+        "workflow"
+      ]
+    },
+    {
+      "name": "code-migration",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-migration",
+      "display_name": "Code Migration",
+      "description": "Guidelines for migrating and porting code between languages and frameworks.",
+      "tags": [
+        "migration",
+        "porting",
+        "upgrade"
+      ]
+    },
+    {
+      "name": "code-review",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-review",
+      "display_name": "Code Review",
+      "description": "Guidelines for reviewing code: correctness, security, performance and readability checklist.",
+      "tags": [
+        "code",
+        "review",
+        "quality"
+      ]
+    },
+    {
+      "name": "code-review-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/code-review-agent",
+      "display_name": "Code Review Agent",
+      "description": "Reviews pull requests and code changes: correctness, security, style and test coverage, with a clear verdict and prioritized findings.",
+      "tags": [
+        "code-review",
+        "agent"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-10"
+    },
+    {
       "name": "code-reviewer",
       "type": "prompt",
       "version": "1.0.0",
@@ -939,6 +1217,20 @@
       "language": "English"
     },
     {
+      "name": "code-security-review",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-security-review",
+      "display_name": "Code Security Review",
+      "description": "Review code with a security-first checklist: OWASP and beyond.",
+      "tags": [
+        "security",
+        "code-review",
+        "cybersecurity",
+        "best-practices"
+      ]
+    },
+    {
       "name": "cold-email-sequence",
       "type": "prompt",
       "version": "1.0.0",
@@ -953,6 +1245,32 @@
       "author": "Aaron Dalibard",
       "published": "2025-02-18",
       "language": "English"
+    },
+    {
+      "name": "color-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/color-tools",
+      "display_name": "Color Tools",
+      "description": "Convert between hex, RGB and HSL color formats.",
+      "tags": [
+        "color",
+        "design",
+        "conversion"
+      ]
+    },
+    {
+      "name": "communication",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/communication",
+      "display_name": "Communication",
+      "description": "Guidelines for effective written communication in teams and with users.",
+      "tags": [
+        "communication",
+        "writing",
+        "collaboration"
+      ]
     },
     {
       "name": "communication-assertive",
@@ -1037,6 +1355,34 @@
       "language": "English"
     },
     {
+      "name": "content-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/content-strategy",
+      "display_name": "Content Strategy",
+      "description": "Build editorial strategies, content pillars and topic clusters.",
+      "tags": [
+        "marketing",
+        "content",
+        "seo",
+        "strategy"
+      ]
+    },
+    {
+      "name": "contract-review",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/contract-review",
+      "display_name": "Contract Review",
+      "description": "Flag contractual risks in vendor agreements with clear, non-legal summaries.",
+      "tags": [
+        "legal",
+        "business",
+        "risk",
+        "analysis"
+      ]
+    },
+    {
       "name": "contract-review-checklist",
       "type": "prompt",
       "version": "1.0.0",
@@ -1050,6 +1396,19 @@
       "author": "Aaron Dalibard",
       "published": "2026-01-12",
       "language": "English"
+    },
+    {
+      "name": "copywriting",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/copywriting",
+      "display_name": "Copywriting",
+      "description": "Guidelines for persuasive, clear and concise copywriting.",
+      "tags": [
+        "writing",
+        "copy",
+        "marketing"
+      ]
     },
     {
       "name": "correction-orthographe",
@@ -1069,6 +1428,19 @@
       "language": "Français"
     },
     {
+      "name": "crc-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/crc-tools",
+      "display_name": "CRC Tools",
+      "description": "Compute CRC32 checksums and base64 encode/decode data.",
+      "tags": [
+        "crc",
+        "checksum",
+        "base64"
+      ]
+    },
+    {
       "name": "critique-bienveillante",
       "type": "prompt",
       "version": "1.0.0",
@@ -1084,6 +1456,33 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "cron-parser",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/cron-parser",
+      "display_name": "Cron Parser",
+      "description": "Parse cron expressions and describe their schedule.",
+      "tags": [
+        "cron",
+        "scheduler",
+        "time"
+      ]
+    },
+    {
+      "name": "crypto-price",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/crypto-price",
+      "display_name": "Crypto Price",
+      "description": "Current cryptocurrency prices from the free CoinGecko API.",
+      "tags": [
+        "finance",
+        "crypto",
+        "api",
+        "web"
+      ]
     },
     {
       "name": "csv-cleaner",
@@ -1103,6 +1502,33 @@
       "language": "English"
     },
     {
+      "name": "csv-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/csv-tools",
+      "display_name": "CSV Tools",
+      "description": "Parse CSV data, convert to JSON, count rows and filter columns.",
+      "tags": [
+        "csv",
+        "data",
+        "utility"
+      ]
+    },
+    {
+      "name": "currency-converter",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/currency-converter",
+      "display_name": "Currency Converter",
+      "description": "Convert amounts between currencies using free Frankfurter exchange rates.",
+      "tags": [
+        "finance",
+        "currency",
+        "api",
+        "web"
+      ]
+    },
+    {
       "name": "customer-interview-questionnaire",
       "type": "prompt",
       "version": "1.0.0",
@@ -1119,6 +1545,20 @@
       "language": "English"
     },
     {
+      "name": "customer-retention",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/customer-retention",
+      "display_name": "Customer Retention",
+      "description": "Reduce churn with lifecycle analysis and retention playbooks.",
+      "tags": [
+        "product",
+        "analytics",
+        "growth",
+        "business"
+      ]
+    },
+    {
       "name": "customer-support-response-scripts",
       "type": "prompt",
       "version": "1.0.0",
@@ -1133,6 +1573,32 @@
       "author": "Aaron Dalibard",
       "published": "2025-07-28",
       "language": "English"
+    },
+    {
+      "name": "data-analysis",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/data-analysis",
+      "display_name": "Data Analysis",
+      "description": "Guidelines for analyzing data: cleaning, exploring and reporting findings.",
+      "tags": [
+        "data",
+        "analysis",
+        "statistics"
+      ]
+    },
+    {
+      "name": "data-visualization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/data-visualization",
+      "display_name": "Data Visualization",
+      "description": "Guidelines for choosing charts and building clear visualizations.",
+      "tags": [
+        "charts",
+        "visualization",
+        "data"
+      ]
     },
     {
       "name": "data-viz-generator",
@@ -1152,6 +1618,19 @@
       "language": "English"
     },
     {
+      "name": "database-design",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/database-design",
+      "display_name": "Database Design",
+      "description": "Guidelines for schema design: normalization, indexes and migrations.",
+      "tags": [
+        "database",
+        "sql",
+        "design"
+      ]
+    },
+    {
       "name": "database-migration-writer",
       "type": "prompt",
       "version": "1.0.0",
@@ -1167,6 +1646,20 @@
       "author": "Aaron Dalibard",
       "published": "2026-01-05",
       "language": "English"
+    },
+    {
+      "name": "database-migrations",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/database-migrations",
+      "display_name": "Database Migrations",
+      "description": "Plan and write safe schema migrations with rollback strategy.",
+      "tags": [
+        "database",
+        "sql",
+        "backend",
+        "best-practices"
+      ]
     },
     {
       "name": "database-schema-designer",
@@ -1186,6 +1679,33 @@
       "language": "English"
     },
     {
+      "name": "date-time",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/date-time",
+      "display_name": "Date & Time",
+      "description": "Current time, ISO formatting and timezone conversions.",
+      "tags": [
+        "date",
+        "time",
+        "timezone",
+        "utility"
+      ]
+    },
+    {
+      "name": "debugging",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/debugging",
+      "display_name": "Debugging",
+      "description": "Guidelines for systematic debugging: reproduce, isolate, fix, verify.",
+      "tags": [
+        "debugging",
+        "errors",
+        "troubleshooting"
+      ]
+    },
+    {
       "name": "decision-matrix-framework",
       "type": "prompt",
       "version": "1.0.0",
@@ -1200,6 +1720,19 @@
       "author": "Aaron Dalibard",
       "published": "2025-05-20",
       "language": "English"
+    },
+    {
+      "name": "dependency-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/dependency-management",
+      "display_name": "Dependency Management",
+      "description": "Guidelines for adding, updating and auditing dependencies.",
+      "tags": [
+        "dependencies",
+        "security",
+        "maintenance"
+      ]
     },
     {
       "name": "dependency-vulnerability-audit",
@@ -1268,6 +1801,34 @@
       "language": "English"
     },
     {
+      "name": "dictionary",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/dictionary",
+      "display_name": "Dictionary",
+      "description": "Word definitions, phonetics and examples from the free DictionaryAPI.",
+      "tags": [
+        "dictionary",
+        "language",
+        "api",
+        "web"
+      ]
+    },
+    {
+      "name": "diff-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/diff-tools",
+      "display_name": "Diff Tools",
+      "description": "Compare two strings or files and output a unified diff.",
+      "tags": [
+        "diff",
+        "git",
+        "text",
+        "utility"
+      ]
+    },
+    {
       "name": "discipline-habitudes",
       "type": "prompt",
       "version": "1.0.0",
@@ -1285,6 +1846,46 @@
       "language": "Français"
     },
     {
+      "name": "discord-webhook",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/discord-webhook",
+      "display_name": "Discord Webhook",
+      "description": "Send a message to a Discord channel via webhook URL.",
+      "tags": [
+        "communication",
+        "notifications",
+        "api",
+        "web"
+      ]
+    },
+    {
+      "name": "dns-lookup",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/dns-lookup",
+      "display_name": "DNS Lookup",
+      "description": "Resolve hostnames to IP addresses (A and AAAA records).",
+      "tags": [
+        "dns",
+        "network",
+        "lookup"
+      ]
+    },
+    {
+      "name": "docker",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/docker",
+      "display_name": "Docker",
+      "description": "Guidelines for building efficient Docker images and managing containers.",
+      "tags": [
+        "docker",
+        "containers",
+        "devops"
+      ]
+    },
+    {
       "name": "dockerfile-optimizer",
       "type": "prompt",
       "version": "1.0.0",
@@ -1300,6 +1901,46 @@
       "author": "Aaron Dalibard",
       "published": "2025-05-12",
       "language": "English"
+    },
+    {
+      "name": "document-automation",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/document-automation",
+      "display_name": "Document Automation",
+      "description": "Create and format Word, PDF, spreadsheet and slide documents.",
+      "tags": [
+        "documentation",
+        "productivity",
+        "office",
+        "automation"
+      ]
+    },
+    {
+      "name": "documentation",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/documentation",
+      "display_name": "Documentation",
+      "description": "Guidelines for writing clear documentation: READMEs, comments, changelogs.",
+      "tags": [
+        "documentation",
+        "docs",
+        "writing"
+      ]
+    },
+    {
+      "name": "duration-format",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/duration-format",
+      "display_name": "Duration Format",
+      "description": "Humanize durations between two dates or from seconds.",
+      "tags": [
+        "time",
+        "duration",
+        "formatting"
+      ]
     },
     {
       "name": "ecommerce-idees",
@@ -1352,6 +1993,20 @@
       "language": "Français"
     },
     {
+      "name": "email-marketing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/email-marketing",
+      "display_name": "Email Marketing",
+      "description": "Plan campaigns, write copy and structure automated sequences.",
+      "tags": [
+        "marketing",
+        "email",
+        "copywriting",
+        "growth"
+      ]
+    },
+    {
       "name": "email-newsletter-campaign-planner",
       "type": "prompt",
       "version": "1.0.0",
@@ -1366,6 +2021,19 @@
       "author": "Aaron Dalibard",
       "published": "2025-12-01",
       "language": "English"
+    },
+    {
+      "name": "error-handling",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/error-handling",
+      "display_name": "Error Handling",
+      "description": "Guidelines for robust error handling and graceful failures.",
+      "tags": [
+        "errors",
+        "robustness",
+        "reliability"
+      ]
     },
     {
       "name": "excel-data-analyzer",
@@ -1452,6 +2120,60 @@
       "language": "Français"
     },
     {
+      "name": "file-type",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/file-type",
+      "display_name": "File Type",
+      "description": "Detect file type from magic bytes.",
+      "tags": [
+        "files",
+        "detection",
+        "magic"
+      ]
+    },
+    {
+      "name": "filesystem",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/filesystem",
+      "display_name": "Filesystem",
+      "description": "List, read and write files safely inside a sandboxed directory.",
+      "tags": [
+        "files",
+        "storage",
+        "utility"
+      ]
+    },
+    {
+      "name": "filesystem-mcp",
+      "type": "mcp",
+      "version": "1.0.0",
+      "path": "mcp/filesystem-mcp",
+      "display_name": "Filesystem MCP Server",
+      "description": "Sandboxed file access through the Model Context Protocol: list, read and search files inside a single allowed directory. Exposes list_files, read_file and search tools over stdio.",
+      "tags": [
+        "filesystem",
+        "mcp"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-10"
+    },
+    {
+      "name": "financial-modeling",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/financial-modeling",
+      "display_name": "Financial Modeling",
+      "description": "Build and stress-test financial models: forecasts, unit economics, scenarios.",
+      "tags": [
+        "finance",
+        "business",
+        "data-analysis",
+        "planning"
+      ]
+    },
+    {
       "name": "fond-ecran-abstrait",
       "type": "prompt",
       "version": "1.0.0",
@@ -1535,6 +2257,46 @@
       "language": "English"
     },
     {
+      "name": "frontend-development",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/frontend-development",
+      "display_name": "Frontend Development",
+      "description": "Guidelines for building accessible, responsive web frontends.",
+      "tags": [
+        "frontend",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "name": "geocoding",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/geocoding",
+      "display_name": "Geocoding",
+      "description": "Resolve a place name to coordinates using the free Open-Meteo geocoding API.",
+      "tags": [
+        "location",
+        "api",
+        "web",
+        "geocoding"
+      ]
+    },
+    {
+      "name": "git-workflow",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/git-workflow",
+      "display_name": "Git Workflow",
+      "description": "Guidelines for git workflows: branching, commits, rebasing and pull requests.",
+      "tags": [
+        "git",
+        "workflow",
+        "version-control"
+      ]
+    },
+    {
       "name": "git-workflow-helper",
       "type": "prompt",
       "version": "1.0.0",
@@ -1552,6 +2314,19 @@
       "language": "English"
     },
     {
+      "name": "go-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/go-style",
+      "display_name": "Go Style",
+      "description": "Guidelines for writing idiomatic Go: packages, errors and concurrency.",
+      "tags": [
+        "go",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
       "name": "gourou-productivite",
       "type": "prompt",
       "version": "1.0.0",
@@ -1567,6 +2342,128 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "graphql",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/graphql",
+      "display_name": "GraphQL",
+      "description": "Guidelines for designing and consuming GraphQL APIs.",
+      "tags": [
+        "graphql",
+        "api",
+        "query-language"
+      ]
+    },
+    {
+      "name": "growth-experiments",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/growth-experiments",
+      "display_name": "Growth Experiments",
+      "description": "Run structured experiment pipelines to grow a product.",
+      "tags": [
+        "growth",
+        "product",
+        "analytics",
+        "marketing"
+      ]
+    },
+    {
+      "name": "hacker-news",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/hacker-news",
+      "display_name": "Hacker News Search",
+      "description": "Search Hacker News stories and comments via the Algolia API.",
+      "tags": [
+        "news",
+        "search",
+        "api",
+        "web"
+      ]
+    },
+    {
+      "name": "hash-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/hash-tools",
+      "display_name": "Hash Tools",
+      "description": "Compute MD5, SHA-1, SHA-256, SHA-512 digests and base64 encodings.",
+      "tags": [
+        "hash",
+        "base64",
+        "crypto",
+        "utility"
+      ]
+    },
+    {
+      "name": "hex-dump",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/hex-dump",
+      "display_name": "Hex Dump",
+      "description": "Print hexadecimal dumps of files or strings.",
+      "tags": [
+        "hex",
+        "binary",
+        "dump"
+      ]
+    },
+    {
+      "name": "html-entities",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/html-entities",
+      "display_name": "HTML Entities",
+      "description": "Encode and decode HTML entities in text.",
+      "tags": [
+        "html",
+        "encoding",
+        "entities"
+      ]
+    },
+    {
+      "name": "html-to-text",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/html-to-text",
+      "display_name": "HTML to Text",
+      "description": "Extract clean readable text from HTML.",
+      "tags": [
+        "html",
+        "writing",
+        "scraping",
+        "utility"
+      ]
+    },
+    {
+      "name": "html-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/html-tools",
+      "display_name": "HTML Tools",
+      "description": "Extract text content and links from HTML pages.",
+      "tags": [
+        "html",
+        "parsing",
+        "web"
+      ]
+    },
+    {
+      "name": "http-request",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/http-request",
+      "display_name": "HTTP Request",
+      "description": "Send GET and POST requests, return status, headers and body.",
+      "tags": [
+        "http",
+        "network",
+        "api",
+        "web"
+      ]
     },
     {
       "name": "icone-app-design",
@@ -1667,6 +2564,32 @@
       "language": "Français"
     },
     {
+      "name": "image-info",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/image-info",
+      "display_name": "Image Info",
+      "description": "Read image dimensions and format from PNG, JPEG, GIF, BMP and WebP headers.",
+      "tags": [
+        "image",
+        "metadata",
+        "utility"
+      ]
+    },
+    {
+      "name": "incident-response",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/incident-response",
+      "display_name": "Incident Response",
+      "description": "Guidelines for responding to incidents calmly and systematically.",
+      "tags": [
+        "incident",
+        "on-call",
+        "response"
+      ]
+    },
+    {
       "name": "incremental-refactoring-planner",
       "type": "prompt",
       "version": "1.0.0",
@@ -1715,6 +2638,20 @@
       "language": "English"
     },
     {
+      "name": "ini-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/ini-tools",
+      "display_name": "INI Tools",
+      "description": "Parse, read and convert INI configuration files.",
+      "tags": [
+        "config",
+        "ini",
+        "utility",
+        "data-analysis"
+      ]
+    },
+    {
       "name": "investment-risk-review",
       "type": "prompt",
       "version": "1.0.0",
@@ -1728,6 +2665,19 @@
       "author": "Aaron Dalibard",
       "published": "2025-12-19",
       "language": "English"
+    },
+    {
+      "name": "ip-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/ip-tools",
+      "display_name": "IP Tools",
+      "description": "Validate and parse IPv4 and IPv6 addresses and CIDR ranges.",
+      "tags": [
+        "ip",
+        "network",
+        "cidr"
+      ]
     },
     {
       "name": "isometric-icon-set",
@@ -1762,6 +2712,19 @@
       "language": "English"
     },
     {
+      "name": "java-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/java-style",
+      "display_name": "Java Style",
+      "description": "Guidelines for writing clean Java: structure, naming and error handling.",
+      "tags": [
+        "java",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
       "name": "javascript-data-transformer",
       "type": "prompt",
       "version": "1.0.0",
@@ -1777,6 +2740,19 @@
       "author": "Aaron Dalibard",
       "published": "2025-04-20",
       "language": "English"
+    },
+    {
+      "name": "javascript-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/javascript-style",
+      "display_name": "JavaScript Style",
+      "description": "Guidelines for writing clean, modern JavaScript.",
+      "tags": [
+        "javascript",
+        "style",
+        "best-practices"
+      ]
     },
     {
       "name": "jeu-combat-2d",
@@ -2204,6 +3180,32 @@
       "language": "English"
     },
     {
+      "name": "json-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/json-tools",
+      "display_name": "JSON Tools",
+      "description": "Validate, format and extract values from JSON documents.",
+      "tags": [
+        "json",
+        "data",
+        "utility"
+      ]
+    },
+    {
+      "name": "jwt-decode",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/jwt-decode",
+      "display_name": "JWT Decode",
+      "description": "Decode and inspect JWT headers and payloads without verification.",
+      "tags": [
+        "jwt",
+        "token",
+        "auth"
+      ]
+    },
+    {
       "name": "kpi-reporting-dashboard",
       "type": "prompt",
       "version": "1.0.0",
@@ -2218,6 +3220,19 @@
       "author": "Aaron Dalibard",
       "published": "2026-03-24",
       "language": "English"
+    },
+    {
+      "name": "kubernetes",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/kubernetes",
+      "display_name": "Kubernetes",
+      "description": "Guidelines for deploying and operating applications on Kubernetes.",
+      "tags": [
+        "kubernetes",
+        "orchestration",
+        "devops"
+      ]
     },
     {
       "name": "landing-page-design-brief",
@@ -2285,6 +3300,19 @@
       "language": "Français"
     },
     {
+      "name": "linux-ops",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/linux-ops",
+      "display_name": "Linux Ops",
+      "description": "Guidelines for Linux system administration: processes, permissions and services.",
+      "tags": [
+        "linux",
+        "sysadmin",
+        "ops"
+      ]
+    },
+    {
       "name": "literature-review-synthesis",
       "type": "prompt",
       "version": "1.0.0",
@@ -2299,6 +3327,46 @@
       "author": "Aaron Dalibard",
       "published": "2026-06-11",
       "language": "English"
+    },
+    {
+      "name": "llm-integration",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/llm-integration",
+      "display_name": "LLM Integration",
+      "description": "Guidelines for integrating LLMs into applications: calls, errors and costs.",
+      "tags": [
+        "llm",
+        "ai",
+        "integration"
+      ]
+    },
+    {
+      "name": "localization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/localization",
+      "display_name": "Localization",
+      "description": "Adapt content and software for international audiences, not just translate.",
+      "tags": [
+        "localization",
+        "translation",
+        "internationalization",
+        "language"
+      ]
+    },
+    {
+      "name": "logging-observability",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/logging-observability",
+      "display_name": "Logging and Observability",
+      "description": "Guidelines for structured logging, traces and observability.",
+      "tags": [
+        "logging",
+        "observability",
+        "monitoring"
+      ]
     },
     {
       "name": "logo-designer-rapide",
@@ -2331,6 +3399,33 @@
       "author": "Aaron Dalibard",
       "published": "2026-06-12",
       "language": "English"
+    },
+    {
+      "name": "lorem-ipsum",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/lorem-ipsum",
+      "display_name": "Lorem Ipsum",
+      "description": "Generate lorem ipsum placeholder text.",
+      "tags": [
+        "text",
+        "placeholder",
+        "writing",
+        "utility"
+      ]
+    },
+    {
+      "name": "mac-address",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/mac-address",
+      "display_name": "MAC Address",
+      "description": "Validate, format, parse and generate MAC addresses.",
+      "tags": [
+        "mac",
+        "network",
+        "addresses"
+      ]
     },
     {
       "name": "mail-pro-francais",
@@ -2384,6 +3479,46 @@
       "language": "Français"
     },
     {
+      "name": "markdown-to-html",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/markdown-to-html",
+      "display_name": "Markdown to HTML",
+      "description": "Convert Markdown documents to HTML.",
+      "tags": [
+        "markdown",
+        "html",
+        "writing",
+        "utility"
+      ]
+    },
+    {
+      "name": "markdown-toc",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/markdown-toc",
+      "display_name": "Markdown TOC",
+      "description": "Generate a table of contents from Markdown headings.",
+      "tags": [
+        "markdown",
+        "toc",
+        "docs"
+      ]
+    },
+    {
+      "name": "markdown-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/markdown-tools",
+      "display_name": "Markdown Tools",
+      "description": "Convert Markdown text into HTML.",
+      "tags": [
+        "markdown",
+        "html",
+        "writing"
+      ]
+    },
+    {
       "name": "market-research-workflow",
       "type": "prompt",
       "version": "1.0.0",
@@ -2400,6 +3535,33 @@
       "language": "English"
     },
     {
+      "name": "marketing-conversion",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/marketing-conversion",
+      "display_name": "Marketing Conversion (CRO)",
+      "description": "Optimize landing pages and funnels for conversions with a structured CRO process.",
+      "tags": [
+        "marketing",
+        "conversion",
+        "growth",
+        "web"
+      ]
+    },
+    {
+      "name": "math-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/math-tools",
+      "display_name": "Math Tools",
+      "description": "Number theory helpers: gcd, lcm, primes, factorial, fibonacci.",
+      "tags": [
+        "math",
+        "numbers",
+        "utility"
+      ]
+    },
+    {
       "name": "meeting-agenda-and-notes-builder",
       "type": "prompt",
       "version": "1.0.0",
@@ -2414,6 +3576,20 @@
       "author": "Aaron Dalibard",
       "published": "2025-08-16",
       "language": "English"
+    },
+    {
+      "name": "meeting-notes",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/meeting-notes",
+      "display_name": "Meeting Notes & Actions",
+      "description": "Turn transcripts into structured notes with decisions and action items.",
+      "tags": [
+        "meeting",
+        "productivity",
+        "communication",
+        "writing"
+      ]
     },
     {
       "name": "meilleure-version-soi",
@@ -2448,6 +3624,32 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "microservices",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/microservices",
+      "display_name": "Microservices",
+      "description": "Guidelines for designing and operating microservice architectures.",
+      "tags": [
+        "microservices",
+        "architecture",
+        "distributed"
+      ]
+    },
+    {
+      "name": "mime-types",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/mime-types",
+      "display_name": "MIME Types",
+      "description": "Look up MIME types from file extensions and vice versa.",
+      "tags": [
+        "mime",
+        "files",
+        "web"
+      ]
     },
     {
       "name": "minimalisme-flat-design",
@@ -2531,6 +3733,33 @@
       "language": "Français"
     },
     {
+      "name": "monitoring",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/monitoring",
+      "display_name": "Monitoring",
+      "description": "Guidelines for monitoring systems: metrics, alerts and dashboards.",
+      "tags": [
+        "monitoring",
+        "metrics",
+        "alerts"
+      ]
+    },
+    {
+      "name": "morse-code",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/morse-code",
+      "display_name": "Morse Code",
+      "description": "Encode and decode Morse code messages.",
+      "tags": [
+        "morse",
+        "utility",
+        "text",
+        "coding"
+      ]
+    },
+    {
       "name": "motion-graphics-script",
       "type": "prompt",
       "version": "1.0.0",
@@ -2560,6 +3789,20 @@
       "author": "Aaron Dalibard",
       "published": "2026-04-08",
       "language": "English"
+    },
+    {
+      "name": "negotiation",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/negotiation",
+      "display_name": "Negotiation",
+      "description": "Prepare and simulate commercial negotiations with a structured framework.",
+      "tags": [
+        "business",
+        "negotiation",
+        "sales",
+        "communication"
+      ]
     },
     {
       "name": "negotiation-moi-verite",
@@ -2596,6 +3839,19 @@
       "language": "Français"
     },
     {
+      "name": "number-to-words",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/number-to-words",
+      "display_name": "Number to Words",
+      "description": "Convert numbers to English words.",
+      "tags": [
+        "numbers",
+        "words",
+        "text"
+      ]
+    },
+    {
       "name": "objectifs-smart",
       "type": "prompt",
       "version": "1.0.0",
@@ -2630,6 +3886,19 @@
       "language": "Français"
     },
     {
+      "name": "organization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/organization",
+      "display_name": "Organization",
+      "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
+      "tags": [
+        "organization",
+        "structure",
+        "workflow"
+      ]
+    },
+    {
       "name": "partenaire-idee",
       "type": "prompt",
       "version": "1.0.0",
@@ -2647,6 +3916,46 @@
       "language": "Français"
     },
     {
+      "name": "password-checker",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/password-checker",
+      "display_name": "Password Checker",
+      "description": "Estimate password strength and entropy.",
+      "tags": [
+        "password",
+        "security",
+        "strength"
+      ]
+    },
+    {
+      "name": "password-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/password-generator",
+      "display_name": "Password Generator",
+      "description": "Generate strong random passwords with configurable length and character sets.",
+      "tags": [
+        "password",
+        "security",
+        "generator"
+      ]
+    },
+    {
+      "name": "performance-budget",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/performance-budget",
+      "display_name": "Performance Budget",
+      "description": "Set and enforce web performance budgets for a project.",
+      "tags": [
+        "performance",
+        "web",
+        "frontend",
+        "best-practices"
+      ]
+    },
+    {
       "name": "performance-code-review",
       "type": "prompt",
       "version": "1.0.0",
@@ -2661,6 +3970,19 @@
       "author": "Aaron Dalibard",
       "published": "2025-11-01",
       "language": "English"
+    },
+    {
+      "name": "performance-optimization",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/performance-optimization",
+      "display_name": "Performance Optimization",
+      "description": "Guidelines for profiling and optimizing application performance.",
+      "tags": [
+        "performance",
+        "profiling",
+        "optimization"
+      ]
     },
     {
       "name": "personal-budget-analyzer",
@@ -2761,6 +4083,19 @@
       "language": "English"
     },
     {
+      "name": "port-check",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/port-check",
+      "display_name": "Port Check",
+      "description": "Check whether a TCP port is reachable on a host.",
+      "tags": [
+        "port",
+        "network",
+        "tcp"
+      ]
+    },
+    {
       "name": "portrait-artistique",
       "type": "prompt",
       "version": "1.0.0",
@@ -2794,6 +4129,20 @@
       "language": "Français"
     },
     {
+      "name": "postmortem",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/postmortem",
+      "display_name": "Incident Postmortem",
+      "description": "Write blameless postmortems that turn incidents into system improvements.",
+      "tags": [
+        "incident-response",
+        "documentation",
+        "reliability",
+        "communication"
+      ]
+    },
+    {
       "name": "press-release-writer",
       "type": "prompt",
       "version": "1.0.0",
@@ -2810,6 +4159,20 @@
       "language": "English"
     },
     {
+      "name": "pricing-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/pricing-strategy",
+      "display_name": "Pricing Strategy",
+      "description": "Design pricing models and positioning for a product.",
+      "tags": [
+        "business",
+        "pricing",
+        "strategy",
+        "product"
+      ]
+    },
+    {
       "name": "pricing-strategy-consultant",
       "type": "prompt",
       "version": "1.0.0",
@@ -2824,6 +4187,20 @@
       "author": "Aaron Dalibard",
       "published": "2026-03-05",
       "language": "English"
+    },
+    {
+      "name": "product-analytics",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/product-analytics",
+      "display_name": "Product Analytics",
+      "description": "Define metrics, funnels and dashboards that drive product decisions.",
+      "tags": [
+        "analytics",
+        "product",
+        "data-analysis",
+        "metrics"
+      ]
     },
     {
       "name": "product-requirements-document-builder",
@@ -2873,6 +4250,32 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "project-planning",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/project-planning",
+      "display_name": "Project Planning",
+      "description": "Guidelines for planning work: break down tasks, order dependencies, track progress.",
+      "tags": [
+        "planning",
+        "workflow",
+        "organization"
+      ]
+    },
+    {
+      "name": "prompt-engineering",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/prompt-engineering",
+      "display_name": "Prompt Engineering",
+      "description": "Guidelines for writing effective prompts and structuring LLM interactions.",
+      "tags": [
+        "llm",
+        "prompts",
+        "ai"
+      ]
     },
     {
       "name": "prompt-engineering-tutor",
@@ -2973,6 +4376,20 @@
       "language": "Français"
     },
     {
+      "name": "public-ip",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/public-ip",
+      "display_name": "Public IP",
+      "description": "Get the machine's public IP address and basic info.",
+      "tags": [
+        "network",
+        "ip",
+        "api",
+        "web"
+      ]
+    },
+    {
       "name": "pull-request-reviewer",
       "type": "prompt",
       "version": "1.0.0",
@@ -3006,6 +4423,19 @@
       "language": "English"
     },
     {
+      "name": "python-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/python-style",
+      "display_name": "Python Style",
+      "description": "Guidelines for writing idiomatic, maintainable Python.",
+      "tags": [
+        "python",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
       "name": "python-web-app-builder",
       "type": "prompt",
       "version": "1.0.0",
@@ -3021,6 +4451,32 @@
       "author": "Aaron Dalibard",
       "published": "2025-11-02",
       "language": "English"
+    },
+    {
+      "name": "qr-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/qr-generator",
+      "display_name": "QR Generator",
+      "description": "Generate QR codes as PNG or SVG images.",
+      "tags": [
+        "qr",
+        "barcode",
+        "image"
+      ]
+    },
+    {
+      "name": "random-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/random-tools",
+      "display_name": "Random Tools",
+      "description": "Generate secure random numbers, choices and sampling.",
+      "tags": [
+        "random",
+        "secure",
+        "utility"
+      ]
     },
     {
       "name": "rapport-quotidien-travail",
@@ -3073,6 +4529,19 @@
       "language": "Français"
     },
     {
+      "name": "refactoring",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/refactoring",
+      "display_name": "Refactoring",
+      "description": "Guidelines for refactoring safely: small steps, preserved behavior, verified changes.",
+      "tags": [
+        "refactoring",
+        "code",
+        "quality"
+      ]
+    },
+    {
       "name": "regex-pattern-builder",
       "type": "prompt",
       "version": "1.0.0",
@@ -3088,6 +4557,46 @@
       "author": "Aaron Dalibard",
       "published": "2025-08-05",
       "language": "English"
+    },
+    {
+      "name": "regex-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/regex-tools",
+      "display_name": "Regex Tools",
+      "description": "Test regular expressions and extract matching groups from text.",
+      "tags": [
+        "regex",
+        "text",
+        "search"
+      ]
+    },
+    {
+      "name": "release-management",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/release-management",
+      "display_name": "Release Management",
+      "description": "Guidelines for versioning, changelogs and smooth releases.",
+      "tags": [
+        "release",
+        "versioning",
+        "changelog"
+      ]
+    },
+    {
+      "name": "research-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/research-agent",
+      "display_name": "Research Agent",
+      "description": "Plans and runs multi-step research: formulate questions, gather sources, cross-check claims and deliver a cited, structured report.",
+      "tags": [
+        "research",
+        "agent"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-10"
     },
     {
       "name": "rest-api-client-generator",
@@ -3429,6 +4938,73 @@
       "language": "Français"
     },
     {
+      "name": "rfp-response",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/rfp-response",
+      "display_name": "RFP Response",
+      "description": "Analyze request for proposals and draft structured, compliant responses.",
+      "tags": [
+        "business",
+        "sales",
+        "writing",
+        "proposal"
+      ]
+    },
+    {
+      "name": "roman-numerals",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/roman-numerals",
+      "display_name": "Roman Numerals",
+      "description": "Convert between integers and Roman numerals.",
+      "tags": [
+        "roman",
+        "numbers",
+        "conversion"
+      ]
+    },
+    {
+      "name": "rot13-cipher",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/rot13-cipher",
+      "display_name": "Caesar Cipher",
+      "description": "Encode or decode text with a Caesar/RotN shift cipher.",
+      "tags": [
+        "cipher",
+        "crypto",
+        "utility",
+        "text"
+      ]
+    },
+    {
+      "name": "rss-reader",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/rss-reader",
+      "display_name": "RSS Reader",
+      "description": "Parse RSS and Atom feeds into structured items.",
+      "tags": [
+        "rss",
+        "feed",
+        "news"
+      ]
+    },
+    {
+      "name": "rust-style",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/rust-style",
+      "display_name": "Rust Style",
+      "description": "Guidelines for writing safe, idiomatic Rust.",
+      "tags": [
+        "rust",
+        "style",
+        "best-practices"
+      ]
+    },
+    {
       "name": "saas-idee-validate",
       "type": "prompt",
       "version": "1.0.0",
@@ -3476,6 +5052,20 @@
       "author": "Aaron Dalibard",
       "published": "2026-04-28",
       "language": "English"
+    },
+    {
+      "name": "sales-prospecting",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/sales-prospecting",
+      "display_name": "Sales Prospecting",
+      "description": "Build outbound prospect lists, personalize outreach and sequence follow-ups.",
+      "tags": [
+        "sales",
+        "prospecting",
+        "gtm",
+        "marketing"
+      ]
     },
     {
       "name": "scenario-hypothetique-test",
@@ -3544,6 +5134,19 @@
       "language": "English"
     },
     {
+      "name": "security",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/security",
+      "display_name": "Security",
+      "description": "Guidelines for handling secrets, permissions and risky operations safely.",
+      "tags": [
+        "security",
+        "safety",
+        "permissions"
+      ]
+    },
+    {
       "name": "security-audit-checklist",
       "type": "prompt",
       "version": "1.0.0",
@@ -3576,6 +5179,32 @@
       "language": "English"
     },
     {
+      "name": "semantic-version",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/semantic-version",
+      "display_name": "Semantic Version",
+      "description": "Parse, validate and compare semantic version strings.",
+      "tags": [
+        "version",
+        "semver",
+        "utility"
+      ]
+    },
+    {
+      "name": "seo",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/seo",
+      "display_name": "SEO",
+      "description": "Guidelines for search engine optimization: content, structure and metadata.",
+      "tags": [
+        "seo",
+        "web",
+        "marketing"
+      ]
+    },
+    {
       "name": "seo-blog-outline-generator",
       "type": "prompt",
       "version": "1.0.0",
@@ -3590,6 +5219,20 @@
       "author": "Aaron Dalibard",
       "published": "2025-03-25",
       "language": "English"
+    },
+    {
+      "name": "serverless-development",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/serverless-development",
+      "display_name": "Serverless Development",
+      "description": "Build serverless functions following FaaS best practices.",
+      "tags": [
+        "serverless",
+        "cloud",
+        "devops",
+        "backend"
+      ]
     },
     {
       "name": "short-story-writer",
@@ -3608,6 +5251,20 @@
       "language": "English"
     },
     {
+      "name": "sitemap-parser",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/sitemap-parser",
+      "display_name": "Sitemap Parser",
+      "description": "Fetch and parse XML sitemaps into a list of URLs.",
+      "tags": [
+        "web",
+        "seo",
+        "sitemap",
+        "api"
+      ]
+    },
+    {
       "name": "slogan-entreprise",
       "type": "prompt",
       "version": "1.0.0",
@@ -3623,6 +5280,34 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "slugify",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/slugify",
+      "display_name": "Slugify",
+      "description": "Convert any text into URL-friendly slugs.",
+      "tags": [
+        "url",
+        "text",
+        "seo",
+        "utility"
+      ]
+    },
+    {
+      "name": "social-media-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/social-media-strategy",
+      "display_name": "Social Media Strategy",
+      "description": "Create platform-specific content plans and calendars.",
+      "tags": [
+        "marketing",
+        "social-media",
+        "content",
+        "strategy"
+      ]
     },
     {
       "name": "socratic-tutor-session",
@@ -3673,6 +5358,19 @@
       "language": "English"
     },
     {
+      "name": "sorting-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/sorting-tools",
+      "display_name": "Sorting Tools",
+      "description": "Sort lines of text in various ways: natural, numeric, reverse, unique.",
+      "tags": [
+        "sort",
+        "text",
+        "utility"
+      ]
+    },
+    {
       "name": "sparring-partner-idees",
       "type": "prompt",
       "version": "1.0.0",
@@ -3688,6 +5386,19 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "sql-query",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/sql-query",
+      "display_name": "SQL Query",
+      "description": "Run read-only SQL queries against an in-memory SQLite database.",
+      "tags": [
+        "sql",
+        "database",
+        "sqlite"
+      ]
     },
     {
       "name": "sql-query-optimizer",
@@ -3724,6 +5435,47 @@
       "language": "English"
     },
     {
+      "name": "sql-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/sql-writing",
+      "display_name": "SQL Writing",
+      "description": "Guidelines for writing readable and efficient SQL queries.",
+      "tags": [
+        "sql",
+        "database",
+        "queries"
+      ]
+    },
+    {
+      "name": "sqlite-mcp",
+      "type": "mcp",
+      "version": "1.0.0",
+      "path": "mcp/sqlite-mcp",
+      "display_name": "SQLite MCP Server",
+      "description": "Query and manage SQLite databases through the Model Context Protocol. Exposes query and list_tables tools over stdio.",
+      "tags": [
+        "database",
+        "mcp"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-10"
+    },
+    {
+      "name": "sqlite-query",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/sqlite-query",
+      "display_name": "SQLite Query",
+      "description": "Run read-only SELECT queries against a SQLite database.",
+      "tags": [
+        "sql",
+        "database",
+        "sqlite",
+        "data-analysis"
+      ]
+    },
+    {
       "name": "step-by-step-math-solver",
       "type": "prompt",
       "version": "1.0.0",
@@ -3737,6 +5489,20 @@
       "author": "Aaron Dalibard",
       "published": "2025-10-16",
       "language": "English"
+    },
+    {
+      "name": "stock-quote",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/stock-quote",
+      "display_name": "Stock Quote",
+      "description": "Fetch a stock quote from Stooq (free CSV API, no key).",
+      "tags": [
+        "finance",
+        "stocks",
+        "api",
+        "web"
+      ]
     },
     {
       "name": "stoicien-modern",
@@ -3804,6 +5570,19 @@
       "language": "Français"
     },
     {
+      "name": "subnet-calculator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/subnet-calculator",
+      "display_name": "Subnet Calculator",
+      "description": "Calculate network, broadcast, mask and host ranges from a CIDR.",
+      "tags": [
+        "subnet",
+        "cidr",
+        "network"
+      ]
+    },
+    {
       "name": "swot-analysis-framework",
       "type": "prompt",
       "version": "1.0.0",
@@ -3818,6 +5597,20 @@
       "author": "Aaron Dalibard",
       "published": "2025-04-12",
       "language": "English"
+    },
+    {
+      "name": "system-info",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/system-info",
+      "display_name": "System Info",
+      "description": "Report OS, platform and hardware details.",
+      "tags": [
+        "system",
+        "os",
+        "info",
+        "utility"
+      ]
     },
     {
       "name": "system-prompt-extraction-tester",
@@ -3850,6 +5643,32 @@
       "author": "Aaron Dalibard",
       "published": "2025-02-11",
       "language": "English"
+    },
+    {
+      "name": "tar-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/tar-tools",
+      "display_name": "TAR Tools",
+      "description": "List, extract and create TAR archives.",
+      "tags": [
+        "tar",
+        "archive",
+        "compression"
+      ]
+    },
+    {
+      "name": "technical-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/technical-writing",
+      "display_name": "Technical Writing",
+      "description": "Guidelines for writing precise technical documentation and tutorials.",
+      "tags": [
+        "writing",
+        "docs",
+        "technical"
+      ]
     },
     {
       "name": "test-chaine-raisonnement",
@@ -4005,6 +5824,46 @@
       "language": "Français"
     },
     {
+      "name": "test-writing",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/test-writing",
+      "display_name": "Test Writing",
+      "description": "Guidelines for writing effective tests: what to test, how to structure them.",
+      "tags": [
+        "tests",
+        "quality",
+        "code"
+      ]
+    },
+    {
+      "name": "text-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/text-tools",
+      "display_name": "Text Tools",
+      "description": "Count, transform and manipulate text: case, slugify, replace.",
+      "tags": [
+        "text",
+        "utility",
+        "strings"
+      ]
+    },
+    {
+      "name": "toml-tools",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/toml-tools",
+      "display_name": "TOML Tools",
+      "description": "Parse and validate TOML configuration files.",
+      "tags": [
+        "config",
+        "toml",
+        "utility",
+        "data-analysis"
+      ]
+    },
+    {
       "name": "traduction-fr-en",
       "type": "prompt",
       "version": "1.0.0",
@@ -4053,1051 +5912,6 @@
       "language": "English"
     },
     {
-      "name": "unit-test-writer",
-      "type": "prompt",
-      "version": "1.0.0",
-      "path": "prompts/unit-test-writer",
-      "display_name": "Unit Test Writer",
-      "description": "Write thorough unit tests with edge cases for your functions and classes.",
-      "tags": [
-        "coding",
-        "python",
-        "javascript",
-        "productivity"
-      ],
-      "author": "Aaron Dalibard",
-      "published": "2026-01-28",
-      "language": "English"
-    },
-    {
-      "name": "veille-technologique",
-      "type": "prompt",
-      "version": "1.0.0",
-      "path": "prompts/veille-technologique",
-      "display_name": "Veille Technologique",
-      "description": "Fais un point de veille ciblé sur un domaine et ses évolutions.",
-      "tags": [
-        "research",
-        "coding",
-        "automation",
-        "thinking"
-      ],
-      "author": "Aaron Dalibard",
-      "published": "2026-08-08",
-      "language": "Français"
-    },
-    {
-      "name": "voiceover-script",
-      "type": "prompt",
-      "version": "1.0.0",
-      "path": "prompts/voiceover-script",
-      "display_name": "Voice-Over Script",
-      "description": "Writes a natural voice-over script with pacing, performance notes, and tone variants.",
-      "tags": [
-        "audio",
-        "creative",
-        "education"
-      ],
-      "author": "Aaron Dalibard",
-      "published": "2025-07-20",
-      "language": "English"
-    },
-    {
-      "name": "web-scraper-builder",
-      "type": "prompt",
-      "version": "1.0.0",
-      "path": "prompts/web-scraper-builder",
-      "display_name": "Web Scraper Builder",
-      "description": "Build a polite Python web scraper that exports clean data to CSV.",
-      "tags": [
-        "web",
-        "python",
-        "automation",
-        "data-analysis"
-      ],
-      "author": "Aaron Dalibard",
-      "published": "2025-03-28",
-      "language": "English"
-    },
-    {
-      "name": "weekly-meal-workout-plan",
-      "type": "prompt",
-      "version": "1.0.0",
-      "path": "prompts/weekly-meal-workout-plan",
-      "display_name": "Weekly Meal and Workout Plan",
-      "description": "Builds a personalized weekly meal and workout plan from your goals and schedule.",
-      "tags": [
-        "health",
-        "food",
-        "education"
-      ],
-      "author": "Aaron Dalibard",
-      "published": "2026-02-03",
-      "language": "English"
-    },
-    {
-      "name": "youtube-script-outline",
-      "type": "prompt",
-      "version": "1.0.0",
-      "path": "prompts/youtube-script-outline",
-      "display_name": "YouTube Script Outline",
-      "description": "Builds a complete YouTube video outline with hooks, sections, timestamps, and visual notes.",
-      "tags": [
-        "video",
-        "storytelling",
-        "education"
-      ],
-      "author": "Aaron Dalibard",
-      "published": "2025-05-12",
-      "language": "English"
-    },
-    {
-      "name": "accessibility",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/accessibility",
-      "display_name": "Accessibility",
-      "description": "Guidelines for making products usable by everyone: a11y best practices.",
-      "tags": [
-        "accessibility",
-        "a11y",
-        "inclusive"
-      ]
-    },
-    {
-      "name": "agent-development",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/agent-development",
-      "display_name": "Agent Development",
-      "description": "Guidelines for building reliable AI agents: tools, memory and safety.",
-      "tags": [
-        "agents",
-        "ai",
-        "tools"
-      ]
-    },
-    {
-      "name": "api-design",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/api-design",
-      "display_name": "API Design",
-      "description": "Guidelines for designing clean, consistent and versioned APIs.",
-      "tags": [
-        "api",
-        "design",
-        "rest"
-      ]
-    },
-    {
-      "name": "api-integration",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/api-integration",
-      "display_name": "API Integration",
-      "description": "Consume third-party APIs safely: auth, errors, pagination, retries.",
-      "tags": [
-        "api",
-        "integration",
-        "coding",
-        "backend"
-      ]
-    },
-    {
-      "name": "architecture-design",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/architecture-design",
-      "display_name": "Architecture Design",
-      "description": "Guidelines for designing scalable, maintainable system architecture.",
-      "tags": [
-        "architecture",
-        "design",
-        "systems"
-      ]
-    },
-    {
-      "name": "authentication-authorization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/authentication-authorization",
-      "display_name": "Authentication and Authorization",
-      "description": "Guidelines for implementing authentication and authorization safely.",
-      "tags": [
-        "auth",
-        "security",
-        "identity"
-      ]
-    },
-    {
-      "name": "backup-recovery",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/backup-recovery",
-      "display_name": "Backup and Recovery",
-      "description": "Guidelines for reliable backups and disaster recovery planning.",
-      "tags": [
-        "backup",
-        "recovery",
-        "reliability"
-      ]
-    },
-    {
-      "name": "brand-guidelines",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/brand-guidelines",
-      "display_name": "Brand Guidelines",
-      "description": "Apply and extend brand guidelines consistently across assets.",
-      "tags": [
-        "brand",
-        "design",
-        "marketing",
-        "communication"
-      ]
-    },
-    {
-      "name": "cicd",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/cicd",
-      "display_name": "CI/CD",
-      "description": "Guidelines for continuous integration and deployment pipelines.",
-      "tags": [
-        "ci",
-        "cd",
-        "pipelines"
-      ]
-    },
-    {
-      "name": "cli-mastery",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/cli-mastery",
-      "display_name": "CLI Mastery",
-      "description": "Guidelines for using command-line tools efficiently: pipes, flags and scripting.",
-      "tags": [
-        "cli",
-        "terminal",
-        "shell"
-      ]
-    },
-    {
-      "name": "code-explaining",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-explaining",
-      "display_name": "Code Explaining",
-      "description": "Guidelines for explaining code clearly to humans.",
-      "tags": [
-        "code",
-        "explanation",
-        "teaching"
-      ]
-    },
-    {
-      "name": "code-management",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-management",
-      "display_name": "Code Management",
-      "description": "Guidelines for managing code: version control, commits, branches and project hygiene.",
-      "tags": [
-        "code",
-        "git",
-        "workflow"
-      ]
-    },
-    {
-      "name": "code-migration",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-migration",
-      "display_name": "Code Migration",
-      "description": "Guidelines for migrating and porting code between languages and frameworks.",
-      "tags": [
-        "migration",
-        "porting",
-        "upgrade"
-      ]
-    },
-    {
-      "name": "code-review",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-review",
-      "display_name": "Code Review",
-      "description": "Guidelines for reviewing code: correctness, security, performance and readability checklist.",
-      "tags": [
-        "code",
-        "review",
-        "quality"
-      ]
-    },
-    {
-      "name": "code-security-review",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/code-security-review",
-      "display_name": "Code Security Review",
-      "description": "Review code with a security-first checklist: OWASP and beyond.",
-      "tags": [
-        "security",
-        "code-review",
-        "cybersecurity",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "communication",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/communication",
-      "display_name": "Communication",
-      "description": "Guidelines for effective written communication in teams and with users.",
-      "tags": [
-        "communication",
-        "writing",
-        "collaboration"
-      ]
-    },
-    {
-      "name": "content-strategy",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/content-strategy",
-      "display_name": "Content Strategy",
-      "description": "Build editorial strategies, content pillars and topic clusters.",
-      "tags": [
-        "marketing",
-        "content",
-        "seo",
-        "strategy"
-      ]
-    },
-    {
-      "name": "contract-review",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/contract-review",
-      "display_name": "Contract Review",
-      "description": "Flag contractual risks in vendor agreements with clear, non-legal summaries.",
-      "tags": [
-        "legal",
-        "business",
-        "risk",
-        "analysis"
-      ]
-    },
-    {
-      "name": "copywriting",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/copywriting",
-      "display_name": "Copywriting",
-      "description": "Guidelines for persuasive, clear and concise copywriting.",
-      "tags": [
-        "writing",
-        "copy",
-        "marketing"
-      ]
-    },
-    {
-      "name": "customer-retention",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/customer-retention",
-      "display_name": "Customer Retention",
-      "description": "Reduce churn with lifecycle analysis and retention playbooks.",
-      "tags": [
-        "product",
-        "analytics",
-        "growth",
-        "business"
-      ]
-    },
-    {
-      "name": "data-analysis",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/data-analysis",
-      "display_name": "Data Analysis",
-      "description": "Guidelines for analyzing data: cleaning, exploring and reporting findings.",
-      "tags": [
-        "data",
-        "analysis",
-        "statistics"
-      ]
-    },
-    {
-      "name": "data-visualization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/data-visualization",
-      "display_name": "Data Visualization",
-      "description": "Guidelines for choosing charts and building clear visualizations.",
-      "tags": [
-        "charts",
-        "visualization",
-        "data"
-      ]
-    },
-    {
-      "name": "database-design",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/database-design",
-      "display_name": "Database Design",
-      "description": "Guidelines for schema design: normalization, indexes and migrations.",
-      "tags": [
-        "database",
-        "sql",
-        "design"
-      ]
-    },
-    {
-      "name": "database-migrations",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/database-migrations",
-      "display_name": "Database Migrations",
-      "description": "Plan and write safe schema migrations with rollback strategy.",
-      "tags": [
-        "database",
-        "sql",
-        "backend",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "debugging",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/debugging",
-      "display_name": "Debugging",
-      "description": "Guidelines for systematic debugging: reproduce, isolate, fix, verify.",
-      "tags": [
-        "debugging",
-        "errors",
-        "troubleshooting"
-      ]
-    },
-    {
-      "name": "dependency-management",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/dependency-management",
-      "display_name": "Dependency Management",
-      "description": "Guidelines for adding, updating and auditing dependencies.",
-      "tags": [
-        "dependencies",
-        "security",
-        "maintenance"
-      ]
-    },
-    {
-      "name": "docker",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/docker",
-      "display_name": "Docker",
-      "description": "Guidelines for building efficient Docker images and managing containers.",
-      "tags": [
-        "docker",
-        "containers",
-        "devops"
-      ]
-    },
-    {
-      "name": "document-automation",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/document-automation",
-      "display_name": "Document Automation",
-      "description": "Create and format Word, PDF, spreadsheet and slide documents.",
-      "tags": [
-        "documentation",
-        "productivity",
-        "office",
-        "automation"
-      ]
-    },
-    {
-      "name": "documentation",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/documentation",
-      "display_name": "Documentation",
-      "description": "Guidelines for writing clear documentation: READMEs, comments, changelogs.",
-      "tags": [
-        "documentation",
-        "docs",
-        "writing"
-      ]
-    },
-    {
-      "name": "email-marketing",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/email-marketing",
-      "display_name": "Email Marketing",
-      "description": "Plan campaigns, write copy and structure automated sequences.",
-      "tags": [
-        "marketing",
-        "email",
-        "copywriting",
-        "growth"
-      ]
-    },
-    {
-      "name": "error-handling",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/error-handling",
-      "display_name": "Error Handling",
-      "description": "Guidelines for robust error handling and graceful failures.",
-      "tags": [
-        "errors",
-        "robustness",
-        "reliability"
-      ]
-    },
-    {
-      "name": "financial-modeling",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/financial-modeling",
-      "display_name": "Financial Modeling",
-      "description": "Build and stress-test financial models: forecasts, unit economics, scenarios.",
-      "tags": [
-        "finance",
-        "business",
-        "data-analysis",
-        "planning"
-      ]
-    },
-    {
-      "name": "frontend-development",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/frontend-development",
-      "display_name": "Frontend Development",
-      "description": "Guidelines for building accessible, responsive web frontends.",
-      "tags": [
-        "frontend",
-        "html",
-        "css"
-      ]
-    },
-    {
-      "name": "git-workflow",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/git-workflow",
-      "display_name": "Git Workflow",
-      "description": "Guidelines for git workflows: branching, commits, rebasing and pull requests.",
-      "tags": [
-        "git",
-        "workflow",
-        "version-control"
-      ]
-    },
-    {
-      "name": "go-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/go-style",
-      "display_name": "Go Style",
-      "description": "Guidelines for writing idiomatic Go: packages, errors and concurrency.",
-      "tags": [
-        "go",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "graphql",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/graphql",
-      "display_name": "GraphQL",
-      "description": "Guidelines for designing and consuming GraphQL APIs.",
-      "tags": [
-        "graphql",
-        "api",
-        "query-language"
-      ]
-    },
-    {
-      "name": "growth-experiments",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/growth-experiments",
-      "display_name": "Growth Experiments",
-      "description": "Run structured experiment pipelines to grow a product.",
-      "tags": [
-        "growth",
-        "product",
-        "analytics",
-        "marketing"
-      ]
-    },
-    {
-      "name": "incident-response",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/incident-response",
-      "display_name": "Incident Response",
-      "description": "Guidelines for responding to incidents calmly and systematically.",
-      "tags": [
-        "incident",
-        "on-call",
-        "response"
-      ]
-    },
-    {
-      "name": "java-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/java-style",
-      "display_name": "Java Style",
-      "description": "Guidelines for writing clean Java: structure, naming and error handling.",
-      "tags": [
-        "java",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "javascript-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/javascript-style",
-      "display_name": "JavaScript Style",
-      "description": "Guidelines for writing clean, modern JavaScript.",
-      "tags": [
-        "javascript",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "kubernetes",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/kubernetes",
-      "display_name": "Kubernetes",
-      "description": "Guidelines for deploying and operating applications on Kubernetes.",
-      "tags": [
-        "kubernetes",
-        "orchestration",
-        "devops"
-      ]
-    },
-    {
-      "name": "linux-ops",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/linux-ops",
-      "display_name": "Linux Ops",
-      "description": "Guidelines for Linux system administration: processes, permissions and services.",
-      "tags": [
-        "linux",
-        "sysadmin",
-        "ops"
-      ]
-    },
-    {
-      "name": "llm-integration",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/llm-integration",
-      "display_name": "LLM Integration",
-      "description": "Guidelines for integrating LLMs into applications: calls, errors and costs.",
-      "tags": [
-        "llm",
-        "ai",
-        "integration"
-      ]
-    },
-    {
-      "name": "localization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/localization",
-      "display_name": "Localization",
-      "description": "Adapt content and software for international audiences, not just translate.",
-      "tags": [
-        "localization",
-        "translation",
-        "internationalization",
-        "language"
-      ]
-    },
-    {
-      "name": "logging-observability",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/logging-observability",
-      "display_name": "Logging and Observability",
-      "description": "Guidelines for structured logging, traces and observability.",
-      "tags": [
-        "logging",
-        "observability",
-        "monitoring"
-      ]
-    },
-    {
-      "name": "marketing-conversion",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/marketing-conversion",
-      "display_name": "Marketing Conversion (CRO)",
-      "description": "Optimize landing pages and funnels for conversions with a structured CRO process.",
-      "tags": [
-        "marketing",
-        "conversion",
-        "growth",
-        "web"
-      ]
-    },
-    {
-      "name": "meeting-notes",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/meeting-notes",
-      "display_name": "Meeting Notes & Actions",
-      "description": "Turn transcripts into structured notes with decisions and action items.",
-      "tags": [
-        "meeting",
-        "productivity",
-        "communication",
-        "writing"
-      ]
-    },
-    {
-      "name": "microservices",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/microservices",
-      "display_name": "Microservices",
-      "description": "Guidelines for designing and operating microservice architectures.",
-      "tags": [
-        "microservices",
-        "architecture",
-        "distributed"
-      ]
-    },
-    {
-      "name": "monitoring",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/monitoring",
-      "display_name": "Monitoring",
-      "description": "Guidelines for monitoring systems: metrics, alerts and dashboards.",
-      "tags": [
-        "monitoring",
-        "metrics",
-        "alerts"
-      ]
-    },
-    {
-      "name": "negotiation",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/negotiation",
-      "display_name": "Negotiation",
-      "description": "Prepare and simulate commercial negotiations with a structured framework.",
-      "tags": [
-        "business",
-        "negotiation",
-        "sales",
-        "communication"
-      ]
-    },
-    {
-      "name": "organization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/organization",
-      "display_name": "Organization",
-      "description": "Guidelines for organizing projects: structure, naming, documentation and workflows.",
-      "tags": [
-        "organization",
-        "structure",
-        "workflow"
-      ]
-    },
-    {
-      "name": "performance-budget",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/performance-budget",
-      "display_name": "Performance Budget",
-      "description": "Set and enforce web performance budgets for a project.",
-      "tags": [
-        "performance",
-        "web",
-        "frontend",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "performance-optimization",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/performance-optimization",
-      "display_name": "Performance Optimization",
-      "description": "Guidelines for profiling and optimizing application performance.",
-      "tags": [
-        "performance",
-        "profiling",
-        "optimization"
-      ]
-    },
-    {
-      "name": "postmortem",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/postmortem",
-      "display_name": "Incident Postmortem",
-      "description": "Write blameless postmortems that turn incidents into system improvements.",
-      "tags": [
-        "incident-response",
-        "documentation",
-        "reliability",
-        "communication"
-      ]
-    },
-    {
-      "name": "pricing-strategy",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/pricing-strategy",
-      "display_name": "Pricing Strategy",
-      "description": "Design pricing models and positioning for a product.",
-      "tags": [
-        "business",
-        "pricing",
-        "strategy",
-        "product"
-      ]
-    },
-    {
-      "name": "product-analytics",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/product-analytics",
-      "display_name": "Product Analytics",
-      "description": "Define metrics, funnels and dashboards that drive product decisions.",
-      "tags": [
-        "analytics",
-        "product",
-        "data-analysis",
-        "metrics"
-      ]
-    },
-    {
-      "name": "project-planning",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/project-planning",
-      "display_name": "Project Planning",
-      "description": "Guidelines for planning work: break down tasks, order dependencies, track progress.",
-      "tags": [
-        "planning",
-        "workflow",
-        "organization"
-      ]
-    },
-    {
-      "name": "prompt-engineering",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/prompt-engineering",
-      "display_name": "Prompt Engineering",
-      "description": "Guidelines for writing effective prompts and structuring LLM interactions.",
-      "tags": [
-        "llm",
-        "prompts",
-        "ai"
-      ]
-    },
-    {
-      "name": "python-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/python-style",
-      "display_name": "Python Style",
-      "description": "Guidelines for writing idiomatic, maintainable Python.",
-      "tags": [
-        "python",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "refactoring",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/refactoring",
-      "display_name": "Refactoring",
-      "description": "Guidelines for refactoring safely: small steps, preserved behavior, verified changes.",
-      "tags": [
-        "refactoring",
-        "code",
-        "quality"
-      ]
-    },
-    {
-      "name": "release-management",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/release-management",
-      "display_name": "Release Management",
-      "description": "Guidelines for versioning, changelogs and smooth releases.",
-      "tags": [
-        "release",
-        "versioning",
-        "changelog"
-      ]
-    },
-    {
-      "name": "rfp-response",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/rfp-response",
-      "display_name": "RFP Response",
-      "description": "Analyze request for proposals and draft structured, compliant responses.",
-      "tags": [
-        "business",
-        "sales",
-        "writing",
-        "proposal"
-      ]
-    },
-    {
-      "name": "rust-style",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/rust-style",
-      "display_name": "Rust Style",
-      "description": "Guidelines for writing safe, idiomatic Rust.",
-      "tags": [
-        "rust",
-        "style",
-        "best-practices"
-      ]
-    },
-    {
-      "name": "sales-prospecting",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/sales-prospecting",
-      "display_name": "Sales Prospecting",
-      "description": "Build outbound prospect lists, personalize outreach and sequence follow-ups.",
-      "tags": [
-        "sales",
-        "prospecting",
-        "gtm",
-        "marketing"
-      ]
-    },
-    {
-      "name": "security",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/security",
-      "display_name": "Security",
-      "description": "Guidelines for handling secrets, permissions and risky operations safely.",
-      "tags": [
-        "security",
-        "safety",
-        "permissions"
-      ]
-    },
-    {
-      "name": "seo",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/seo",
-      "display_name": "SEO",
-      "description": "Guidelines for search engine optimization: content, structure and metadata.",
-      "tags": [
-        "seo",
-        "web",
-        "marketing"
-      ]
-    },
-    {
-      "name": "serverless-development",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/serverless-development",
-      "display_name": "Serverless Development",
-      "description": "Build serverless functions following FaaS best practices.",
-      "tags": [
-        "serverless",
-        "cloud",
-        "devops",
-        "backend"
-      ]
-    },
-    {
-      "name": "social-media-strategy",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/social-media-strategy",
-      "display_name": "Social Media Strategy",
-      "description": "Create platform-specific content plans and calendars.",
-      "tags": [
-        "marketing",
-        "social-media",
-        "content",
-        "strategy"
-      ]
-    },
-    {
-      "name": "sql-writing",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/sql-writing",
-      "display_name": "SQL Writing",
-      "description": "Guidelines for writing readable and efficient SQL queries.",
-      "tags": [
-        "sql",
-        "database",
-        "queries"
-      ]
-    },
-    {
-      "name": "technical-writing",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/technical-writing",
-      "display_name": "Technical Writing",
-      "description": "Guidelines for writing precise technical documentation and tutorials.",
-      "tags": [
-        "writing",
-        "docs",
-        "technical"
-      ]
-    },
-    {
-      "name": "test-writing",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/test-writing",
-      "display_name": "Test Writing",
-      "description": "Guidelines for writing effective tests: what to test, how to structure them.",
-      "tags": [
-        "tests",
-        "quality",
-        "code"
-      ]
-    },
-    {
       "name": "typescript-style",
       "type": "skill",
       "version": "1.0.0",
@@ -5108,904 +5922,6 @@
         "typescript",
         "style",
         "best-practices"
-      ]
-    },
-    {
-      "name": "ux-research",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/ux-research",
-      "display_name": "UX Research",
-      "description": "Plan and run user research: interviews, usability tests, surveys.",
-      "tags": [
-        "ux",
-        "research",
-        "product",
-        "design"
-      ]
-    },
-    {
-      "name": "video-production",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/video-production",
-      "display_name": "Video Production",
-      "description": "Plan and produce video content: scripts, structure, editing guidance.",
-      "tags": [
-        "video",
-        "creative",
-        "marketing",
-        "storytelling"
-      ]
-    },
-    {
-      "name": "web-research",
-      "type": "skill",
-      "version": "1.0.0",
-      "path": "skills/web-research",
-      "display_name": "Web Research",
-      "description": "Guidelines for researching effectively: queries, source evaluation and citations.",
-      "tags": [
-        "web",
-        "research",
-        "search"
-      ]
-    },
-    {
-      "name": "ascii-table",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/ascii-table",
-      "display_name": "ASCII Table",
-      "description": "Build ASCII tables from rows of data.",
-      "tags": [
-        "table",
-        "text",
-        "formatting"
-      ]
-    },
-    {
-      "name": "barcode-generator",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/barcode-generator",
-      "display_name": "Barcode Generator",
-      "description": "Generate EAN-13 barcode SVGs from a 12-digit product code.",
-      "tags": [
-        "barcode",
-        "image",
-        "ecommerce",
-        "utility"
-      ]
-    },
-    {
-      "name": "base-converter",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/base-converter",
-      "display_name": "Base Converter",
-      "description": "Convert numbers between bases 2, 8, 10, 16 and 36.",
-      "tags": [
-        "base",
-        "conversion",
-        "numbers"
-      ]
-    },
-    {
-      "name": "calculator",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/calculator",
-      "display_name": "Calculator",
-      "description": "Safely evaluate arithmetic expressions.",
-      "tags": [
-        "math",
-        "utility",
-        "calculation"
-      ]
-    },
-    {
-      "name": "calendar-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/calendar-tools",
-      "display_name": "Calendar Tools",
-      "description": "Show month calendars, week numbers and day-of-week calculations.",
-      "tags": [
-        "calendar",
-        "date",
-        "time"
-      ]
-    },
-    {
-      "name": "chart-svg",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/chart-svg",
-      "display_name": "Chart Generator",
-      "description": "Render bar and line charts as standalone SVGs.",
-      "tags": [
-        "chart",
-        "image",
-        "data-analysis",
-        "utility"
-      ]
-    },
-    {
-      "name": "color-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/color-tools",
-      "display_name": "Color Tools",
-      "description": "Convert between hex, RGB and HSL color formats.",
-      "tags": [
-        "color",
-        "design",
-        "conversion"
-      ]
-    },
-    {
-      "name": "crc-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/crc-tools",
-      "display_name": "CRC Tools",
-      "description": "Compute CRC32 checksums and base64 encode/decode data.",
-      "tags": [
-        "crc",
-        "checksum",
-        "base64"
-      ]
-    },
-    {
-      "name": "cron-parser",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/cron-parser",
-      "display_name": "Cron Parser",
-      "description": "Parse cron expressions and describe their schedule.",
-      "tags": [
-        "cron",
-        "scheduler",
-        "time"
-      ]
-    },
-    {
-      "name": "crypto-price",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/crypto-price",
-      "display_name": "Crypto Price",
-      "description": "Current cryptocurrency prices from the free CoinGecko API.",
-      "tags": [
-        "finance",
-        "crypto",
-        "api",
-        "web"
-      ]
-    },
-    {
-      "name": "csv-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/csv-tools",
-      "display_name": "CSV Tools",
-      "description": "Parse CSV data, convert to JSON, count rows and filter columns.",
-      "tags": [
-        "csv",
-        "data",
-        "utility"
-      ]
-    },
-    {
-      "name": "currency-converter",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/currency-converter",
-      "display_name": "Currency Converter",
-      "description": "Convert amounts between currencies using free Frankfurter exchange rates.",
-      "tags": [
-        "finance",
-        "currency",
-        "api",
-        "web"
-      ]
-    },
-    {
-      "name": "date-time",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/date-time",
-      "display_name": "Date & Time",
-      "description": "Current time, ISO formatting and timezone conversions.",
-      "tags": [
-        "date",
-        "time",
-        "timezone",
-        "utility"
-      ]
-    },
-    {
-      "name": "dictionary",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/dictionary",
-      "display_name": "Dictionary",
-      "description": "Word definitions, phonetics and examples from the free DictionaryAPI.",
-      "tags": [
-        "dictionary",
-        "language",
-        "api",
-        "web"
-      ]
-    },
-    {
-      "name": "diff-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/diff-tools",
-      "display_name": "Diff Tools",
-      "description": "Compare two strings or files and output a unified diff.",
-      "tags": [
-        "diff",
-        "git",
-        "text",
-        "utility"
-      ]
-    },
-    {
-      "name": "discord-webhook",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/discord-webhook",
-      "display_name": "Discord Webhook",
-      "description": "Send a message to a Discord channel via webhook URL.",
-      "tags": [
-        "communication",
-        "notifications",
-        "api",
-        "web"
-      ]
-    },
-    {
-      "name": "dns-lookup",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/dns-lookup",
-      "display_name": "DNS Lookup",
-      "description": "Resolve hostnames to IP addresses (A and AAAA records).",
-      "tags": [
-        "dns",
-        "network",
-        "lookup"
-      ]
-    },
-    {
-      "name": "duration-format",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/duration-format",
-      "display_name": "Duration Format",
-      "description": "Humanize durations between two dates or from seconds.",
-      "tags": [
-        "time",
-        "duration",
-        "formatting"
-      ]
-    },
-    {
-      "name": "file-type",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/file-type",
-      "display_name": "File Type",
-      "description": "Detect file type from magic bytes.",
-      "tags": [
-        "files",
-        "detection",
-        "magic"
-      ]
-    },
-    {
-      "name": "filesystem",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/filesystem",
-      "display_name": "Filesystem",
-      "description": "List, read and write files safely inside a sandboxed directory.",
-      "tags": [
-        "files",
-        "storage",
-        "utility"
-      ]
-    },
-    {
-      "name": "geocoding",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/geocoding",
-      "display_name": "Geocoding",
-      "description": "Resolve a place name to coordinates using the free Open-Meteo geocoding API.",
-      "tags": [
-        "location",
-        "api",
-        "web",
-        "geocoding"
-      ]
-    },
-    {
-      "name": "hacker-news",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/hacker-news",
-      "display_name": "Hacker News Search",
-      "description": "Search Hacker News stories and comments via the Algolia API.",
-      "tags": [
-        "news",
-        "search",
-        "api",
-        "web"
-      ]
-    },
-    {
-      "name": "hash-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/hash-tools",
-      "display_name": "Hash Tools",
-      "description": "Compute MD5, SHA-1, SHA-256, SHA-512 digests and base64 encodings.",
-      "tags": [
-        "hash",
-        "base64",
-        "crypto",
-        "utility"
-      ]
-    },
-    {
-      "name": "hex-dump",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/hex-dump",
-      "display_name": "Hex Dump",
-      "description": "Print hexadecimal dumps of files or strings.",
-      "tags": [
-        "hex",
-        "binary",
-        "dump"
-      ]
-    },
-    {
-      "name": "html-entities",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/html-entities",
-      "display_name": "HTML Entities",
-      "description": "Encode and decode HTML entities in text.",
-      "tags": [
-        "html",
-        "encoding",
-        "entities"
-      ]
-    },
-    {
-      "name": "html-to-text",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/html-to-text",
-      "display_name": "HTML to Text",
-      "description": "Extract clean readable text from HTML.",
-      "tags": [
-        "html",
-        "writing",
-        "scraping",
-        "utility"
-      ]
-    },
-    {
-      "name": "html-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/html-tools",
-      "display_name": "HTML Tools",
-      "description": "Extract text content and links from HTML pages.",
-      "tags": [
-        "html",
-        "parsing",
-        "web"
-      ]
-    },
-    {
-      "name": "http-request",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/http-request",
-      "display_name": "HTTP Request",
-      "description": "Send GET and POST requests, return status, headers and body.",
-      "tags": [
-        "http",
-        "network",
-        "api",
-        "web"
-      ]
-    },
-    {
-      "name": "image-info",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/image-info",
-      "display_name": "Image Info",
-      "description": "Read image dimensions and format from PNG, JPEG, GIF, BMP and WebP headers.",
-      "tags": [
-        "image",
-        "metadata",
-        "utility"
-      ]
-    },
-    {
-      "name": "ini-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/ini-tools",
-      "display_name": "INI Tools",
-      "description": "Parse, read and convert INI configuration files.",
-      "tags": [
-        "config",
-        "ini",
-        "utility",
-        "data-analysis"
-      ]
-    },
-    {
-      "name": "ip-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/ip-tools",
-      "display_name": "IP Tools",
-      "description": "Validate and parse IPv4 and IPv6 addresses and CIDR ranges.",
-      "tags": [
-        "ip",
-        "network",
-        "cidr"
-      ]
-    },
-    {
-      "name": "json-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/json-tools",
-      "display_name": "JSON Tools",
-      "description": "Validate, format and extract values from JSON documents.",
-      "tags": [
-        "json",
-        "data",
-        "utility"
-      ]
-    },
-    {
-      "name": "jwt-decode",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/jwt-decode",
-      "display_name": "JWT Decode",
-      "description": "Decode and inspect JWT headers and payloads without verification.",
-      "tags": [
-        "jwt",
-        "token",
-        "auth"
-      ]
-    },
-    {
-      "name": "lorem-ipsum",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/lorem-ipsum",
-      "display_name": "Lorem Ipsum",
-      "description": "Generate lorem ipsum placeholder text.",
-      "tags": [
-        "text",
-        "placeholder",
-        "writing",
-        "utility"
-      ]
-    },
-    {
-      "name": "mac-address",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/mac-address",
-      "display_name": "MAC Address",
-      "description": "Validate, format, parse and generate MAC addresses.",
-      "tags": [
-        "mac",
-        "network",
-        "addresses"
-      ]
-    },
-    {
-      "name": "markdown-to-html",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/markdown-to-html",
-      "display_name": "Markdown to HTML",
-      "description": "Convert Markdown documents to HTML.",
-      "tags": [
-        "markdown",
-        "html",
-        "writing",
-        "utility"
-      ]
-    },
-    {
-      "name": "markdown-toc",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/markdown-toc",
-      "display_name": "Markdown TOC",
-      "description": "Generate a table of contents from Markdown headings.",
-      "tags": [
-        "markdown",
-        "toc",
-        "docs"
-      ]
-    },
-    {
-      "name": "markdown-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/markdown-tools",
-      "display_name": "Markdown Tools",
-      "description": "Convert Markdown text into HTML.",
-      "tags": [
-        "markdown",
-        "html",
-        "writing"
-      ]
-    },
-    {
-      "name": "math-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/math-tools",
-      "display_name": "Math Tools",
-      "description": "Number theory helpers: gcd, lcm, primes, factorial, fibonacci.",
-      "tags": [
-        "math",
-        "numbers",
-        "utility"
-      ]
-    },
-    {
-      "name": "mime-types",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/mime-types",
-      "display_name": "MIME Types",
-      "description": "Look up MIME types from file extensions and vice versa.",
-      "tags": [
-        "mime",
-        "files",
-        "web"
-      ]
-    },
-    {
-      "name": "morse-code",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/morse-code",
-      "display_name": "Morse Code",
-      "description": "Encode and decode Morse code messages.",
-      "tags": [
-        "morse",
-        "utility",
-        "text",
-        "coding"
-      ]
-    },
-    {
-      "name": "number-to-words",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/number-to-words",
-      "display_name": "Number to Words",
-      "description": "Convert numbers to English words.",
-      "tags": [
-        "numbers",
-        "words",
-        "text"
-      ]
-    },
-    {
-      "name": "password-checker",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/password-checker",
-      "display_name": "Password Checker",
-      "description": "Estimate password strength and entropy.",
-      "tags": [
-        "password",
-        "security",
-        "strength"
-      ]
-    },
-    {
-      "name": "password-generator",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/password-generator",
-      "display_name": "Password Generator",
-      "description": "Generate strong random passwords with configurable length and character sets.",
-      "tags": [
-        "password",
-        "security",
-        "generator"
-      ]
-    },
-    {
-      "name": "port-check",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/port-check",
-      "display_name": "Port Check",
-      "description": "Check whether a TCP port is reachable on a host.",
-      "tags": [
-        "port",
-        "network",
-        "tcp"
-      ]
-    },
-    {
-      "name": "public-ip",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/public-ip",
-      "display_name": "Public IP",
-      "description": "Get the machine's public IP address and basic info.",
-      "tags": [
-        "network",
-        "ip",
-        "api",
-        "web"
-      ]
-    },
-    {
-      "name": "qr-generator",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/qr-generator",
-      "display_name": "QR Generator",
-      "description": "Generate QR codes as PNG or SVG images.",
-      "tags": [
-        "qr",
-        "barcode",
-        "image"
-      ]
-    },
-    {
-      "name": "random-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/random-tools",
-      "display_name": "Random Tools",
-      "description": "Generate secure random numbers, choices and sampling.",
-      "tags": [
-        "random",
-        "secure",
-        "utility"
-      ]
-    },
-    {
-      "name": "regex-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/regex-tools",
-      "display_name": "Regex Tools",
-      "description": "Test regular expressions and extract matching groups from text.",
-      "tags": [
-        "regex",
-        "text",
-        "search"
-      ]
-    },
-    {
-      "name": "roman-numerals",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/roman-numerals",
-      "display_name": "Roman Numerals",
-      "description": "Convert between integers and Roman numerals.",
-      "tags": [
-        "roman",
-        "numbers",
-        "conversion"
-      ]
-    },
-    {
-      "name": "rot13-cipher",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/rot13-cipher",
-      "display_name": "Caesar Cipher",
-      "description": "Encode or decode text with a Caesar/RotN shift cipher.",
-      "tags": [
-        "cipher",
-        "crypto",
-        "utility",
-        "text"
-      ]
-    },
-    {
-      "name": "rss-reader",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/rss-reader",
-      "display_name": "RSS Reader",
-      "description": "Parse RSS and Atom feeds into structured items.",
-      "tags": [
-        "rss",
-        "feed",
-        "news"
-      ]
-    },
-    {
-      "name": "semantic-version",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/semantic-version",
-      "display_name": "Semantic Version",
-      "description": "Parse, validate and compare semantic version strings.",
-      "tags": [
-        "version",
-        "semver",
-        "utility"
-      ]
-    },
-    {
-      "name": "sitemap-parser",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/sitemap-parser",
-      "display_name": "Sitemap Parser",
-      "description": "Fetch and parse XML sitemaps into a list of URLs.",
-      "tags": [
-        "web",
-        "seo",
-        "sitemap",
-        "api"
-      ]
-    },
-    {
-      "name": "slugify",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/slugify",
-      "display_name": "Slugify",
-      "description": "Convert any text into URL-friendly slugs.",
-      "tags": [
-        "url",
-        "text",
-        "seo",
-        "utility"
-      ]
-    },
-    {
-      "name": "sorting-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/sorting-tools",
-      "display_name": "Sorting Tools",
-      "description": "Sort lines of text in various ways: natural, numeric, reverse, unique.",
-      "tags": [
-        "sort",
-        "text",
-        "utility"
-      ]
-    },
-    {
-      "name": "sql-query",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/sql-query",
-      "display_name": "SQL Query",
-      "description": "Run read-only SQL queries against an in-memory SQLite database.",
-      "tags": [
-        "sql",
-        "database",
-        "sqlite"
-      ]
-    },
-    {
-      "name": "sqlite-query",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/sqlite-query",
-      "display_name": "SQLite Query",
-      "description": "Run read-only SELECT queries against a SQLite database.",
-      "tags": [
-        "sql",
-        "database",
-        "sqlite",
-        "data-analysis"
-      ]
-    },
-    {
-      "name": "stock-quote",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/stock-quote",
-      "display_name": "Stock Quote",
-      "description": "Fetch a stock quote from Stooq (free CSV API, no key).",
-      "tags": [
-        "finance",
-        "stocks",
-        "api",
-        "web"
-      ]
-    },
-    {
-      "name": "subnet-calculator",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/subnet-calculator",
-      "display_name": "Subnet Calculator",
-      "description": "Calculate network, broadcast, mask and host ranges from a CIDR.",
-      "tags": [
-        "subnet",
-        "cidr",
-        "network"
-      ]
-    },
-    {
-      "name": "system-info",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/system-info",
-      "display_name": "System Info",
-      "description": "Report OS, platform and hardware details.",
-      "tags": [
-        "system",
-        "os",
-        "info",
-        "utility"
-      ]
-    },
-    {
-      "name": "tar-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/tar-tools",
-      "display_name": "TAR Tools",
-      "description": "List, extract and create TAR archives.",
-      "tags": [
-        "tar",
-        "archive",
-        "compression"
-      ]
-    },
-    {
-      "name": "text-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/text-tools",
-      "display_name": "Text Tools",
-      "description": "Count, transform and manipulate text: case, slugify, replace.",
-      "tags": [
-        "text",
-        "utility",
-        "strings"
-      ]
-    },
-    {
-      "name": "toml-tools",
-      "type": "tool",
-      "version": "1.0.0",
-      "path": "tools/toml-tools",
-      "display_name": "TOML Tools",
-      "description": "Parse and validate TOML configuration files.",
-      "tags": [
-        "config",
-        "toml",
-        "utility",
-        "data-analysis"
       ]
     },
     {
@@ -6035,6 +5951,23 @@
       ]
     },
     {
+      "name": "unit-test-writer",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/unit-test-writer",
+      "display_name": "Unit Test Writer",
+      "description": "Write thorough unit tests with edge cases for your functions and classes.",
+      "tags": [
+        "coding",
+        "python",
+        "javascript",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-01-28",
+      "language": "English"
+    },
+    {
       "name": "url-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -6062,6 +5995,67 @@
       ]
     },
     {
+      "name": "ux-research",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/ux-research",
+      "display_name": "UX Research",
+      "description": "Plan and run user research: interviews, usability tests, surveys.",
+      "tags": [
+        "ux",
+        "research",
+        "product",
+        "design"
+      ]
+    },
+    {
+      "name": "veille-technologique",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/veille-technologique",
+      "display_name": "Veille Technologique",
+      "description": "Fais un point de veille ciblé sur un domaine et ses évolutions.",
+      "tags": [
+        "research",
+        "coding",
+        "automation",
+        "thinking"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-08",
+      "language": "Français"
+    },
+    {
+      "name": "video-production",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/video-production",
+      "display_name": "Video Production",
+      "description": "Plan and produce video content: scripts, structure, editing guidance.",
+      "tags": [
+        "video",
+        "creative",
+        "marketing",
+        "storytelling"
+      ]
+    },
+    {
+      "name": "voiceover-script",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/voiceover-script",
+      "display_name": "Voice-Over Script",
+      "description": "Writes a natural voice-over script with pacing, performance notes, and tone variants.",
+      "tags": [
+        "audio",
+        "creative",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-07-20",
+      "language": "English"
+    },
+    {
       "name": "weather-forecast",
       "type": "tool",
       "version": "1.0.0",
@@ -6076,6 +6070,36 @@
       ]
     },
     {
+      "name": "web-research",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/web-research",
+      "display_name": "Web Research",
+      "description": "Guidelines for researching effectively: queries, source evaluation and citations.",
+      "tags": [
+        "web",
+        "research",
+        "search"
+      ]
+    },
+    {
+      "name": "web-scraper-builder",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/web-scraper-builder",
+      "display_name": "Web Scraper Builder",
+      "description": "Build a polite Python web scraper that exports clean data to CSV.",
+      "tags": [
+        "web",
+        "python",
+        "automation",
+        "data-analysis"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-03-28",
+      "language": "English"
+    },
+    {
       "name": "web-search",
       "type": "tool",
       "version": "1.0.0",
@@ -6087,6 +6111,22 @@
         "search",
         "research"
       ]
+    },
+    {
+      "name": "weekly-meal-workout-plan",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/weekly-meal-workout-plan",
+      "display_name": "Weekly Meal and Workout Plan",
+      "description": "Builds a personalized weekly meal and workout plan from your goals and schedule.",
+      "tags": [
+        "health",
+        "food",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-02-03",
+      "language": "English"
     },
     {
       "name": "wikipedia-summary",
@@ -6127,6 +6167,22 @@
         "config",
         "data"
       ]
+    },
+    {
+      "name": "youtube-script-outline",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/youtube-script-outline",
+      "display_name": "YouTube Script Outline",
+      "description": "Builds a complete YouTube video outline with hooks, sections, timestamps, and visual notes.",
+      "tags": [
+        "video",
+        "storytelling",
+        "education"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2025-05-12",
+      "language": "English"
     },
     {
       "name": "zip-tools",
