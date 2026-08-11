@@ -1,0 +1,22 @@
+{
+  "name": "learning-methodology-skills",
+  "display_name": "Learning Methodology",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Learn technical subjects fast and retain them with spaced repetition.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "skill",
+    "learning",
+    "study",
+    "methodology"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

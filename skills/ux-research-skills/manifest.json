@@ -1,0 +1,22 @@
+{
+  "name": "ux-research-skills",
+  "display_name": "UX Research",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Run quick, valid user research that informs product decisions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "skill",
+    "ux",
+    "research",
+    "product"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

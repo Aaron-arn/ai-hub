@@ -1,0 +1,21 @@
+{
+  "name": "debugging-skills",
+  "display_name": "Debugging Methodology",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Systematic debugging: reproduce, isolate, hypothesize, verify.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "skill",
+    "debugging",
+    "methodology"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

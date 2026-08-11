@@ -1,0 +1,22 @@
+{
+  "name": "data-analysis-skills",
+  "display_name": "Data Analysis",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Analyze data rigorously: clean, explore, model, communicate.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "skill",
+    "data",
+    "analysis",
+    "statistics"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

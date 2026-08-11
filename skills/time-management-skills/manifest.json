@@ -1,0 +1,22 @@
+{
+  "name": "time-management-skills",
+  "display_name": "Time Management",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Prioritize, plan, and protect focus in a messy work week.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "skill",
+    "productivity",
+    "time-management",
+    "planning"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

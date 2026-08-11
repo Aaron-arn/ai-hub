@@ -1,0 +1,21 @@
+{
+  "name": "code-review-skills",
+  "display_name": "Code Review",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Conduct reviews that catch real issues and keep tone constructive.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "skill",
+    "code-review",
+    "collaboration"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

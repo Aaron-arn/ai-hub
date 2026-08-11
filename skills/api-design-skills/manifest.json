@@ -1,0 +1,22 @@
+{
+  "name": "api-design-skills",
+  "display_name": "API Design",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Design consistent, evolvable REST and library APIs.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "skill",
+    "api",
+    "design",
+    "architecture"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

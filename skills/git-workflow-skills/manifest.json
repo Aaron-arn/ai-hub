@@ -1,0 +1,22 @@
+{
+  "name": "git-workflow-skills",
+  "display_name": "Git Workflow",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Follow clean git practices: branching, commits, rebasing, releases.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "skill",
+    "git",
+    "workflow",
+    "best-practices"
+  ],
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
