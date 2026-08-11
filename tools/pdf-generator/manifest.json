@@ -1,0 +1,29 @@
+{
+  "name": "pdf-generator",
+  "display_name": "PDF Generator",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Create text-based PDF documents from the command line.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "tool",
+    "python",
+    "pdf",
+    "document"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": [
+    "fpdf2"
+  ]
+}

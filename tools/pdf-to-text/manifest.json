@@ -1,0 +1,29 @@
+{
+  "name": "pdf-to-text",
+  "display_name": "PDF to Text",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Extract plain text from PDF files.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "tool",
+    "python",
+    "pdf",
+    "text-extraction"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": [
+    "pypdf"
+  ]
+}

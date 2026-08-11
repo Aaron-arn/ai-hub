@@ -1,0 +1,29 @@
+{
+  "name": "excel-generator",
+  "display_name": "Excel Generator",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Build Excel workbooks from CSV or inline cell values.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "tool",
+    "python",
+    "excel",
+    "spreadsheet"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": [
+    "openpyxl"
+  ]
+}
