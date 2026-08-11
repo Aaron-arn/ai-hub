@@ -1,0 +1,16 @@
+{
+  "name": "code-explainer-agent",
+  "display_name": "Code Explainer Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Explains code, projects, and algorithms step by step.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "code",
+    "learning",
+    "explanation"
+  ],
+  "entrypoint": "agent.md"
+}

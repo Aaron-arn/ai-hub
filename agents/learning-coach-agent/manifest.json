@@ -1,0 +1,16 @@
+{
+  "name": "learning-coach-agent",
+  "display_name": "Learning Coach Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Builds personalized learning plans and quizzes you.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "learning",
+    "education",
+    "coaching"
+  ],
+  "entrypoint": "agent.md"
+}

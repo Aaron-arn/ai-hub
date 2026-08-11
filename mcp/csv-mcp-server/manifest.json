@@ -1,0 +1,37 @@
+{
+  "name": "csv-mcp-server",
+  "display_name": "CSV MCP Server",
+  "version": "1.0.0",
+  "type": "mcp",
+  "description": "Read, filter, and summarize CSV files through MCP tools.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "mcp",
+    "csv",
+    "data",
+    "files"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": true
+  },
+  "dependencies": [
+    "mcp"
+  ],
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      "read_csv",
+      "filter_rows",
+      "summarize"
+    ]
+  }
+}

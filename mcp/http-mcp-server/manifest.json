@@ -1,0 +1,36 @@
+{
+  "name": "http-mcp-server",
+  "display_name": "HTTP MCP Server",
+  "version": "1.0.0",
+  "type": "mcp",
+  "description": "Perform HTTP requests (GET/POST) through MCP tools.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "mcp",
+    "http",
+    "api",
+    "network"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": true
+  },
+  "dependencies": [
+    "mcp"
+  ],
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      "http_get",
+      "http_post"
+    ]
+  }
+}

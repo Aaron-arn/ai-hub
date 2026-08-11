@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-08-10",
+  "generated": "2026-08-11",
   "packages": [
     {
       "name": "accessibility",
@@ -106,6 +106,42 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2025-09-18",
+      "language": "English"
+    },
+    {
+      "name": "ai-art-style-consistency-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/ai-art-style-consistency-prompt",
+      "display_name": "Art Style Consistency",
+      "description": "Lock a consistent art style across multiple generations.",
+      "tags": [
+        "prompt",
+        "image",
+        "art",
+        "style",
+        "consistency"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "album-cover-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/album-cover-prompt",
+      "display_name": "Album Cover",
+      "description": "Design a striking album cover with typography and strong visual metaphor.",
+      "tags": [
+        "prompt",
+        "image",
+        "album",
+        "music",
+        "cover-art"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {
@@ -428,6 +464,38 @@
       ]
     },
     {
+      "name": "api-design-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/api-design-prompt",
+      "display_name": "API Design",
+      "description": "Design a REST API contract with resources, status codes and examples.",
+      "tags": [
+        "prompt",
+        "text",
+        "api",
+        "design",
+        "documentation"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "api-design-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/api-design-skills",
+      "display_name": "API Design",
+      "description": "Design consistent, evolvable REST and library APIs.",
+      "tags": [
+        "skill",
+        "api",
+        "design",
+        "architecture"
+      ]
+    },
+    {
       "name": "api-endpoint-tester",
       "type": "prompt",
       "version": "1.0.0",
@@ -523,6 +591,24 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "architectural-visualization-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/architectural-visualization-prompt",
+      "display_name": "Architectural Viz",
+      "description": "Realistic architectural render prompt with camera and daylight setup.",
+      "tags": [
+        "prompt",
+        "image",
+        "architecture",
+        "render",
+        "3d"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "architecture-design",
@@ -736,6 +822,56 @@
       ]
     },
     {
+      "name": "blog-publisher-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/blog-publisher-agent",
+      "display_name": "Blog Publisher Agent",
+      "description": "Drafts complete blog posts from an idea to final draft.",
+      "tags": [
+        "agent",
+        "blog",
+        "content",
+        "writing"
+      ]
+    },
+    {
+      "name": "blog-seo-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/blog-seo-prompt",
+      "display_name": "Blog SEO",
+      "description": "Plan a search-optimized blog post with keyword strategy.",
+      "tags": [
+        "prompt",
+        "text",
+        "seo",
+        "blog",
+        "content"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "book-cover-3d-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/book-cover-3d-prompt",
+      "display_name": "Book Cover 3D",
+      "description": "Design a book cover and show it as a realistic 3D mockup.",
+      "tags": [
+        "prompt",
+        "image",
+        "book",
+        "cover",
+        "mockup"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "boss-exigeant",
       "type": "prompt",
       "version": "1.0.0",
@@ -860,6 +996,41 @@
       ]
     },
     {
+      "name": "changelog-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/changelog-prompt",
+      "display_name": "Changelog",
+      "description": "Write a Keep a Changelog entry from a list of changes.",
+      "tags": [
+        "prompt",
+        "text",
+        "changelog",
+        "documentation",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "character-sheet-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/character-sheet-prompt",
+      "display_name": "Character Sheet",
+      "description": "Design a consistent character across a full turnaround reference sheet.",
+      "tags": [
+        "prompt",
+        "image",
+        "character-design",
+        "concept-art"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "chart-svg",
       "type": "tool",
       "version": "1.0.0",
@@ -916,6 +1087,23 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2025-01-15",
+      "language": "English"
+    },
+    {
+      "name": "cinematic-wallpaper-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/cinematic-wallpaper-prompt",
+      "display_name": "Cinematic Wallpaper",
+      "description": "Generate a wide cinematic wallpaper with dramatic lighting and film-grain aesthetics.",
+      "tags": [
+        "prompt",
+        "image",
+        "wallpaper",
+        "cinematic"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {
@@ -1134,6 +1322,20 @@
       "language": "Français"
     },
     {
+      "name": "code-explainer-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/code-explainer-agent",
+      "display_name": "Code Explainer Agent",
+      "description": "Explains code, projects, and algorithms step by step.",
+      "tags": [
+        "agent",
+        "code",
+        "learning",
+        "explanation"
+      ]
+    },
+    {
       "name": "code-explaining",
       "type": "skill",
       "version": "1.0.0",
@@ -1200,6 +1402,37 @@
       "published": "2026-08-10"
     },
     {
+      "name": "code-review-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/code-review-prompt",
+      "display_name": "Code Review",
+      "description": "Systematic code review checklist prompt for any diff.",
+      "tags": [
+        "prompt",
+        "text",
+        "code",
+        "review",
+        "workflow"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "code-review-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/code-review-skills",
+      "display_name": "Code Review",
+      "description": "Conduct reviews that catch real issues and keep tone constructive.",
+      "tags": [
+        "skill",
+        "code-review",
+        "collaboration"
+      ]
+    },
+    {
       "name": "code-reviewer",
       "type": "prompt",
       "version": "1.0.0",
@@ -1231,6 +1464,24 @@
       ]
     },
     {
+      "name": "cold-email-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/cold-email-prompt",
+      "display_name": "Cold Email",
+      "description": "Write personalized outreach emails that get replies.",
+      "tags": [
+        "prompt",
+        "text",
+        "email",
+        "outreach",
+        "sales"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "cold-email-sequence",
       "type": "prompt",
       "version": "1.0.0",
@@ -1247,6 +1498,24 @@
       "language": "English"
     },
     {
+      "name": "color-palette-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/color-palette-prompt",
+      "display_name": "Color Palette",
+      "description": "Generate a harmonious color palette with swatches and usage guidance.",
+      "tags": [
+        "prompt",
+        "image",
+        "color",
+        "design",
+        "branding"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "color-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -1258,6 +1527,24 @@
         "design",
         "conversion"
       ]
+    },
+    {
+      "name": "commit-message-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/commit-message-prompt",
+      "display_name": "Commit Message",
+      "description": "Generate conventional commit messages from a diff.",
+      "tags": [
+        "prompt",
+        "text",
+        "git",
+        "commit",
+        "workflow"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "communication",
@@ -1398,6 +1685,24 @@
       "language": "English"
     },
     {
+      "name": "contract-summarizer-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/contract-summarizer-prompt",
+      "display_name": "Contract Summarizer",
+      "description": "Summarize legal contracts in plain language with risk flags.",
+      "tags": [
+        "prompt",
+        "text",
+        "legal",
+        "contract",
+        "analysis"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "copywriting",
       "type": "skill",
       "version": "1.0.0",
@@ -1408,6 +1713,20 @@
         "writing",
         "copy",
         "marketing"
+      ]
+    },
+    {
+      "name": "copywriting-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/copywriting-skills",
+      "display_name": "Copywriting",
+      "description": "Write persuasive, clear copy for products, ads, and emails.",
+      "tags": [
+        "skill",
+        "copywriting",
+        "marketing",
+        "writing"
       ]
     },
     {
@@ -1502,6 +1821,34 @@
       "language": "English"
     },
     {
+      "name": "csv-mcp-server",
+      "type": "mcp",
+      "version": "1.0.0",
+      "path": "mcp/csv-mcp-server",
+      "display_name": "CSV MCP Server",
+      "description": "Read, filter, and summarize CSV files through MCP tools.",
+      "tags": [
+        "mcp",
+        "csv",
+        "data",
+        "files"
+      ]
+    },
+    {
+      "name": "csv-to-json",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/csv-to-json",
+      "display_name": "CSV to JSON",
+      "description": "Convert CSV files to JSON records or NDJSON.",
+      "tags": [
+        "tool",
+        "python",
+        "csv",
+        "json"
+      ]
+    },
+    {
       "name": "csv-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -1559,6 +1906,20 @@
       ]
     },
     {
+      "name": "customer-support-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/customer-support-agent",
+      "display_name": "Customer Support Agent",
+      "description": "Drafts empathetic, accurate support responses from ticket context.",
+      "tags": [
+        "agent",
+        "support",
+        "customer-service",
+        "writing"
+      ]
+    },
+    {
       "name": "customer-support-response-scripts",
       "type": "prompt",
       "version": "1.0.0",
@@ -1575,6 +1936,24 @@
       "language": "English"
     },
     {
+      "name": "cybersigil-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/cybersigil-prompt",
+      "display_name": "Cybersigil",
+      "description": "Design a futuristic symbol blending glyphs, circuits and neon glow.",
+      "tags": [
+        "prompt",
+        "image",
+        "cyberpunk",
+        "symbol",
+        "futuristic"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "data-analysis",
       "type": "skill",
       "version": "1.0.0",
@@ -1588,6 +1967,38 @@
       ]
     },
     {
+      "name": "data-analysis-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/data-analysis-skills",
+      "display_name": "Data Analysis",
+      "description": "Analyze data rigorously: clean, explore, model, communicate.",
+      "tags": [
+        "skill",
+        "data",
+        "analysis",
+        "statistics"
+      ]
+    },
+    {
+      "name": "data-cleaning-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/data-cleaning-prompt",
+      "display_name": "Data Cleaning",
+      "description": "Plan and implement a data cleaning pipeline for messy datasets.",
+      "tags": [
+        "prompt",
+        "text",
+        "data",
+        "python",
+        "pipeline"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "data-visualization",
       "type": "skill",
       "version": "1.0.0",
@@ -1598,6 +2009,20 @@
         "charts",
         "visualization",
         "data"
+      ]
+    },
+    {
+      "name": "data-visualizer-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/data-visualizer-agent",
+      "display_name": "Data Visualizer Agent",
+      "description": "Turns raw data into chart recommendations and code.",
+      "tags": [
+        "agent",
+        "data",
+        "charts",
+        "visualization"
       ]
     },
     {
@@ -1703,6 +2128,19 @@
         "debugging",
         "errors",
         "troubleshooting"
+      ]
+    },
+    {
+      "name": "debugging-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/debugging-skills",
+      "display_name": "Debugging Methodology",
+      "description": "Systematic debugging: reproduce, isolate, hypothesize, verify.",
+      "tags": [
+        "skill",
+        "debugging",
+        "methodology"
       ]
     },
     {
@@ -1873,6 +2311,20 @@
       ]
     },
     {
+      "name": "doc-writer-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/doc-writer-agent",
+      "display_name": "Technical Doc Writer Agent",
+      "description": "Produces structured technical documentation from code or notes.",
+      "tags": [
+        "agent",
+        "documentation",
+        "technical-writing",
+        "writing"
+      ]
+    },
+    {
       "name": "docker",
       "type": "skill",
       "version": "1.0.0",
@@ -1903,6 +2355,24 @@
       "language": "English"
     },
     {
+      "name": "docstring-generator-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/docstring-generator-prompt",
+      "display_name": "Docstring Generator",
+      "description": "Write Google-style docstrings and type annotations for functions.",
+      "tags": [
+        "prompt",
+        "text",
+        "code",
+        "documentation",
+        "python"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "document-automation",
       "type": "skill",
       "version": "1.0.0",
@@ -1927,6 +2397,34 @@
         "documentation",
         "docs",
         "writing"
+      ]
+    },
+    {
+      "name": "docx-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/docx-generator",
+      "display_name": "DOCX Generator",
+      "description": "Generate Word documents with headings and lists from markdown.",
+      "tags": [
+        "tool",
+        "python",
+        "docx",
+        "word"
+      ]
+    },
+    {
+      "name": "duplicate-finder",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/duplicate-finder",
+      "display_name": "Duplicate Finder",
+      "description": "Find duplicate files by hash with safe deletion workflow.",
+      "tags": [
+        "tool",
+        "python",
+        "files",
+        "duplicates"
       ]
     },
     {
@@ -2023,6 +2521,42 @@
       "language": "English"
     },
     {
+      "name": "email-reply-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/email-reply-prompt",
+      "display_name": "Email Reply",
+      "description": "Draft professional email replies with adjustable tone.",
+      "tags": [
+        "prompt",
+        "text",
+        "email",
+        "communication",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "error-explainer-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/error-explainer-prompt",
+      "display_name": "Error Explainer",
+      "description": "Explain stack traces and runtime errors in plain language with fixes.",
+      "tags": [
+        "prompt",
+        "text",
+        "debugging",
+        "code",
+        "errors"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "error-handling",
       "type": "skill",
       "version": "1.0.0",
@@ -2034,6 +2568,24 @@
         "robustness",
         "reliability"
       ]
+    },
+    {
+      "name": "essay-outline-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/essay-outline-prompt",
+      "display_name": "Essay Outline",
+      "description": "Build a structured essay outline with arguments and evidence.",
+      "tags": [
+        "prompt",
+        "text",
+        "essay",
+        "writing",
+        "outline"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "excel-data-analyzer",
@@ -2053,6 +2605,20 @@
       "language": "English"
     },
     {
+      "name": "excel-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/excel-generator",
+      "display_name": "Excel Generator",
+      "description": "Build Excel workbooks from CSV or inline cell values.",
+      "tags": [
+        "tool",
+        "python",
+        "excel",
+        "spreadsheet"
+      ]
+    },
+    {
       "name": "excel-macro-generator",
       "type": "prompt",
       "version": "1.0.0",
@@ -2068,6 +2634,34 @@
       "author": "Aaron Dalibard",
       "published": "2025-06-01",
       "language": "English"
+    },
+    {
+      "name": "excel-merger",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/excel-merger",
+      "display_name": "Excel Merger",
+      "description": "Combine multiple Excel files or sheets into one workbook.",
+      "tags": [
+        "tool",
+        "python",
+        "excel",
+        "merge"
+      ]
+    },
+    {
+      "name": "excel-to-csv",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/excel-to-csv",
+      "display_name": "Excel to CSV",
+      "description": "Convert Excel sheets to CSV files.",
+      "tags": [
+        "tool",
+        "python",
+        "excel",
+        "csv"
+      ]
     },
     {
       "name": "executive-summary-writer",
@@ -2103,6 +2697,24 @@
       "language": "Français"
     },
     {
+      "name": "fantasy-map-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/fantasy-map-prompt",
+      "display_name": "Fantasy Map",
+      "description": "Illustrate an old-style fantasy map with hand-drawn textures.",
+      "tags": [
+        "prompt",
+        "image",
+        "fantasy",
+        "map",
+        "illustration"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "feedback-direct",
       "type": "prompt",
       "version": "1.0.0",
@@ -2118,6 +2730,20 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "file-organizer",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/file-organizer",
+      "display_name": "File Organizer",
+      "description": "Sort files into folders by type, date, or pattern.",
+      "tags": [
+        "tool",
+        "python",
+        "files",
+        "organize"
+      ]
     },
     {
       "name": "file-type",
@@ -2172,6 +2798,24 @@
         "data-analysis",
         "planning"
       ]
+    },
+    {
+      "name": "flashcard-generator-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/flashcard-generator-prompt",
+      "display_name": "Flashcard Generator",
+      "description": "Turn study material into Anki-ready flashcards.",
+      "tags": [
+        "prompt",
+        "text",
+        "learning",
+        "study",
+        "anki"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "fond-ecran-abstrait",
@@ -2314,6 +2958,20 @@
       "language": "English"
     },
     {
+      "name": "git-workflow-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/git-workflow-skills",
+      "display_name": "Git Workflow",
+      "description": "Follow clean git practices: branching, commits, rebasing, releases.",
+      "tags": [
+        "skill",
+        "git",
+        "workflow",
+        "best-practices"
+      ]
+    },
+    {
       "name": "go-style",
       "type": "skill",
       "version": "1.0.0",
@@ -2342,6 +3000,20 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "grant-writer-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/grant-writer-agent",
+      "display_name": "Grant Writer Agent",
+      "description": "Drafts grant applications: narratives, budgets, and logic models.",
+      "tags": [
+        "agent",
+        "grants",
+        "funding",
+        "writing"
+      ]
     },
     {
       "name": "graphql",
@@ -2449,6 +3121,20 @@
         "html",
         "parsing",
         "web"
+      ]
+    },
+    {
+      "name": "http-mcp-server",
+      "type": "mcp",
+      "version": "1.0.0",
+      "path": "mcp/http-mcp-server",
+      "display_name": "HTTP MCP Server",
+      "description": "Perform HTTP requests (GET/POST) through MCP tools.",
+      "tags": [
+        "mcp",
+        "http",
+        "api",
+        "network"
       ]
     },
     {
@@ -2577,6 +3263,65 @@
       ]
     },
     {
+      "name": "image-metadata-reader",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/image-metadata-reader",
+      "display_name": "Image Metadata Reader",
+      "description": "Read EXIF and metadata from image files.",
+      "tags": [
+        "tool",
+        "python",
+        "image",
+        "metadata"
+      ]
+    },
+    {
+      "name": "image-outpainting-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/image-outpainting-prompt",
+      "display_name": "Image Outpainting",
+      "description": "Seamlessly extend an image beyond its borders.",
+      "tags": [
+        "prompt",
+        "image",
+        "outpainting",
+        "expand"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "image-resizer",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/image-resizer",
+      "display_name": "Image Resizer",
+      "description": "Resize, crop, and convert images in batch.",
+      "tags": [
+        "tool",
+        "python",
+        "image",
+        "resize"
+      ]
+    },
+    {
+      "name": "image-to-ascii",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/image-to-ascii",
+      "display_name": "Image to ASCII",
+      "description": "Convert images to ASCII art in the terminal.",
+      "tags": [
+        "tool",
+        "python",
+        "image",
+        "ascii"
+      ]
+    },
+    {
       "name": "incident-response",
       "type": "skill",
       "version": "1.0.0",
@@ -2652,6 +3397,38 @@
       ]
     },
     {
+      "name": "interview-coach-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/interview-coach-agent",
+      "display_name": "Interview Coach Agent",
+      "description": "Runs realistic mock interviews with feedback.",
+      "tags": [
+        "agent",
+        "interview",
+        "career",
+        "coaching"
+      ]
+    },
+    {
+      "name": "interview-question-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/interview-question-prompt",
+      "display_name": "Interview Question",
+      "description": "Generate role-specific interview questions with answer guidance.",
+      "tags": [
+        "prompt",
+        "text",
+        "career",
+        "interview",
+        "hiring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "investment-risk-review",
       "type": "prompt",
       "version": "1.0.0",
@@ -2693,6 +3470,23 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2025-03-28",
+      "language": "English"
+    },
+    {
+      "name": "isometric-scene-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/isometric-scene-prompt",
+      "display_name": "Isometric Scene",
+      "description": "Build a clean isometric environment scene with layered depth.",
+      "tags": [
+        "prompt",
+        "image",
+        "isometric",
+        "3d"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {
@@ -3180,6 +3974,34 @@
       "language": "English"
     },
     {
+      "name": "json-beautifier",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/json-beautifier",
+      "display_name": "JSON Beautifier",
+      "description": "Pretty-print, validate, and filter JSON files.",
+      "tags": [
+        "tool",
+        "python",
+        "json",
+        "formatting"
+      ]
+    },
+    {
+      "name": "json-to-csv",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/json-to-csv",
+      "display_name": "JSON to CSV",
+      "description": "Flatten JSON records into a CSV table.",
+      "tags": [
+        "tool",
+        "python",
+        "json",
+        "csv"
+      ]
+    },
+    {
       "name": "json-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -3251,6 +4073,34 @@
       "language": "English"
     },
     {
+      "name": "learning-coach-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/learning-coach-agent",
+      "display_name": "Learning Coach Agent",
+      "description": "Builds personalized learning plans and quizzes you.",
+      "tags": [
+        "agent",
+        "learning",
+        "education",
+        "coaching"
+      ]
+    },
+    {
+      "name": "learning-methodology-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/learning-methodology-skills",
+      "display_name": "Learning Methodology",
+      "description": "Learn technical subjects fast and retain them with spaced repetition.",
+      "tags": [
+        "skill",
+        "learning",
+        "study",
+        "methodology"
+      ]
+    },
+    {
       "name": "legacy-code-modernization",
       "type": "prompt",
       "version": "1.0.0",
@@ -3298,6 +4148,24 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "linkedin-post-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/linkedin-post-prompt",
+      "display_name": "LinkedIn Post",
+      "description": "Craft engaging LinkedIn posts with hooks and formatting.",
+      "tags": [
+        "prompt",
+        "text",
+        "linkedin",
+        "social",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "linux-ops",
@@ -3356,6 +4224,20 @@
       ]
     },
     {
+      "name": "log-analyzer",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/log-analyzer",
+      "display_name": "Log Analyzer",
+      "description": "Parse and summarize log files: errors, frequency, patterns.",
+      "tags": [
+        "tool",
+        "python",
+        "logs",
+        "analysis"
+      ]
+    },
+    {
       "name": "logging-observability",
       "type": "skill",
       "version": "1.0.0",
@@ -3383,6 +4265,23 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "logo-moodboard-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/logo-moodboard-prompt",
+      "display_name": "Logo Moodboard",
+      "description": "Explore visual directions for a brand with a 2x2 logo style moodboard.",
+      "tags": [
+        "prompt",
+        "image",
+        "logo",
+        "branding"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "long-document-summarizer",
@@ -3477,6 +4376,24 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "markdown-doc-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/markdown-doc-prompt",
+      "display_name": "Markdown Doc",
+      "description": "Turn rough notes into a well-structured Markdown document.",
+      "tags": [
+        "prompt",
+        "text",
+        "markdown",
+        "documentation",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "markdown-to-html",
@@ -3575,6 +4492,24 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2025-08-16",
+      "language": "English"
+    },
+    {
+      "name": "meeting-minutes-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/meeting-minutes-prompt",
+      "display_name": "Meeting Minutes",
+      "description": "Summarize meeting transcripts into actionable minutes.",
+      "tags": [
+        "prompt",
+        "text",
+        "meetings",
+        "writing",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {
@@ -3822,6 +4757,34 @@
       "language": "Français"
     },
     {
+      "name": "negotiation-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/negotiation-skills",
+      "display_name": "Negotiation",
+      "description": "Prepare and run negotiations: salary, contracts, pricing, disputes.",
+      "tags": [
+        "skill",
+        "negotiation",
+        "business",
+        "communication"
+      ]
+    },
+    {
+      "name": "newsletter-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/newsletter-agent",
+      "display_name": "Newsletter Agent",
+      "description": "Assembles a scannable newsletter from links and notes.",
+      "tags": [
+        "agent",
+        "newsletter",
+        "email",
+        "content"
+      ]
+    },
+    {
       "name": "nom-entreprise-generateur",
       "type": "prompt",
       "version": "1.0.0",
@@ -3886,6 +4849,20 @@
       "language": "Français"
     },
     {
+      "name": "onboarding-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/onboarding-agent",
+      "display_name": "Onboarding Agent",
+      "description": "Designs onboarding flows and activation messages for products.",
+      "tags": [
+        "agent",
+        "onboarding",
+        "product",
+        "ux"
+      ]
+    },
+    {
       "name": "organization",
       "type": "skill",
       "version": "1.0.0",
@@ -3897,6 +4874,24 @@
         "structure",
         "workflow"
       ]
+    },
+    {
+      "name": "paper-cut-art-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/paper-cut-art-prompt",
+      "display_name": "Paper Cut Art",
+      "description": "Create layered paper-cut style artwork with depth and soft shadows.",
+      "tags": [
+        "prompt",
+        "image",
+        "paper-cut",
+        "craft",
+        "illustration"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "partenaire-idee",
@@ -3939,6 +4934,62 @@
         "password",
         "security",
         "generator"
+      ]
+    },
+    {
+      "name": "pdf-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/pdf-generator",
+      "display_name": "PDF Generator",
+      "description": "Create text-based PDF documents from the command line.",
+      "tags": [
+        "tool",
+        "python",
+        "pdf",
+        "document"
+      ]
+    },
+    {
+      "name": "pdf-merger",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/pdf-merger",
+      "display_name": "PDF Merger",
+      "description": "Merge multiple PDF files into one, with optional page ranges.",
+      "tags": [
+        "tool",
+        "python",
+        "pdf",
+        "merge"
+      ]
+    },
+    {
+      "name": "pdf-password-protect",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/pdf-password-protect",
+      "display_name": "PDF Password Protect",
+      "description": "Encrypt and decrypt PDF files with passwords.",
+      "tags": [
+        "tool",
+        "python",
+        "pdf",
+        "security"
+      ]
+    },
+    {
+      "name": "pdf-to-text",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/pdf-to-text",
+      "display_name": "PDF to Text",
+      "description": "Extract plain text from PDF files.",
+      "tags": [
+        "tool",
+        "python",
+        "pdf",
+        "text-extraction"
       ]
     },
     {
@@ -3985,6 +5036,24 @@
       ]
     },
     {
+      "name": "performance-tuning-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/performance-tuning-prompt",
+      "display_name": "Performance Tuning",
+      "description": "Profile-driven optimization advice for slow code paths.",
+      "tags": [
+        "prompt",
+        "text",
+        "code",
+        "performance",
+        "optimization"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "personal-budget-analyzer",
       "type": "prompt",
       "version": "1.0.0",
@@ -4014,6 +5083,24 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "pixel-art-sprite-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/pixel-art-sprite-prompt",
+      "display_name": "Pixel Art Sprite",
+      "description": "Create a game sprite sheet with consistent pixel style.",
+      "tags": [
+        "prompt",
+        "image",
+        "pixel-art",
+        "game",
+        "sprite"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "plan-business-mini",
@@ -4143,6 +5230,70 @@
       ]
     },
     {
+      "name": "pptx-generator",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/pptx-generator",
+      "display_name": "PPTX Generator",
+      "description": "Create presentation slides from a simple markdown outline.",
+      "tags": [
+        "tool",
+        "python",
+        "pptx",
+        "slides"
+      ]
+    },
+    {
+      "name": "pr-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/pr-agent",
+      "display_name": "PR Agent",
+      "description": "Drafts press kits, releases, pitches, and media lists.",
+      "tags": [
+        "agent",
+        "pr",
+        "press",
+        "media"
+      ]
+    },
+    {
+      "name": "pr-description-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/pr-description-prompt",
+      "display_name": "PR Description",
+      "description": "Craft a complete pull request description from a diff summary.",
+      "tags": [
+        "prompt",
+        "text",
+        "github",
+        "pr",
+        "workflow"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "press-release-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/press-release-prompt",
+      "display_name": "Press Release",
+      "description": "Write a newsworthy press release with proper AP style.",
+      "tags": [
+        "prompt",
+        "text",
+        "press",
+        "pr",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "press-release-writer",
       "type": "prompt",
       "version": "1.0.0",
@@ -4232,6 +5383,23 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2025-06-14",
+      "language": "English"
+    },
+    {
+      "name": "product-shot-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/product-shot-prompt",
+      "display_name": "Product Shot",
+      "description": "Studio-quality product photography prompt with lighting recipes.",
+      "tags": [
+        "prompt",
+        "image",
+        "product",
+        "photography"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {
@@ -4529,6 +5697,23 @@
       "language": "Français"
     },
     {
+      "name": "refactor-suggestions-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/refactor-suggestions-prompt",
+      "display_name": "Refactor Suggestions",
+      "description": "Propose a step-by-step refactoring plan for messy code.",
+      "tags": [
+        "prompt",
+        "text",
+        "code",
+        "refactoring"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "refactoring",
       "type": "skill",
       "version": "1.0.0",
@@ -4540,6 +5725,23 @@
         "code",
         "quality"
       ]
+    },
+    {
+      "name": "regex-builder-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/regex-builder-prompt",
+      "display_name": "Regex Builder",
+      "description": "Build and explain regex patterns with test cases.",
+      "tags": [
+        "prompt",
+        "text",
+        "regex",
+        "automation"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "regex-pattern-builder",
@@ -4583,6 +5785,24 @@
         "versioning",
         "changelog"
       ]
+    },
+    {
+      "name": "release-notes-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/release-notes-prompt",
+      "display_name": "Release Notes",
+      "description": "Turn a changelog into customer-friendly release notes.",
+      "tags": [
+        "prompt",
+        "text",
+        "marketing",
+        "release",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "research-agent",
@@ -4648,6 +5868,24 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "resume-optimizer-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/resume-optimizer-prompt",
+      "display_name": "Resume Optimizer",
+      "description": "Rewrite resume bullets for impact using the STAR method.",
+      "tags": [
+        "prompt",
+        "text",
+        "career",
+        "resume",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "resume-reunion",
@@ -5085,6 +6323,24 @@
       "language": "Français"
     },
     {
+      "name": "sci-fi-interface-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/sci-fi-interface-prompt",
+      "display_name": "Sci-Fi Interface",
+      "description": "Design a futuristic HUD or dashboard interface panel.",
+      "tags": [
+        "prompt",
+        "image",
+        "ui",
+        "sci-fi",
+        "hud"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "scientific-paper-summary",
       "type": "prompt",
       "version": "1.0.0",
@@ -5163,6 +6419,24 @@
       "language": "English"
     },
     {
+      "name": "security-audit-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/security-audit-prompt",
+      "display_name": "Security Audit",
+      "description": "Audit code for security vulnerabilities using OWASP categories.",
+      "tags": [
+        "prompt",
+        "text",
+        "security",
+        "code",
+        "audit"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "security-focused-code-review",
       "type": "prompt",
       "version": "1.0.0",
@@ -5202,6 +6476,20 @@
         "seo",
         "web",
         "marketing"
+      ]
+    },
+    {
+      "name": "seo-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/seo-agent",
+      "display_name": "SEO Agent",
+      "description": "Plans keyword strategy and optimizes content for search.",
+      "tags": [
+        "agent",
+        "seo",
+        "content",
+        "strategy"
       ]
     },
     {
@@ -5262,6 +6550,20 @@
         "seo",
         "sitemap",
         "api"
+      ]
+    },
+    {
+      "name": "slide-deck-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/slide-deck-agent",
+      "display_name": "Slide Deck Agent",
+      "description": "Turns rough content into a structured, presentable slide deck.",
+      "tags": [
+        "agent",
+        "presentation",
+        "slides",
+        "writing"
       ]
     },
     {
@@ -5435,6 +6737,24 @@
       "language": "English"
     },
     {
+      "name": "sql-schema-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/sql-schema-prompt",
+      "display_name": "SQL Schema",
+      "description": "Design a normalized database schema from a requirements list.",
+      "tags": [
+        "prompt",
+        "text",
+        "sql",
+        "database",
+        "architecture"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "sql-writing",
       "type": "skill",
       "version": "1.0.0",
@@ -5476,6 +6796,24 @@
       ]
     },
     {
+      "name": "startup-pitch-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/startup-pitch-prompt",
+      "display_name": "Startup Pitch",
+      "description": "Craft a pitch deck narrative with investor-ready messaging.",
+      "tags": [
+        "prompt",
+        "text",
+        "startup",
+        "pitch",
+        "business"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "step-by-step-math-solver",
       "type": "prompt",
       "version": "1.0.0",
@@ -5488,6 +6826,24 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2025-10-16",
+      "language": "English"
+    },
+    {
+      "name": "sticker-pack-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/sticker-pack-prompt",
+      "display_name": "Sticker Pack",
+      "description": "Generate a cohesive set of die-cut stickers in one style.",
+      "tags": [
+        "prompt",
+        "image",
+        "sticker",
+        "illustration",
+        "pack"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {
@@ -5554,6 +6910,24 @@
       "language": "Français"
     },
     {
+      "name": "study-plan-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/study-plan-prompt",
+      "display_name": "Study Plan",
+      "description": "Create a personalized study plan from a syllabus and timeline.",
+      "tags": [
+        "prompt",
+        "text",
+        "learning",
+        "study",
+        "productivity"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "style-anime",
       "type": "prompt",
       "version": "1.0.0",
@@ -5596,6 +6970,24 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2025-04-12",
+      "language": "English"
+    },
+    {
+      "name": "swot-analysis-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/swot-analysis-prompt",
+      "display_name": "SWOT Analysis",
+      "description": "Run a structured SWOT analysis for a business or product.",
+      "tags": [
+        "prompt",
+        "text",
+        "business",
+        "strategy",
+        "analysis"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {
@@ -5658,6 +7050,23 @@
       ]
     },
     {
+      "name": "tattoo-design-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/tattoo-design-prompt",
+      "display_name": "Tattoo Design",
+      "description": "Create a tattoo design that respects body placement and style tradition.",
+      "tags": [
+        "prompt",
+        "image",
+        "tattoo",
+        "design"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "technical-writing",
       "type": "skill",
       "version": "1.0.0",
@@ -5703,6 +7112,24 @@
       "author": "Aaron Dalibard",
       "published": "2026-08-08",
       "language": "Français"
+    },
+    {
+      "name": "test-generator-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/test-generator-prompt",
+      "display_name": "Test Generator",
+      "description": "Generate unit tests covering normal, edge and failure cases.",
+      "tags": [
+        "prompt",
+        "text",
+        "code",
+        "testing",
+        "python"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
     },
     {
       "name": "test-injection-prompt",
@@ -5837,6 +7264,20 @@
       ]
     },
     {
+      "name": "text-case-converter",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/text-case-converter",
+      "display_name": "Text Case Converter",
+      "description": "Convert text between case styles (snake, camel, kebab, etc.).",
+      "tags": [
+        "tool",
+        "python",
+        "text",
+        "formatting"
+      ]
+    },
+    {
       "name": "text-tools",
       "type": "tool",
       "version": "1.0.0",
@@ -5847,6 +7288,46 @@
         "text",
         "utility",
         "strings"
+      ]
+    },
+    {
+      "name": "text-utils-mcp-server",
+      "type": "mcp",
+      "version": "1.0.0",
+      "path": "mcp/text-utils-mcp-server",
+      "display_name": "Text Utils MCP Server",
+      "description": "Text transformation and statistics utilities as MCP tools.",
+      "tags": [
+        "mcp",
+        "text",
+        "utilities"
+      ]
+    },
+    {
+      "name": "time-management-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/time-management-skills",
+      "display_name": "Time Management",
+      "description": "Prioritize, plan, and protect focus in a messy work week.",
+      "tags": [
+        "skill",
+        "productivity",
+        "time-management",
+        "planning"
+      ]
+    },
+    {
+      "name": "todo-mcp-server",
+      "type": "mcp",
+      "version": "1.0.0",
+      "path": "mcp/todo-mcp-server",
+      "display_name": "Todo MCP Server",
+      "description": "Manage a persistent todo list through MCP tools.",
+      "tags": [
+        "mcp",
+        "todo",
+        "task-management"
       ]
     },
     {
@@ -5909,6 +7390,24 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2026-02-24",
+      "language": "English"
+    },
+    {
+      "name": "twitter-thread-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/twitter-thread-prompt",
+      "display_name": "Twitter Thread",
+      "description": "Turn any topic into a scroll-stopping thread.",
+      "tags": [
+        "prompt",
+        "text",
+        "twitter",
+        "social",
+        "writing"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {
@@ -5995,6 +7494,24 @@
       ]
     },
     {
+      "name": "ux-flow-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/ux-flow-prompt",
+      "display_name": "UX Flow Diagram",
+      "description": "Draft a clear user journey map with touchpoints and emotions.",
+      "tags": [
+        "prompt",
+        "text",
+        "ux",
+        "design",
+        "workflow"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
       "name": "ux-research",
       "type": "skill",
       "version": "1.0.0",
@@ -6006,6 +7523,20 @@
         "research",
         "product",
         "design"
+      ]
+    },
+    {
+      "name": "ux-research-skills",
+      "type": "skill",
+      "version": "1.0.0",
+      "path": "skills/ux-research-skills",
+      "display_name": "UX Research",
+      "description": "Run quick, valid user research that informs product decisions.",
+      "tags": [
+        "skill",
+        "ux",
+        "research",
+        "product"
       ]
     },
     {
@@ -6113,6 +7644,20 @@
       ]
     },
     {
+      "name": "website-copy-agent",
+      "type": "agent",
+      "version": "1.0.0",
+      "path": "agents/website-copy-agent",
+      "display_name": "Website Copy Agent",
+      "description": "Writes homepage, pricing, and landing page copy that converts.",
+      "tags": [
+        "agent",
+        "website",
+        "copywriting",
+        "marketing"
+      ]
+    },
+    {
       "name": "weekly-meal-workout-plan",
       "type": "prompt",
       "version": "1.0.0",
@@ -6140,6 +7685,38 @@
         "research",
         "api",
         "web"
+      ]
+    },
+    {
+      "name": "wireframe-ai-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/wireframe-ai-prompt",
+      "display_name": "AI Wireframe",
+      "description": "Generate a text wireframe specification for any screen.",
+      "tags": [
+        "prompt",
+        "text",
+        "ui",
+        "wireframe",
+        "spec"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
+      "language": "English"
+    },
+    {
+      "name": "word-counter",
+      "type": "tool",
+      "version": "1.0.0",
+      "path": "tools/word-counter",
+      "display_name": "Word Counter",
+      "description": "Count words, characters, lines and reading time of text files.",
+      "tags": [
+        "tool",
+        "python",
+        "text",
+        "analysis"
       ]
     },
     {
@@ -6182,6 +7759,24 @@
       ],
       "author": "Aaron Dalibard",
       "published": "2025-05-12",
+      "language": "English"
+    },
+    {
+      "name": "youtube-script-prompt",
+      "type": "prompt",
+      "version": "1.0.0",
+      "path": "prompts/youtube-script-prompt",
+      "display_name": "YouTube Script",
+      "description": "Write a full video script with hook, structure and b-roll cues.",
+      "tags": [
+        "prompt",
+        "text",
+        "youtube",
+        "script",
+        "video"
+      ],
+      "author": "Aaron Dalibard",
+      "published": "2026-08-11",
       "language": "English"
     },
     {

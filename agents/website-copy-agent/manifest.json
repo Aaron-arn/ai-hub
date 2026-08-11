@@ -1,0 +1,16 @@
+{
+  "name": "website-copy-agent",
+  "display_name": "Website Copy Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Writes homepage, pricing, and landing page copy that converts.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "website",
+    "copywriting",
+    "marketing"
+  ],
+  "entrypoint": "agent.md"
+}

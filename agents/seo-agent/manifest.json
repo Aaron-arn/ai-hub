@@ -1,0 +1,16 @@
+{
+  "name": "seo-agent",
+  "display_name": "SEO Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Plans keyword strategy and optimizes content for search.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "seo",
+    "content",
+    "strategy"
+  ],
+  "entrypoint": "agent.md"
+}
