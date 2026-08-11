@@ -1,0 +1,16 @@
+{
+  "name": "pr-agent",
+  "display_name": "PR Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Drafts press kits, releases, pitches, and media lists.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "pr",
+    "press",
+    "media"
+  ],
+  "entrypoint": "agent.md"
+}

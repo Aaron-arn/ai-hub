@@ -1,0 +1,16 @@
+{
+  "name": "blog-publisher-agent",
+  "display_name": "Blog Publisher Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Drafts complete blog posts from an idea to final draft.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "blog",
+    "content",
+    "writing"
+  ],
+  "entrypoint": "agent.md"
+}

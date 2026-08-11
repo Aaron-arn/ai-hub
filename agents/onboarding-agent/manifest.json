@@ -1,0 +1,16 @@
+{
+  "name": "onboarding-agent",
+  "display_name": "Onboarding Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Designs onboarding flows and activation messages for products.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "onboarding",
+    "product",
+    "ux"
+  ],
+  "entrypoint": "agent.md"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "newsletter-agent",
+  "display_name": "Newsletter Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Assembles a scannable newsletter from links and notes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "newsletter",
+    "email",
+    "content"
+  ],
+  "entrypoint": "agent.md"
+}

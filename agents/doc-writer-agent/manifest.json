@@ -1,0 +1,16 @@
+{
+  "name": "doc-writer-agent",
+  "display_name": "Technical Doc Writer Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Produces structured technical documentation from code or notes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "documentation",
+    "technical-writing",
+    "writing"
+  ],
+  "entrypoint": "agent.md"
+}

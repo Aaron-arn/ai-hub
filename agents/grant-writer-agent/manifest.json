@@ -1,0 +1,16 @@
+{
+  "name": "grant-writer-agent",
+  "display_name": "Grant Writer Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Drafts grant applications: narratives, budgets, and logic models.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "grants",
+    "funding",
+    "writing"
+  ],
+  "entrypoint": "agent.md"
+}

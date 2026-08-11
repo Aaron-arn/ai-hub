@@ -1,0 +1,16 @@
+{
+  "name": "slide-deck-agent",
+  "display_name": "Slide Deck Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Turns rough content into a structured, presentable slide deck.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "presentation",
+    "slides",
+    "writing"
+  ],
+  "entrypoint": "agent.md"
+}

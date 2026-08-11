@@ -1,0 +1,16 @@
+{
+  "name": "interview-coach-agent",
+  "display_name": "Interview Coach Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Runs realistic mock interviews with feedback.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "interview",
+    "career",
+    "coaching"
+  ],
+  "entrypoint": "agent.md"
+}

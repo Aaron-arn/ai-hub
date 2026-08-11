@@ -1,0 +1,16 @@
+{
+  "name": "data-visualizer-agent",
+  "display_name": "Data Visualizer Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Turns raw data into chart recommendations and code.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "data",
+    "charts",
+    "visualization"
+  ],
+  "entrypoint": "agent.md"
+}

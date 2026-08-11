@@ -1,0 +1,16 @@
+{
+  "name": "customer-support-agent",
+  "display_name": "Customer Support Agent",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Drafts empathetic, accurate support responses from ticket context.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "agent",
+    "support",
+    "customer-service",
+    "writing"
+  ],
+  "entrypoint": "agent.md"
+}
