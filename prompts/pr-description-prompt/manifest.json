@@ -1,0 +1,25 @@
+{
+  "name": "pr-description-prompt",
+  "display_name": "PR Description",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Craft a complete pull request description from a diff summary.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "github",
+    "pr",
+    "workflow"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

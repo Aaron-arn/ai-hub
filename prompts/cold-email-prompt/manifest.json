@@ -1,0 +1,25 @@
+{
+  "name": "cold-email-prompt",
+  "display_name": "Cold Email",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Write personalized outreach emails that get replies.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "email",
+    "outreach",
+    "sales"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

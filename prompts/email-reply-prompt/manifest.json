@@ -1,0 +1,25 @@
+{
+  "name": "email-reply-prompt",
+  "display_name": "Email Reply",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Draft professional email replies with adjustable tone.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "email",
+    "communication",
+    "writing"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

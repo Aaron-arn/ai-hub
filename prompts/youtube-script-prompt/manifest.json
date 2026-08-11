@@ -1,0 +1,25 @@
+{
+  "name": "youtube-script-prompt",
+  "display_name": "YouTube Script",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Write a full video script with hook, structure and b-roll cues.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "youtube",
+    "script",
+    "video"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

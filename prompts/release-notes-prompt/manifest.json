@@ -1,0 +1,25 @@
+{
+  "name": "release-notes-prompt",
+  "display_name": "Release Notes",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Turn a changelog into customer-friendly release notes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "marketing",
+    "release",
+    "writing"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
