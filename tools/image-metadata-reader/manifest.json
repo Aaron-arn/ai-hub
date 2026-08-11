@@ -1,0 +1,29 @@
+{
+  "name": "image-metadata-reader",
+  "display_name": "Image Metadata Reader",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Read EXIF and metadata from image files.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "tool",
+    "python",
+    "image",
+    "metadata"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": [
+    "pillow"
+  ]
+}

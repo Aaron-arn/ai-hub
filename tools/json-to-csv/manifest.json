@@ -1,0 +1,27 @@
+{
+  "name": "json-to-csv",
+  "display_name": "JSON to CSV",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Flatten JSON records into a CSV table.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "tool",
+    "python",
+    "json",
+    "csv"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

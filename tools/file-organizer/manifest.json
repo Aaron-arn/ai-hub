@@ -1,0 +1,27 @@
+{
+  "name": "file-organizer",
+  "display_name": "File Organizer",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Sort files into folders by type, date, or pattern.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "tool",
+    "python",
+    "files",
+    "organize"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "log-analyzer",
+  "display_name": "Log Analyzer",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Parse and summarize log files: errors, frequency, patterns.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "tool",
+    "python",
+    "logs",
+    "analysis"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.10"
+  },
+  "entrypoint": "main.py",
+  "permissions": {
+    "network": false,
+    "filesystem": true,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
