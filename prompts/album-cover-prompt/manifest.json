@@ -1,0 +1,25 @@
+{
+  "name": "album-cover-prompt",
+  "display_name": "Album Cover",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Design a striking album cover with typography and strong visual metaphor.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "album",
+    "music",
+    "cover-art"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

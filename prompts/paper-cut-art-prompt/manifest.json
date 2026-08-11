@@ -1,0 +1,25 @@
+{
+  "name": "paper-cut-art-prompt",
+  "display_name": "Paper Cut Art",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Create layered paper-cut style artwork with depth and soft shadows.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "paper-cut",
+    "craft",
+    "illustration"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

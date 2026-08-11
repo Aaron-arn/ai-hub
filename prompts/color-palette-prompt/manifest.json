@@ -1,0 +1,25 @@
+{
+  "name": "color-palette-prompt",
+  "display_name": "Color Palette",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a harmonious color palette with swatches and usage guidance.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "color",
+    "design",
+    "branding"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

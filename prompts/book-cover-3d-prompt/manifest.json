@@ -1,0 +1,25 @@
+{
+  "name": "book-cover-3d-prompt",
+  "display_name": "Book Cover 3D",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Design a book cover and show it as a realistic 3D mockup.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "book",
+    "cover",
+    "mockup"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

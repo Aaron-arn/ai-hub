@@ -1,0 +1,24 @@
+{
+  "name": "tattoo-design-prompt",
+  "display_name": "Tattoo Design",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Create a tattoo design that respects body placement and style tradition.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "tattoo",
+    "design"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

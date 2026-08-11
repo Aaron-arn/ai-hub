@@ -1,0 +1,24 @@
+{
+  "name": "cinematic-wallpaper-prompt",
+  "display_name": "Cinematic Wallpaper",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a wide cinematic wallpaper with dramatic lighting and film-grain aesthetics.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "wallpaper",
+    "cinematic"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
