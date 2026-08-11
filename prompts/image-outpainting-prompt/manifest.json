@@ -1,0 +1,24 @@
+{
+  "name": "image-outpainting-prompt",
+  "display_name": "Image Outpainting",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Seamlessly extend an image beyond its borders.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "outpainting",
+    "expand"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

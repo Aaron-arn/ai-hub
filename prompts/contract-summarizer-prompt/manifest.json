@@ -1,0 +1,25 @@
+{
+  "name": "contract-summarizer-prompt",
+  "display_name": "Contract Summarizer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Summarize legal contracts in plain language with risk flags.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "legal",
+    "contract",
+    "analysis"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "blog-seo-prompt",
+  "display_name": "Blog SEO",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Plan a search-optimized blog post with keyword strategy.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "seo",
+    "blog",
+    "content"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "resume-optimizer-prompt",
+  "display_name": "Resume Optimizer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Rewrite resume bullets for impact using the STAR method.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "career",
+    "resume",
+    "writing"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

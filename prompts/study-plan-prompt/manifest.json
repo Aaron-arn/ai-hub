@@ -1,0 +1,25 @@
+{
+  "name": "study-plan-prompt",
+  "display_name": "Study Plan",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Create a personalized study plan from a syllabus and timeline.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "learning",
+    "study",
+    "productivity"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "startup-pitch-prompt",
+  "display_name": "Startup Pitch",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Craft a pitch deck narrative with investor-ready messaging.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "startup",
+    "pitch",
+    "business"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

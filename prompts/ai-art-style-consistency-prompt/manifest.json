@@ -1,0 +1,25 @@
+{
+  "name": "ai-art-style-consistency-prompt",
+  "display_name": "Art Style Consistency",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Lock a consistent art style across multiple generations.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "art",
+    "style",
+    "consistency"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
