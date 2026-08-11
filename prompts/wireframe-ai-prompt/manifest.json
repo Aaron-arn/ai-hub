@@ -1,0 +1,25 @@
+{
+  "name": "wireframe-ai-prompt",
+  "display_name": "AI Wireframe",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a text wireframe specification for any screen.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "ui",
+    "wireframe",
+    "spec"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "architectural-visualization-prompt",
+  "display_name": "Architectural Viz",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Realistic architectural render prompt with camera and daylight setup.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "architecture",
+    "render",
+    "3d"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "sql-schema-prompt",
+  "display_name": "SQL Schema",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Design a normalized database schema from a requirements list.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "sql",
+    "database",
+    "architecture"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

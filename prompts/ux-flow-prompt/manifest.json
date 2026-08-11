@@ -1,0 +1,25 @@
+{
+  "name": "ux-flow-prompt",
+  "display_name": "UX Flow Diagram",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Draft a clear user journey map with touchpoints and emotions.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "ux",
+    "design",
+    "workflow"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

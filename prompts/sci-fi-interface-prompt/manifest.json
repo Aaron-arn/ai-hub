@@ -1,0 +1,25 @@
+{
+  "name": "sci-fi-interface-prompt",
+  "display_name": "Sci-Fi Interface",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Design a futuristic HUD or dashboard interface panel.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "ui",
+    "sci-fi",
+    "hud"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

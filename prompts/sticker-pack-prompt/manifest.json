@@ -1,0 +1,25 @@
+{
+  "name": "sticker-pack-prompt",
+  "display_name": "Sticker Pack",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Generate a cohesive set of die-cut stickers in one style.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "sticker",
+    "illustration",
+    "pack"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

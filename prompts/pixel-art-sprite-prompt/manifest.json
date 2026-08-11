@@ -1,0 +1,25 @@
+{
+  "name": "pixel-art-sprite-prompt",
+  "display_name": "Pixel Art Sprite",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Create a game sprite sheet with consistent pixel style.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "image",
+    "pixel-art",
+    "game",
+    "sprite"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
