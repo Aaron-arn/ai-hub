@@ -1,0 +1,25 @@
+{
+  "name": "code-review-prompt",
+  "display_name": "Code Review",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Systematic code review checklist prompt for any diff.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "code",
+    "review",
+    "workflow"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

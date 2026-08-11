@@ -1,0 +1,25 @@
+{
+  "name": "security-audit-prompt",
+  "display_name": "Security Audit",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Audit code for security vulnerabilities using OWASP categories.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "security",
+    "code",
+    "audit"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

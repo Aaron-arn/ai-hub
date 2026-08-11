@@ -1,0 +1,25 @@
+{
+  "name": "api-design-prompt",
+  "display_name": "API Design",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Design a REST API contract with resources, status codes and examples.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "api",
+    "design",
+    "documentation"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}

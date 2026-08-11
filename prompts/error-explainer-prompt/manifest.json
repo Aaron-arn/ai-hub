@@ -1,0 +1,25 @@
+{
+  "name": "error-explainer-prompt",
+  "display_name": "Error Explainer",
+  "version": "1.0.0",
+  "type": "prompt",
+  "description": "Explain stack traces and runtime errors in plain language with fixes.",
+  "author": "Aaron Dalibard",
+  "license": "MIT",
+  "tags": [
+    "prompt",
+    "text",
+    "debugging",
+    "code",
+    "errors"
+  ],
+  "language": "English",
+  "published": "2026-08-11",
+  "permissions": {
+    "network": false,
+    "filesystem": false,
+    "shell": false,
+    "environment": false
+  },
+  "dependencies": []
+}
